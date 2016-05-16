@@ -1,0 +1,15 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Theorie}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1} Einf\IeC {\"u}hrung}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Auswahlregeln}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Polarisation}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4} g-Faktor}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5}Normaler Zeeman-Effekt}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6}Anomaler Zeeman-Effekt}{5}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7} Fabry-P\IeC {\'e}rot-Interferometer}{5}{subsection.1.7}
+\contentsline {subsection}{\numberline {1.8} Gittermonochromator}{6}{subsection.1.8}
+\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{7}{section.2}
+\contentsline {section}{\numberline {3}Versuchsauswertung}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Bestimmung der Frequenzaufspaltung}{7}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Bestimmung von $g_j$}{10}{subsection.3.2}
+\contentsline {section}{\numberline {4}Diskussion}{10}{section.4}

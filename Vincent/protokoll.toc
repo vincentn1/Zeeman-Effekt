@@ -3,4 +3,5 @@
 \contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{3}{section.2}
 \contentsline {section}{\numberline {3}Versuchsauswertung}{4}{section.3}
 \contentsline {subsection}{\numberline {3.1}Bestimmung der Frequenzaufspaltung}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}Bestimmung von $g_j$}{5}{subsection.3.2}
 \contentsline {section}{\numberline {4}Diskussion}{5}{section.4}

@@ -77,8 +77,8 @@ Die Frequenzaufspaltung durch das Magnetfeld kann mit Hilfe von Formel ref Besti
 
 \begin{equation}
 \Delta\Delta\nu = \frac{c}{\lambda} \sqrt{(\frac{r_1}{f^2} \cdot\Delta r_1)^2 + (\frac{-r_2}{f^2}\cdot \Delta r_2)^2 + (\frac{r_1^2 - r_2^2}{f^3} \cdot \Delta f)^2)}
+\label{fehler123}
 \end{equation}
-
  Wir haben die Aufspaltung des grünen Lichts der Spektrallampe gemessen. Aus Tabelle \ref{spektrum} kann abgelesen werden, dass das grüne Licht eine Wellenlänge von $546 nm$ hat. Die Brennweite der verwendeten Linse, die wir zur Berechnung der Frequenzaufspaltung benötigen, haben wir schon berechnet.
 %, sie beträgt...
 Die Zeeman-Aufspaltung $\Delta\nu$ einer Spektrallinie ist nach oben die gleiche, wie nach unten. Deshalb können wir zur Berechnung der Aufspaltung den Ring im Interferometer mit kleinerem und höherem Radius nehmen(Von den 3 Ringen gleicher Ordnung) und zum Schluss die damit berechnete Frequenzaufspaltung durch 2 teilen. Den jeweils dritten Ring mit durch den Zeeman-Effekt unverändertem Radius müssen wir nicht beachten. Wir benutzen bei den verschiedenen Magnetfeldstärken jeweils die Radien der Ringe der ersten Ordnung. 
@@ -145,6 +145,8 @@ Die durch den Zeeman-Effekt hervorgerufene Energiedifferenz zwischen zwei Atomzu
 	\label{steigungnu}
 \end{align}
 
+\subsection{Bestimmung von $g_j$}
+
 In \ref{steigungnu} kann sehen, dass wenn die Frequenzaufspaltung des Zeeman-Effekts gegen die Stärke des Magnetfelds aufgetragen wird, durch die Steigung der sich dadurch ergebenen Geraden der Lande-Faktor $g_j$ bestimmt werden kann. Ist die Steigung $b$ der Geraden, so ist der Lande-Faktor gegeben durch
 
 \begin{equation}
@@ -155,14 +157,19 @@ Somit erhalten wir für $g_j$ mit unseren Ergebnissen aus Tabelle \ref{diagramm_
 
 \begin{equation}
  g_j = 1 + \frac{j(j+1) + s(s+1) - l(l+1)}{2 j(j+1)}
+ \label{lande2}
 \end{equation}
 
-
-
+Die Emission des grünen Lichts($546 nm$) einer Quecksilberdampflampe entspricht dem Übergang vom Zustand $^3S_1$ nach $^3P_2$ eines Quecksilberatoms. Der mit \ref{lande2} berechnete Wert für $g_j$ des ersteren Zustands ist $g_j = 2$ und für den letzteren Zustand $g_j =1,5$ je nachdem, welchen Wert j annimmt. Unser Berechneter Wert muss deshalb im Bereich $1,5-2$ sein. Der theoretische Wert von $g_j$ stimmt damit mit unseren berechneten überein.
 
 
 
 \section{Diskussion}
+
+Der von uns beobachtete Zeeman-Effekt stimmte mit der Theorie überein. Die Spektrallinien der Quecksilberdampflampe spalteten sich nach Anschalten den Magnetfelds in jeweils drei Linien auf, wovon zwei zirkular und eins linear polarisiert waren. Mit dem Fabry-Perot-Interferometer wurde anhand der Bestimmung von den Radien der Inteferenzmaxima die Frequenzaufspaltung des Zeeman-Effekts gemessen. Nach einer grafischen Darstellung der Frequenzaufspaltung gegen die Magnetfeldstärke, konnte man sehen, dass sich unter Berücksichtigung der Messfehler, eine Ursprungsgerade ausbildete, wie von der Theorie vorhergesagt(\ref{steigungnu}). Aus der Ursprungsgerade konnte aus der Steigung der Gerade $g_j$ bestimmt werden, welches identisch mit dem theoretischen Wert $g_j$'s ist. Weil wir so große Fehler haben, die teilweise größer, als die gemessenen Werte an sich sind(siehe $g_j$), sind unsere Messwerte sehr wenig aussagekräftig. Die Größe, der von uns angegebenen Messfehler sind gut in den Diagrammen veranschaulicht. In den Diagrammen, sieht man auch anhand der Linearität der Messwerte, dass unsere angegebenen Messfehler wahrscheinlich größer, als die tatsächlichen Messfehler sind.
+
+
+Zusammenfassend lässt sich sagen, dass unsere Messungen zwar gut geeignet sind, die theoretischen Vorhersagen des Zeeman-Effekts zu verifizieren, sich konkrete Werte wegen den großen Messfehlern, nur sehr ungenau bestimmen lassen.
 
 
 \end{document}

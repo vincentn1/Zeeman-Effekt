@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  16 MAY 2016 21:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  16 MAY 2016 21:40
 entering extended mode
-**protokoll.tex
-(protokoll.tex
+**theorie.tex
+(theorie.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -867,7 +867,8 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 )
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-) (protokoll.aux)
+)
+No file theorie.aux.
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
@@ -882,7 +883,6 @@ LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 25.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 25.
-
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
@@ -951,8 +951,6 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
-
-(protokoll.out) (protokoll.out)
 \@outlinefile=\write3
 
 *geometry* driver: auto-detecting
@@ -1021,26 +1019,22 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 29.
- (protokoll.toc
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 3.
-LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 9.19998pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.99199pt on input line 3.
-LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 5.51999pt on input line 3.
-)
 \tf@toc=\write4
  [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 43.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 43.
+LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 43.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 9.19998pt on input line 43.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 6.99199pt on input line 43.
+LaTeX Font Info:    Font shape `U/futm/m/n' will be
+(Font)              scaled to size 5.51999pt on input line 43.
 
 
 ! Package textcomp Error: Symbol \textrightarrow not provided by
@@ -1116,7 +1110,7 @@ misspelled it (e.g., `\hobx'), type `I' and the correct
 spelling (e.g., `I\hbox'). Otherwise just continue,
 and I'll forget about whatever was undefined.
 
-<lotenzmodell.png, id=86, 328.22626pt x 244.66406pt>
+<lotenzmodell.png, id=15, 328.22626pt x 244.66406pt>
 File: lotenzmodell.png Graphic file (type png)
  <use lotenzmodell.png>
 Package pdftex.def Info: lotenzmodell.png used on input line 84.
@@ -1439,7 +1433,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<73s1.png, id=99, 386.94562pt x 297.36093pt>
+<73s1.png, id=35, 386.94562pt x 297.36093pt>
 File: 73s1.png Graphic file (type png)
  <use 73s1.png>
 Package pdftex.def Info: 73s1.png used on input line 111.
@@ -1457,8 +1451,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 ⃗
-         $\overrightarrow{j}=⃗\overrightarrow{l}+⃗\overrightarrow{s}$ au...
+l.119  ⃗
+          $\overrightarrow{j}=⃗\overrightarrow{l}+⃗\overrightarrow{s}$ a...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1471,8 +1465,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.119 ⃗$\overrightarrow{j}=⃗
-                                \overrightarrow{l}+⃗\overrightarrow{s}$ au...
+l.119  ⃗$\overrightarrow{j}=⃗
+                                 \overrightarrow{l}+⃗\overrightarrow{s}$ a...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1779,8 +1773,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.127 $ ⃗
-           \overrightarrow{s} \overrightarrow{j}=\frac {\hbar^2} {2}$ ⋅(j(...
+l.127  $ ⃗
+            \overrightarrow{s} \overrightarrow{j}=\frac {\hbar^2} {2}$ ⋅(j...
 
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
@@ -1819,8 +1813,8 @@ See the inputenc package documentation for explanation.
 Type  H <return>  for immediate help.
  ...                                              
                                                   
-l.131 	<\mu_j>=−
-                  m_jg_j\mu_B
+l.131   <\mu_j>=−
+                   m_jg_j\mu_B
 Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
@@ -1838,7 +1832,7 @@ Your command was ignored.
 Type  I <command> <return>  to replace it with another command,
 or  <return>  to continue without it.
 
-<fab.png, id=107, 330.48468pt x 378.66469pt> [5 <./73s1.png>]
+<fab.png, id=43, 330.48468pt x 378.66469pt> [5 <./73s1.png>]
 File: fab.png Graphic file (type png)
  <use fab.png>
 Package pdftex.def Info: fab.png used on input line 145.
@@ -1901,156 +1895,103 @@ Overfull \hbox (3.74228pt too wide) in paragraph at lines 160--161
 tor wirkt, so hilft das vorgeschal-tete Git-ter zur Auswahl
  []
 
-<gitter.png, id=114, 328.22626pt x 261.22594pt>
+<gitter.png, id=52, 328.22626pt x 261.22594pt>
 File: gitter.png Graphic file (type png)
  <use gitter.png>
 Package pdftex.def Info: gitter.png used on input line 164.
 (pdftex.def)             Requested size: 328.22545pt x 261.22528pt.
- [6 <./fab.png>] <Zeeman_splitting.png, id=119, 442.65375pt x 292.09125pt>
-File: Zeeman_splitting.png Graphic file (type png)
+ [6 <./fab.png>]
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 170.
 
-<use Zeeman_splitting.png>
-Package pdftex.def Info: Zeeman_splitting.png used on input line 176.
-(pdftex.def)             Requested size: 442.65265pt x 292.09052pt.
-
-Overfull \hbox (8.78229pt too wide) in paragraph at lines 173--187
-\T1/futs/m/n/10 Wie schon in der the-o-retis-chen Vor-bere-itung be-sprochen, f
-�hrt ein an-gelegtes Mag-net-feld zu einer Auf-s-pal-tung diskreter
- []
+LaTeX Warning: Reference `aufbau' on page 7 undefined on input line 170.
 
 
-Overfull \hbox (8.9256pt too wide) in paragraph at lines 173--187
-\T1/futs/m/n/10 En-ergien-iveau�berg�nge, was zu einer Auf-s-pal-tung der Spek-
-trallinien f�hrt. Durch Beobach-tung der Pho-to-nen transver-
- []
+LaTeX Warning: File `Zeeman_aufbau.png' not found on input line 177.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+! Package pdftex.def Error: File `Zeeman_aufbau.png' not found.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.177 ...udegraphics[scale = 1]{Zeeman_aufbau.png}
+                                                  
+Using draft setting for this image.
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 177.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: Reference `spektrum' on page 7 undefined on input line 186.
 
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[7 <./gitter.png>] <Zeeman_aufbau.png, id=128, 454.69875pt x 468.24937pt>
-File: Zeeman_aufbau.png Graphic file (type png)
-
-<use Zeeman_aufbau.png>
-Package pdftex.def Info: Zeeman_aufbau.png used on input line 215.
-(pdftex.def)             Requested size: 454.69763pt x 468.24821pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-
-Overfull \hbox (10.2523pt too wide) in paragraph at lines 223--225
+Overfull \hbox (10.2523pt too wide) in paragraph at lines 185--187
 \T1/futs/m/n/10 Mit dem Monochro-ma-tor hat-ten wir zum Be-ginn des Ver-suchs d
 as Fe-in-struk-tur-spek-trum der Quecksilber-Spektrallampe
  []
 
 
-Overfull \hbox (5.8358pt too wide) in paragraph at lines 223--225
+Overfull \hbox (5.8358pt too wide) in paragraph at lines 185--187
 \T1/futs/m/n/10 von $400\FML/futmi/m/it/10 nm$ \T1/futs/m/n/10 bis $900\FML/fut
 mi/m/it/10 nm$ \T1/futs/m/n/10 beobachtet. An dem Monochro-ma-tor kon-nte per R
 ad die durchge-lassene Wellen-l�nge eingestellt
  []
 
-[8 <./Zeeman_splitting.png>] [9 <./Zeeman_aufbau.png>]
-<frequenzaufspaltung.png, id=148, 759.58781pt x 378.66469pt>
-File: frequenzaufspaltung.png Graphic file (type png)
+[7 <./gitter.png>]
 
-<use frequenzaufspaltung.png>
-Package pdftex.def Info: frequenzaufspaltung.png used on input line 286.
-(pdftex.def)             Requested size: 379.79297pt x 189.33188pt.
+LaTeX Warning: Reference `spektrum' on page 8 undefined on input line 210.
 
-<wellenzahlaufspaltung.png, id=149, 761.84625pt x 346.29375pt>
-File: wellenzahlaufspaltung.png Graphic file (type png)
-
-<use wellenzahlaufspaltung.png>
-Package pdftex.def Info: wellenzahlaufspaltung.png used on input line 292.
-(pdftex.def)             Requested size: 380.9222pt x 173.14644pt.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 229.
+[8]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 229.
+ (theorie.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 229.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 229.
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[10 <./frequenzaufspaltung.png>]
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 320.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `subscript' on input line 320.
-
-
-Package hyperref Warning: Token not allowed in a PDF string (PDFDocEncoding):
-(hyperref)                removing `math shift' on input line 320.
-
-
-Overfull \hbox (16.70572pt too wide) in paragraph at lines 341--342
-\T1/futs/m/n/10 Der von uns beobachtete Zeeman-Effekt stimmte mit der The-o-rie
- �berein. Die Spek-trallinien der Queck-sil-ber-dampflampe
- []
-
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 347.
-[11 <./wellenzahlaufspaltung.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 347.
- (protokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 347.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 347.
-
-
-Package rerunfilecheck Warning: File `protokoll.out' has changed.
+Package rerunfilecheck Warning: File `theorie.out' has changed.
 (rerunfilecheck)                Rerun to get outlines right
 (rerunfilecheck)                or use package `bookmark'.
 
-Package rerunfilecheck Info: Checksums for `protokoll.out':
-(rerunfilecheck)             Before: DADE60077B437B72BDAAC3B15B139286;892
-(rerunfilecheck)             After:  D86F933D99EDC3A6E5157E394039E99E;1024.
+Package rerunfilecheck Info: Checksums for `theorie.out':
+(rerunfilecheck)             Before: <no file>
+(rerunfilecheck)             After:  8AFC70FEDB9FC1E8370E1A75381634C1;824.
+
+LaTeX Warning: There were undefined references.
+
 
 LaTeX Warning: Label(s) may have changed. Rerun to get cross-references right.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 347.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 229.
  ) 
 Here is how much of TeX's memory you used:
- 10441 strings out of 493698
- 150613 string characters out of 3144407
+ 10377 strings out of 493698
+ 149850 string characters out of 3144407
  271990 words of memory out of 3000000
- 13511 multiletter control sequences out of 15000+200000
- 80588 words of font info for 105 fonts, out of 3000000 for 9000
+ 13486 multiletter control sequences out of 15000+200000
+ 78594 words of font info for 99 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,15n,58p,1236b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
-pdfTeX warning (dest): name{equation.3.14} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{equation.3.12} has been referenced but does not exi
-st, replaced by a fixed one
-
-pdfTeX warning (dest): name{figure.caption.5} has been referenced but does not 
-exist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.7} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{table.caption.4} has been referenced but does not e
-xist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.2} has been referenced but does not ex
-ist, replaced by a fixed one
-
-pdfTeX warning (dest): name{subsection.3.1} has been referenced but does not ex
-ist, replaced by a fixed one
-
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Prog
-ram Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2
-.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTeX 2.9/font
-s/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/
-public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public
-/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/p
-utb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/
-Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files
-/MiKTeX 2.9/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on protokoll.pdf (11 pages, 384674 bytes).
+ 42i,15n,58p,1201b,391s stack positions out of 5000i,500n,10000p,200000b,50000s
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{C:/Program Fil
+es/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 2.9/font
+s/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/
+fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/public/fourie
+r/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putb8a.p
+fb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:/Program
+ Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program Files/MiKTeX
+ 2.9/fonts/type1/public/cm-super/sfrm1000.pfb><C:/Program Files/MiKTeX 2.9/font
+s/type1/public/cm-super/sftt1000.pfb>
+Output written on theorie.pdf (8 pages, 278773 bytes).
 PDF statistics:
- 222 PDF objects out of 1000 (max. 8388607)
- 58 named destinations out of 1000 (max. 500000)
- 153 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 114 PDF objects out of 1000 (max. 8388607)
+ 33 named destinations out of 1000 (max. 500000)
+ 21 words of extra memory for PDF output out of 10000 (max. 10000000)
 

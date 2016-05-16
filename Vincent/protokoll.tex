@@ -73,14 +73,66 @@ Die bei $577nm$ und $579nm$ liegenden orangenen Spektrallinien der Spektrallampe
 \subsection{Bestimmung der Frequenzaufspaltung}
 
 %Die Nummer der Formel muss noch hinzugefügt werden
-Die Frequenzaufspaltung durch das Magnetfeld kann mit Hilfe von Formel ref Bestimmt werden. Wir haben die Aufspaltung des grünen Lichts der Spektrallampe gemessen. Aus Tabelle \ref{spektrum} kann abgelesen werden, dass das grüne Licht eine Wellenlänge von $546 nm$ hat. Die Brennweite der verwendeten Linse, die wir zur Berechnung der Frequenzaufspaltung benötigen, haben wir schon berechnet.
+Die Frequenzaufspaltung durch das Magnetfeld kann mit Hilfe von Formel ref Bestimmt werden. Der dazugehörige Fehler lässt sich mit den Gesetzen der Fehlerfortpflanzung als folgenden bestimmen:
+
+\begin{equation}
+\Delta\Delta\nu = \frac{c}{\lambda} \sqrt{(\frac{r_1}{f^2} \cdot\Delta r_1)^2 + (\frac{-r_2}{f^2}\cdot \Delta r_2)^2 + (\frac{r_1^2 - r_2^2}{f^3} \cdot \Delta f)^2)}
+\end{equation}
+
+ Wir haben die Aufspaltung des grünen Lichts der Spektrallampe gemessen. Aus Tabelle \ref{spektrum} kann abgelesen werden, dass das grüne Licht eine Wellenlänge von $546 nm$ hat. Die Brennweite der verwendeten Linse, die wir zur Berechnung der Frequenzaufspaltung benötigen, haben wir schon berechnet.
 %, sie beträgt...
-Die Zeeman-Aufspaltung $\Delta\nu$ ist nach oben die gleiche, wie nach unten. Deshalb können wir zur Berechnung der Aufspaltung den Ring im Interferometer mit kleinerem und höherem Radius nehmen und zum Schluss die damit berechnete Frequenzaufspaltung durch 2 teilen. Den jeweils dritten Ring mit durch den Zeeman-Effekt unverändertem Radius müssen wir nicht beachten. Wir benutzen bei den verschiedenen Magnetfeldstärken jeweils die Radien der Ringe der ersten Ordnung. 
+Die Zeeman-Aufspaltung $\Delta\nu$ einer Spektrallinie ist nach oben die gleiche, wie nach unten. Deshalb können wir zur Berechnung der Aufspaltung den Ring im Interferometer mit kleinerem und höherem Radius nehmen(Von den 3 Ringen gleicher Ordnung) und zum Schluss die damit berechnete Frequenzaufspaltung durch 2 teilen. Den jeweils dritten Ring mit durch den Zeeman-Effekt unverändertem Radius müssen wir nicht beachten. Wir benutzen bei den verschiedenen Magnetfeldstärken jeweils die Radien der Ringe der ersten Ordnung. 
+Mithilfe der vorgegebenen Eichkurve aus der Versuchsanleitung können die zu unseren gemessenen Strömen zugehörige Magnetfelder bestimmt werden. (Tabelle \ref{gemessene_frequenzaufspaltungen}).
 
 Der Zusammenhang zwischen der Frequenzaufspaltung und der Wellenzahlaufspaltung durch den Zeeman-Effekt ist gegeben durch $\Delta k = \frac{2 \cdot \pi}{c} \cdot \Delta\nu$.
 
+Die berechnete Frequenzaufspaltung in GHz und $cm^{-1}$ können in Tabelle \ref{gemessene_frequenzaufspaltungen} gesehen werden.
+%Ergebnis kommentieren
+
+Da wir nun Messergebnisse der Frequenzaufspaltungen für verschieden starke Magnetfelder haben, können wir diese gegenüber in einem Diagramm Auftragen. Die Ausgleichsgeraden, sowie die Grenzgeraden wurden mithilfe linearer Regression berechnet. Hier hat die obere Grenzgrade die Steigung $b + \Delta b$ und schneidet die y-Achse bei $a + \Delta a$ und die untere Grenzgerade hat die Steigung $b - \Delta b$ und schneidet die y-Achse bei $a - \Delta a$. Die berechneten Werte für $b$, $\Delta b$, $a$ und $\Delta a$ können in Tabelle \ref{diagramm_werte} gesehen werden.
+ Wir betrachten ein Diagramm von $\Delta\nu$ gegen $B$ in \ref{diagramm_aufspaltung} und eins von $\Delta k$ gegen $B$. Weil sich $\nu$ und $k$ nur um einen Vorfaktor unterscheiden, reicht es, wenn wir nur \ref{diagramm_aufspaltung} betrachten.
+Weil die Frequenzaufspaltung des Zeeman-Effekts proportional zu $B$ ist, sollte bei einer perfekten Messung die Gerade durch den Koordinatenursprung gehen.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|l|r|c|lrp{16cm}}\hline
+		Strom in A & Dazugehöriges Magnetfeld in T & $\Delta \nu$ in GHz & $\Delta k$ in $cm^{-1}$ \\\hline
+		10 & 0,48 & 4,09 $\pm$ 6,9& 0,86 $\pm$ 1,4\\
+		12 & 0,57 & 6,15  $\pm$ 7,1& 1,29 $\pm$ 1,5\\
+		14 & 0,66 & 7,80 $\pm$ 7,3& 1,63 $\pm$ 1,5\\
+		16 & 0,75 & 9,22 $\pm$ 7,5& 1,93 $\pm$ 1,6\\
+		18 & 0,82 & 10,11 $\pm$ 7,7& 2,12 $\pm$ 1,6\\
+		20 & 0,89 & 10,74 $\pm$ 7,8& 2,25 $\pm$ 1,6\\\hline
+	\end{tabular}
+	\caption{Durch die Eichkurve bestimmte Magnetfelder für bestimmt Stromstärken}
+	\label{gemessene_frequenzaufspaltungen}
+\end{table}
 
 
+
+\begin{figure}[h]
+	\includegraphics[scale = 0.5]{frequenzaufspaltung.png}
+	\centering
+	\caption{Durch den Zeeman-Effekt hervorgerufene Frequenzaufspaltung, abhängig vom Magnetfeld}
+	\label{diagramm_aufspaltung}
+\end{figure}
+\begin{figure}[h]
+	\includegraphics[scale = 0.5]{wellenzahlaufspaltung.png}
+	\centering
+	\caption{Durch den Zeeman-Effekt hervorgerufene Wellenzahlaufspaltung, abhängig vom Magnetfeld}
+	\label{diagramm_aufspaltung_wellenzahl}
+\end{figure}
+
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|l|r|c|lrp{16cm}}\hline
+		Steigung in $\frac{GHz}{T}$ & a in $GHz$\\\hline
+		$16 \pm 21$ & $-3 \pm 15$\\\hline
+	\end{tabular}
+	\caption{Steigung b und Achsenabschnitt a  des Diagramms $\Delta\nu$ gegen $B$}
+	\label{diagramm_werte}
+\end{table}
 
 
 
@@ -93,10 +145,16 @@ Die durch den Zeeman-Effekt hervorgerufene Energiedifferenz zwischen zwei Atomzu
 	\label{steigungnu}
 \end{align}
 
-In \ref{steigungnu} kann sehen, dass wenn die Frequenzaufspaltung des Zeeman-Effekts gegen die Stärke des Magnetfelds aufgetragen wird, durch die Steigung der sich dadurch ergebenen Geraden der Lande-Faktor $g_j$ bestimmt werden kann. Ist die Steigung der Geraden $m$, so ist der Lande-Faktor gegeben durch
+In \ref{steigungnu} kann sehen, dass wenn die Frequenzaufspaltung des Zeeman-Effekts gegen die Stärke des Magnetfelds aufgetragen wird, durch die Steigung der sich dadurch ergebenen Geraden der Lande-Faktor $g_j$ bestimmt werden kann. Ist die Steigung $b$ der Geraden, so ist der Lande-Faktor gegeben durch
 
 \begin{equation}
-g_j = \frac{m \cdot h}{\mu_B}
+g_j = \frac{b \cdot h}{\mu_B}
+\end{equation}
+
+Somit erhalten wir für $g_j$ mit unseren Ergebnissen aus Tabelle \ref{diagramm_werte} einen Wert von $1,1 \pm 1,5$. Theoretisch ist $g_j$ gegeben durch
+
+\begin{equation}
+ g_j = 1 + \frac{j(j+1) + s(s+1) - l(l+1)}{2 j(j+1)}
 \end{equation}
 
 

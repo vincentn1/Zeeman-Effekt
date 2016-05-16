@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  14 MAY 2016 12:55
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  16 MAY 2016 15:19
 entering extended mode
 **protokoll.tex
 (protokoll.tex
@@ -1060,34 +1060,63 @@ ad die durchge-lassene Wellen-länge eingestellt
 [3 <./Zeeman_aufbau.png>]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 73.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 107.
- [4]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 107.
- (protokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 107.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 107.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+<frequenzaufspaltung.png, id=54, 759.58781pt x 378.66469pt>
+File: frequenzaufspaltung.png Graphic file (type png)
+
+<use frequenzaufspaltung.png>
+Package pdftex.def Info: frequenzaufspaltung.png used on input line 114.
+(pdftex.def)             Requested size: 379.79297pt x 189.33188pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<wellenzahlaufspaltung.png, id=55, 759.58781pt x 345.54094pt>
+File: wellenzahlaufspaltung.png Graphic file (type png)
+
+<use wellenzahlaufspaltung.png>
+Package pdftex.def Info: wellenzahlaufspaltung.png used on input line 120.
+(pdftex.def)             Requested size: 379.79297pt x 172.77003pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[4]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 168.
+ [5 <./frequenzaufspaltung.png>] [6 <./wellenzahlaufspaltung.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 168.
+
+(protokoll.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 168.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 168.
 Package rerunfilecheck Info: File `protokoll.out' has not changed.
 (rerunfilecheck)             Checksum: 12DB32CBD72BA4BCDBBFA6B18F6F3D41;278.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 107.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 168.
  ) 
 Here is how much of TeX's memory you used:
- 10326 strings out of 493698
- 148949 string characters out of 3144407
- 268990 words of memory out of 3000000
- 13457 multiletter control sequences out of 15000+200000
+ 10348 strings out of 493698
+ 149429 string characters out of 3144407
+ 275990 words of memory out of 3000000
+ 13469 multiletter control sequences out of 15000+200000
  76560 words of font info for 92 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,8n,58p,721b,337s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,58p,721b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX
- 2.9/fonts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/f
-onts/type1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/typ
-e1/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopi
-a/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-
-Output written on protokoll.pdf (4 pages, 99041 bytes).
+s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTe
+X 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fo
+nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
+pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
+e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
+a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
+Output written on protokoll.pdf (6 pages, 123524 bytes).
 PDF statistics:
- 89 PDF objects out of 1000 (max. 8388607)
- 17 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 117 PDF objects out of 1000 (max. 8388607)
+ 25 named destinations out of 1000 (max. 500000)
+ 56 words of extra memory for PDF output out of 10000 (max. 10000000)
 

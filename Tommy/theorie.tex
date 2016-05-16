@@ -1,0 +1,229 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{subcaption}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{fourier}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Tommy Müller, Marcus Dittrich, Vincent Noculak}
+\title{Zeeman-Effekt}
+
+\lstset{language=C++,
+	keywordstyle=\bfseries\color{blue},
+	commentstyle=\itshape\color{red},
+	stringstyle=\color{green},
+	identifierstyle=\bfseries,
+	frame=single}
+\begin{document}
+
+\maketitle
+\newpage
+\tableofcontents
+\newpage
+
+\section{1. Theorie}
+
+\subsection{ Einführung}
+
+
+Unter Zeeman-Effekt versteht man die Aufspaltung von atomaren Spektrallinien unter der Wirkung eines Magnetfeldes. Das äußere Magnetfeld wechselwirkt mit dem magnetischen Moment des Atoms, dadurch werden die Energieniveaus verschoben. Die Verschiebung ist proportional zur magnetischen Flussdichte B. Das Phänomen wurde erstmals 1896 von Pieter Zeeman (1865-1943) beschrieben; 1902 erhielt er dafür den Nobelpreis für Physik. Der Zeeman-Effekt hat große Bedeutung erlangt sowohl in der Astronomie als auch für verschiedene Verfahren der Spektroskopie. So bildet er z.B. die Grundlage der Resonanzmethoden Elektronenspinresonanz (ESR) und kernmagnetische Resonanz (NMR). Der Zeeman-Effekt dient weiterhin zur e/m - Bestimmung sowie zur genauen Ermittlung des Wertes für das Bohrsche Magneton.
+
+
+\subsection{ Auswahlregeln}
+
+
+Nicht alle Übergänge zwischen beliebigen Zuständen sind erlaubt. Der Begriff „erlaubt“ ist nicht zu eng zu sehen – verbotene Übergänge können zwar auftreten, sind dann aber deutlich schwächer als die erlaubten, da die hier verwendete Definition [3] vorsieht, dass das Dipolmatrixelement $D_{ik}$  für den Übergang $E_{i}$ → $E_{k}$ ungleich Null $\int <\varphi_{i} |r| \varphi_{k}>\mathrm{d}x$. Verbotene Übergänge können v.a. dann beobachtet werden, wenn – wie hier durch das Magnetfeld – eine äußere Störung erfolgt.   
+
+
+Generell gelten die Regeln: $ \Delta l=+/-1 ;\Delta m_{l}=\Delta m_{j}= \Delta M_L=0 ,-1,1 \Delta j=0,-1,+1;\Delta s=\Delta S=0;\Delta L=0,-1,1$ Einzige Ausnahme: $\Delta$ j=0 ist nur für j ungleich 0 erlaubt. Diese Regeln lassen sich mit der Drehimpulserhaltung erklären. $\Delta$ S=0 gilt nur für Atome, bei denen die Spin-Bahn-Kopplung schwach ist. Dann kann die Wellenfunktion F  als Produkt der Ortsfunktion Y und Spinfunktion C geschrieben werden. Für das Dipolmatrixelement gilt dann: 
+\begin{equation}
+D_{ik}= \int\omega_{i}(\overrightarrow{r}_{1},\overrightarrow{r}_{2})r\omega_{k}(\overrightarrow{r}_{1},\overrightarrow{r}_{2})\mathrm{d}x
+\end{equation}
+
+
+für Singulettzustände mit S=0 symmetrisch und andernfalls antisymmetrisch ist, kann $D_{ik}$ nur konstant bleiben, wenn $\Delta$ S=0 gilt.
+
+
+\subsection{1.3 Polarisation}
+
+
+Ausgehend vom Dipolmoment kann man zeigen, dass die Polarisation des beim Übergang $E_i$ -> $E_k$  emittierten Lichtes von $D_m$ = $m_{i}$ - $m_{k}$  abhängt. Für $D_{m}$ =  0 ergibt sich linear polarisierte Strahlung, für $D_m$ = − 1 zirkular polarisiertes Licht und analog für $\Delta$m=1 zirkular polarisiertes Licht. Beim normalen Zeeman-Effekt wird die p-Strahlung in Magnetfeldrichtung linear polarisiert, kann also nur senkrecht zum Magnetfeld beobachtet werden und entspricht der Energie der Strahlung ohne anliegendes Magnetfeld. Die anderen beiden Komponenten können aus allen Richtungen beobachtet werden, sind aber entgegengesetzt zirkular in der Ebene senkrecht zum Magnetfeld polarisiert und erscheinen daher für den Betrachter, der senkrecht zur Magnetfeldrichtung beobachtet, linear senkrecht zum Magnetfeld polarisiert.
+
+\subsection{ g-Faktor}
+
+Der Landé-Faktor $g_j$ beschreibt den Zusammenhang zwischen dem Gesamtdrehimpuls $\overrightarrow{j}$ und dem magnetischen Moment:
+\begin{equation}
+\overrightarrow{\mu}_{j}= \overrightarrow{\mu}_{l}+\overrightarrow{\mu}_{s}=−
+\frac {g_{B}}{h}
+\overrightarrow{l} + \frac {g_{B}}{h}
+\overrightarrow{s}
+\end{equation}
+
+mit $g_{s} = 2$ .  Es gilt unter Berücksichtigung des Präzedierens der Vektoren:
+\begin{equation}
+ <\mu_{j}>= \frac {g_{j}\mu_{B}}{h}\overrightarrow{j}
+\end{equation}
+
+ |j| mit $g_{j}=1+\frac{(j(j+1)+s(s+1)−l(l+1))}{2j(j+1)}$
+
+(Quelle: Demtroeder)
+ Für das 7$^3S_{1}$ -Niveau von Quecksilber gilt g\textsubscript{j}=2 und für das 6$^3$P\textsubscript{2} -Niveau $g_{j}=\frac{3}{2} $.
+ 
+\subsection{Normaler Zeeman-Effekt}
+
+Der normale Zeeman-Effekt gilt für S=0 und lässt sich noch anhand eines (halb-)klassischen Modells beschreiben. Dazu wird angenommen, dass sich Elektronen auf festen Kreisbahnen mit Radius r0  um den Atomkern bewegen und einen quantisierten Drehimpuls |$\overrightarrow{L}|=\sqrt{l(l+1)h}$ besitzen.  Einflüsse durch den Spin der Elektronen werden in diesem Modell nicht berücksichtigt.
+
+\includegraphics{lotenzmodell}
+
+Abb. 1.1: klassisches Lorentz-Modell mit der Drehbewegung des Elektrons e auf der Kreisbahn (gestrichelt) mit Radius $r_{0}$ und Geschwindigkeit $\overrightarrow{v}$ , sodass sich der Drehimpuls $\overrightarrow{l}$ und die Zentrifugalkraft $\overrightarrow{F}_{Z}$ ausbilden sowie – bei angelegtem Magnetfeld ⃗$\overrightarrow{B}$ – die Lorentz-Kraft ⃗$\overrightarrow{F}_{L}$ einstellt.\\
+
+
+Nimmt man an, dass die Drehbewegung wie in Abb. (1.1) in der x-y-Ebene stattfindet und der Drehimpulsvektor also senkrecht auf dieser steht, so ergeben sich mit der Zentrifugalkraft
+und der Lorentz -Kraft für das Magnetfeld $\overrightarrow{B}=B_{Z}$ die Bewegungsgleichung
+
+
+\begin{align}
+m_{e}\ddot x=−m_{e}\omega_{0}^2 x+e\dot{y}B m_{e}\\
+m_{e}\ddot y=−m_{e}\omega_{0}^2 y+e\dot{x}B\\
+m\ddot z=0 
+\end{align}
+
+
+ wobei noch $r_{0}=\sqrt (x^2+y^2)$ gilt. Die Annahme $\overrightarrow{l}|| \overrightarrow{B}$  ist zulässig, weil sich der Drehimpuls immer nach dem Magnetfeld ausrichten wird. Die Lösung dieser gekoppelten inhomogenen Differentialgleichung ist eine Überlagerung gegenläufiger Rotationen mit $w_{0}= \mp w_{L}$ , wobei die Larmor -Frequenz $w_{L} = \frac{eB}{2m_{e}}$ beträgt. Mit einer neuen Koordinate x' lässt sich die Bewegungsgleichung schreiben als: x'=C e$^{i(w_{o}-w_{L})t}$+$D e^{i(w_{o}+w_{L})t}$
+\\
+
+
+Wenn die Bahngeschwindigkeit erhalten bleiben soll,  gibt es drei Möglichkeiten: ist C=0 aber D ungleich 0 , so ergibt sich eine Rotation mit der Energie $E_{a}=\hbar (w_{o}+w_{L})$ und bei dem symmetrischen Fall D=0 und C ungleich 0 erhält man $E_{b}=\hbar(w_{o}$-$w_{L})$ . Die dritte Variante ist C=D . Damit gilt:  x'=C e$^{i(w_{o}-w_{L})t}$+D e$^{i(w_{o}+w_{L})t}$ = Ce$^{i(w_{o}t}$ und daher E=$\hbar w_{0}$ . Es gibt also eine Aufspaltung der Energien in drei Niveaus, deren Frequenzabstand Δv=
+$\mu_{B} \hbar$ mit dem 
+Bohrschen Magneton $\mu_B$  beträgt. Da der Drehimpuls ⃗$\overrightarrow{L}$ und insbesondere dessen z Komponente $l_z=m\hbar$  quantisiert ist, können nur ganzzahlige Vielfache von $\hbar$  auf die Strahlung übertragen werden. Nach den Auswahlregeln gilt jedoch Δm=0,$\pm$1 , sodass man mit $\Delta$m=0 Licht mit dem Drehimpuls 0 – also linear polarisiertes Licht – erwartet und ansonsten zwei Komponenten mit entgegengesetzt zirkular polarisiertem Licht erwartet werden, deren Drehimpuls $\pm\hbar$  beträgt. Eine alternative Erklärung lässt sich über das magnetische Moment ⃗$\overrightarrow{\mu}_M$  einführen. Die zusätzliche potentielle Energie in einem Magnetfeld lautet dann: $\Delta E_{pot}$=−$ ⃗\mu_M B$\\
+
+
+Mit der Nomenklatur aus Abb. (1.1) ergibt sich: $\mu_M|=I⋅2\pi r_0^2=−evr/2$ und für den Drehimpuls$ |⃗\overrightarrow{l}|=mer_0v$ Beide Vektoren sind parallel zur Drehachse, also gilt:$\mu_m=− e 2me ⋅⃗\overrightarrow{l}$ Mit einem nur in z -Richtung wirkenden Magnetfeld gilt für die z -Komponente des Drehimpulses ⃗$\overrightarrow{\mu}_m⃗\overrightarrow{e}_z$=−$\frac{e}{2m_e}$ ⋅m$\hbar$ Damit gilt für die Energiedifferenz zwischen zwei Energieniveaus, die sich um $\Delta m=|m_1-m_2|$ unterscheiden  $\Delta E_{pot}=\mu_B\Delta m$ Insgesamt ergeben sich so 2l+1 mögliche Energieniveaus. Der Übergang der grünen Linie bei 546,07 nm erfolgt nach Tab.(1) von $7^3S_1  zu 6^3P_2$. Damit ergibt sich das Schema in Abb.(1.2)
+
+\includegraphics{73s1}
+
+Abb.1.2: Termschema der Zeeman-Aufspaltung mit dazugehörigen Intensitäten der Linien für die grüne Quecksilber-Linie im Magnetfeld nach [3, 4, 9]; die unterschiedlichen Abstände der Linien sind auf die verschiedenen $g_j$ zurückzuführen
+
+\subsection {Anomaler Zeeman-Effekt}
+
+
+Betrachtet man den gegenüber dem normalen Zeeman-Effekt verallgemeinerten Fall von Zuständen mit S ungleich 0 , so ergibt sich der nur quantenmechanisch erklärbare anomale Zeeman-Effekt. Zwar bleibt der aus der Spin-Bahn-Kopplung resultierende Gesamtdrehimpuls
+ ⃗$\overrightarrow{j}=⃗\overrightarrow{l}+⃗\overrightarrow{s}$ auch im äußeren Magnetfeld dem Betrag nach erhalten, allerdings präzediert er um die z-Achse, weil das Magnetfeld ein Drehmoment ausübt.
+
+$\overrightarrow{j}$  und ⃗$\overrightarrow{\mu}μ_j$ sind nicht mehr parallel; ⃗$\overrightarrow{\mu}_j$  präzediert um den Erwartungswert < ⃗$\overrightarrow{\mu}_j$> , der sich aus der Projektion von ⃗$\overrightarrow{\mu}_j$  auf ⃗$\overrightarrow{j}$  ergibt: <$ ⃗\overrightarrow{\mu}_j$>=$\frac{\overrightarrow{\mu}_j\overrightarrow{j}}{\overrightarrow{|⃗j|}$} =−$\frac{e}{2m_e}$ ⋅($ \frac{\overrightarrow{l}\overrightarrow{j}} {|⃗\overrightarrow{j}|}$ + $\frac{ g_s⃗\overrightarrow s \overrightarrow j}{|⃗\overrightarrow j|}$ )
+
+ Durch Quadrieren von Umformungen können die Skalarprodukte ersetzt werden: ⃗
+ 
+ $\overrightarrow{l} \overrightarrow{j} =\frac{\hbar^2}{ 2} $⋅(j(j+1)+l(l+1)−s(s+1))
+ 
+ $ ⃗\overrightarrow{s} \overrightarrow{j}=\frac {\hbar^2} {2}$ ⋅(j(j+1)−l(l+1)+s(s+1))
+ 
+  Damit ergibt sich  
+\begin{equation}
+  <\mu_j>=−m_jg_j\mu_B 
+  \end{equation}
+  sodass die Energieaufspaltung zwischen zwei Energieniveaus mit $\Delta m=|m_1−m_2|  $
+
+	\begin{equation}
+	\Delta E_{pot}=g_j\mu_B B\Delta m  
+	\end{equation}
+	
+	beträgt.
+	\subsection{ Fabry-Pérot-Interferometer} 
+	
+	Das Interferometer besteht aus zwei planparallelen Platten, deren Oberflächen jeweils teilverspiegelt sind, sodass ein Teil der einfallenden Strahlung durchgelassen wird und somit auch einen Teil der Wellenfront bildet, während der Rest wieder zurück in das Spalt reflektiert wird. Vor diesem optischen Resonator befindet sich ein Mikroskopaufbau, sodass die Objektivbrennweite bei der Justierung des Aufbaus zu berücksichtigen ist. Von der Strahlungsquelle aus betrachtet, findet sich zunächst eine Sammellinse, die aus der Punktlichtquelle annähernd eine Flächenlichtquelle macht und hinter der sich ein Kollimator befindet. Der Abstand zwischen diesen beiden Linsen muss der Brennweite der Kollimatorlinse entsprechen. Im Okular sind dann konzentrische Ringe zu beobachten, die HAIDINGERsche Ringe genannt werden. Um auf diese Weise mehrere versetzte Strahlengänge zu erhalten, ist der Anteil der reflektierten Strahlen recht groß. Durch den über das gesamte Material konstanten Oberflächenabstand d und den Einfallswinkel a in Bezug auf die Flächennormale kann somit der Abstand der jeweiligen Wellenbündel und damit die Weglängendifferenz d festgelegt werden.
+
+
+\includegraphics{fab}
+
+Abb. 1.3 Strahlengang im Fabry-Perot-Etalon (Quelle: semibyte.de)
+
+
+Die Bedingung für konstruktive Interferenz ist erfüllt, wenn die Weglängendifferenz des Lichts $\Delta$ s ein Vielfaches der Wellenlänge Lambda ist.\\
+
+$\Delta s=m\lambda$=2nd$\cos(\alpha)$\\
+
+$\lambda= \frag{2ndcos(\alpha)}/ {m} $\\
+
+ Das Spektrometer arbeitet mit divergentem einfallendem Licht und einer Linse, um das Interferenzmuster auf eine Platte zu projektieren. Das entstehende Bild besteht aus konzentrischen Kreisen. Die Interferenzbedingung lautet z=(2d/$\lambda$ )∗(1-$\frac{r^2} {2f^2} )$ , wobei f die Brennweite, r der Radius des beobachteten Kreises ist. Der Einfallswinkel wurde angenähert, sodass in die Formel noch die Taylorentwicklung cos(α)=1-$\alpha^2$/ 2 miteingeht.
+ 
+\subsection{ Gittermonochromator}
+ 
+  Obwohl bereits das Fabry-Perot-Interferometer als Monochromator wirkt, so hilft das vorgeschaltete Gitter zur Auswahl des gewünschten Spektralbereichs. Durch das Drehen des Gitters ändert sich der Spektralbereich, für den das Gerät durchlässig ist. Dieser Bereich ist verglichen mit dem des Interferometers groß und kann durch zusätzliche Blenden vor den Spiegeln verkleinert werden, sodass das Auflösungsvermögen auf Kosten der Intensität steigt. 
+  
+  Das polychromatische Licht tritt durch den Eingangsspalt und fällt auf einen konkaven Spiegel. Es wird ein paralleler Strahl erzeugt. Das Gitter zerlegt durch Beugung diesen Strahl in einzelne Wellenlängen. Ein zweiter konkaver Spiegel bündelt das zerlegte Licht auf der Brennebene. Die Stellung des Gitters bestimmt die Wellenlänge, die durch den Ausgangsspalt in der Brennebene durchgelassen wird. Reflexionsgitter sind verbreiteter als Transmissionsgitter.
+  
+  \includegraphics{gitter}
+  
+  Abbildung 1.4 schematischer Aufbau eines Gittermonochromators (Quelle: chemgapedia.de)
+ 
+\section{Durchführung}
+
+In dem Versuch sollte der normale Zeeman-Effekt beobachtet werden. Abbildung \ref{aufbau} zeigt den Aufbau des Versuchs. Mit Hilfe einer Quecksilber-Spektrallampe, die sich für Teile der Messung in einem Magnetfeld befindet, wird Licht erzeugt. Dieses wird durch eine Sammellinse gebündelt und durch einen Monochromator geleitet, mit dessen Hilfe bestimmte Spektrallinien des Lichts gezielt durchgelassen werden können. Das vom Monochromator durchgelassene Licht läuft dann durch eine Linse, gefolgt von einem Fabry-Perot-Interferometer. Durch eine Kamera kann das Licht nach dem Fabry-Perot-Interferometer am Computer untersucht werden. 
+
+Der Versuch begann damit, das Spektrum der Quecksilber-Spektrallampe bei noch ausgeschaltetem Magnetfeld mit Hilfe des Monochromators zu beobachten. Daraufhin wurde unter Beobachtung der grünen Spektrallinie der Strahlengang auf optimale Schärfe justiert. Hierzu wurden die vom Fabry-Perot-Interferometer erzeugten Ringe betrachtet und darauf hin aufgenommen.
+
+Jetzt wurde das Magnetfeld angeschaltet, um den normalen Zeeman-Effekt zu untersuchen. Ausgehend von der grünen Spektrallinie, wurde die Polarisation der Zeeman-Komponenten und die Aufspaltung der Spektrallinie abhängig von der Stärke des Magnetfelds beobachtet.
+
+\begin{figure}[h]
+	\includegraphics[scale = 1]{Zeeman_aufbau.png}
+	\centering
+	\caption{Versuchsaufbau, Quelle: Versuchsanleitung vom Zeeman-Effekt-Versuch des Fortgeschrittenenpraktikums}
+	\label{aufbau}
+\end{figure}
+
+\section{Versuchsauswertung}
+
+Mit dem Monochromator hatten wir zum Beginn des Versuchs das Feinstrukturspektrum der Quecksilber-Spektrallampe von $400nm$
+bis $900nm$ beobachtet. An dem Monochromator konnte per Rad die durchgelassene Wellenlänge eingestellt werden. Eine Angabe zu der Durchlassgenauigkeit des Monochromators konnten wir nicht finden. In Tabelle \ref{spektrum} können die von uns beobachteten Spektralfarben gesehen werden. Wir waren in der Lage, die meisten Spektralfarben mit einer Abweichung von höchstens 4 Nanometern wahrzunehmen. Die cyanfarbige und rote Spektrallinie konnten wir nicht beobachten. Es fällt auf, dass die von uns beobachteten Spektrallinien immer ein paar Nanometer über den tatsächlichen Literaturwerten gemessen worden sind. Dies könnten an einem systematischen Fehler am Monochromator liegen.
+
+Die bei $577nm$ und $579nm$ liegenden orangenen Spektrallinien der Spektrallampe konnten wir nur als einzelne Linie bei $580nm$ wahrnehmen.
+
+\begin{table}[h!]
+	\centering
+\begin{tabular}{|l|r|c|lrp{16cm}}\hline
+	Farbe & Literaturwerte in nm & Beobachtete Wellenlängen in nm\\\hline
+	Violett & 405 & 409\\
+	Blau & 436 & 439\\
+	Cyan & 492 & -\\
+	Grün & 546 & 548\\
+	Orange & 577 & 580\\
+	Orange & 579 & 580\\
+	Rot & 615 & -\\\hline
+\end{tabular}
+	\caption{Beobachtete Spektrallinien der Quecksilber-Spektrallampe}
+	\label{spektrum}
+\end{table}
+
+
+\subsection{Bestimmung der Frequenzaufspaltung}
+
+%Die Nummer der Formel muss noch hinzugefügt werden
+Die Frequenzaufspaltung durch das Magnetfeld kann mit Hilfe von Formel ref Bestimmt werden. Wir haben die Aufspaltung des grünen Lichts der Spektrallampe gemessen. Aus Tabelle \ref{spektrum} kann abgelesen werden, dass das grüne Licht eine Wellenlänge von $546 nm$ hat. Die Brennweite der verwendeten Linse, die wir zur Berechnung der Frequenzaufspaltung benötigen, haben wir schon berechnet.
+%, sie beträgt...
+Die Zeeman-Aufspaltung $\Delta\nu$ ist nach oben die gleiche, wie nach unten. Deshalb können wir zur Berechnung der Aufspaltung den Ring im Interferometer mit kleinerem und höherem Radius nehmen und zum Schluss die damit berechnete Frequenzaufspaltung durch 2 teilen. Den jeweils dritten Ring mit durch den Zeeman-Effekt unverändertem Radius müssen wir nicht beachten. Wir benutzen bei den verschiedenen Magnetfeldstärken jeweils die Radien der Ringe der ersten Ordnung. 
+
+Der Zusammenhang zwischen der Frequenzaufspaltung und der Wellenzahlaufspaltung durch den Zeeman-Effekt ist gegeben durch $\Delta k = \frac{2 \cdot \pi}{c} \cdot \Delta\nu$.
+
+
+
+
+
+
+
+
+
+
+
+\section{Diskussion}
+
+
+\end{document}

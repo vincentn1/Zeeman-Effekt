@@ -165,6 +165,44 @@ Das polychromatische Licht tritt durch den Eingangsspalt und fällt auf einen ko
 
 Abbildung 1.4 schematischer Aufbau eines Gittermonochromators (Quelle: chemgapedia.de)
 
+\section{Messung der Zeeman-Aufspaltung}
+
+
+\subsection{Grüne Linie}
+
+Wie schon in der theoretischen Vorbereitung besprochen, führt ein angelegtes Magnetfeld zu einer Aufspaltung diskreter Energieniveauübergänge, was zu einer Aufspaltung der Spektrallinien führt. Durch Beobachtung der Photonen transversal zum Magnetfeld lässt sich das Licht in zwei Komponenten aufteilen. Die sogenannte $\pi - $ Komponente ist linear und parallel zur Richtung des Magnetfeldes polarisiert und energetisch, in Bezug auf die Frequenz ohne Magnetfeld, nicht verschoben. Die sogenannte Sigma-Komponente ist zirkular und senkrecht zur Richtung des Magnetfeldes polarisiert. Die Sigma-Komponente liefert zwei Spektralkomponenten ($\sigma _{-}$, $\sigma _{+}$), welche in der Frequenzbetrachtung der Photonen, $\pm $ um   die Lamorfrequenz zur $\pi - $ Komponente verschoben sind.  
+\\
+\begin{figure}[h]
+	\includegraphics[scale = 1]{Zeeman_splitting.png}
+	\centering
+	\caption{Theoretische Zeeman-Aufspaltung der Grünen Linie}
+	\label{aufbau2}
+\end{figure}
+\\
+Der für die grüne Line infrage kommende Übergang ist der vom $3S_{1}$ (n = 7, l = 0, j = 1, s = 1) zum $3P_{2}$ (n = 6, l = 1, j = 2, s = 1) Zustand. Durch die Auswahlregeln für elektrische Dipolstrahlung ($\Delta l = \pm 1 , \Delta m =  0,\pm1$) sind 9 mögliche Übergänge erlaubt (siehe Figure 2 ). Drei dieser Übergänge sind linear ($\Delta m = 0$, $\pi - $ Komponente), Sechs ($\Delta m = \pm 1$, $\sigma   $ - Komponente) zirkular polarisiert. Die $\sigma -  $ Komponenten  werden je nach $ \Delta m $ mit $\sigma _{-}  $ ($\Delta m = -1$) und $\sigma _{+}  $ ($\Delta m = 1$) bezeichnet.   Daraus ergeben sich drei zu messende Spektallinien, da die drei Übergänge des jeweiligen $\Delta m$ ohne Betrachtung des Elektronenspins diskret sind.
+\\
+Die Polarisation haben wir durch einen linearen Polarisator nachgewiesen. Über die Variation des Einstellwinkels (parallel zum Magnetfeld und senkrecht zum Magnetfeld) konnten wir die $\pi - $  und die $\sigma  - $ Komponente voneinander getrennt im Fabry – Perot – Etalon untersuchen. 
+\\
+Anschließend haben wir die, am Fabry – Perot – Etalon entstehenden Radien bei verschiedenen Magnetfeldern vermessen (B = 0,48 T, 0,57 T,  0,66 T,  0,75 T, 0,82 T und 0,89 T). Dafür haben wir in unserem Versuchsaufbau eine CCD – Kamera verwendet, welche am Computer ausgewertet wurde. Mit dem am PC verwendeten Programm wurden die auftretenden Photonen in einem eingestellten Y-Bereich untersucht und einem X-Wert (Pixel) zugewiesen. Ein Pixel entsprach dabei (4,65$\mu m$  * 4,65$\mu m$). Anschließend haben wir die, den X-Werten zugeordneten Intensitäten mit dem Programm Peak – o – mat ausgewertet und die Positionen der Peaks ermittelt und anschließend die im Fabry – Perot – Etalon entstehenden Radien berechnet.
+
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{|l|r|c|lrp{16cm}}\hline
+		Magnetfeld in T & $\pi $ in $\mu m$  & $\sigma_{+}$ in $\mu m$ & $\sigma_{+}$ in $\mu m$ & $\pm Fehler in $$\mu m $\\\hline
+		0,48 & 1042,519 & 814,951 & 1250,54 & 96	\\
+		0,57 & 1042,519 & 829,375 &1239,359 & 96	\\
+		0,66 & 1035,229 & 851,011 &1224,778 & 96	\\
+		0,75 & 1035,229 & 887,070 &1202,907 & 96    \\
+		0,82 & 1049,810 & 923,130 &1173,746 & 96	\\
+		0,89 & 1042,519 & 959,190 &1130,003 & 96    \\\hline		
+	\end{tabular}
+	\caption{Die Ersten Radien der Komponenten}
+	\label{spektrum2}
+\end{table}
+
+
+Wie zu erwarten war, hat das Magnetfeld auf die Radien der $\pi - $ Komponente keinen Einfluss. Für die $\sigma - $ Komponenten gilt, je kleiner das Magnetfeld, desto mehr nähern sie sich der $\pi - $ Komponente an.
+
 \section{Durchführung}
 
 In dem Versuch sollte der normale Zeeman-Effekt beobachtet werden. Abbildung \ref{aufbau} zeigt den Aufbau des Versuchs. Mit Hilfe einer Quecksilber-Spektrallampe, die sich für Teile der Messung in einem Magnetfeld befindet, wird Licht erzeugt. Dieses wird durch eine Sammellinse gebündelt und durch einen Monochromator geleitet, mit dessen Hilfe bestimmte Spektrallinien des Lichts gezielt durchgelassen werden können. Das vom Monochromator durchgelassene Licht läuft dann durch eine Linse, gefolgt von einem Fabry-Perot-Interferometer. Durch eine Kamera kann das Licht nach dem Fabry-Perot-Interferometer am Computer untersucht werden. 

@@ -8,10 +8,7 @@
 \contentsline {subsection}{\numberline {1.6}Anomaler Zeeman-Effekt}{5}{subsection.1.6}
 \contentsline {subsection}{\numberline {1.7} Fabry-P\IeC {\'e}rot-Interferometer}{5}{subsection.1.7}
 \contentsline {subsection}{\numberline {1.8} Gittermonochromator}{6}{subsection.1.8}
-\contentsline {section}{\numberline {2}Messung der Zeeman-Aufspaltung}{7}{section.2}
-\contentsline {subsection}{\numberline {2.1}Gr\IeC {\"u}ne Linie}{7}{subsection.2.1}
-\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{7}{section.3}
-\contentsline {section}{\numberline {4}Versuchsauswertung}{8}{section.4}
-\contentsline {subsection}{\numberline {4.1}Bestimmung der Frequenzaufspaltung}{9}{subsection.4.1}
-\contentsline {subsection}{\numberline {4.2}Bestimmung von $g_j$}{11}{subsection.4.2}
-\contentsline {section}{\numberline {5}Diskussion}{11}{section.5}
+\contentsline {section}{\numberline {2}Durchf\IeC {\"u}hrung}{7}{section.2}
+\contentsline {section}{\numberline {3}Versuchsauswertung}{7}{section.3}
+\contentsline {subsection}{\numberline {3.1}Bestimmung der Frequenzaufspaltung}{8}{subsection.3.1}
+\contentsline {section}{\numberline {4}Diskussion}{8}{section.4}

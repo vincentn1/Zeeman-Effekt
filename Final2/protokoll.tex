@@ -146,13 +146,32 @@ $\lambda =2d(1- \frac{r^2}{2f^2})$
 
 $ ((\lambda+\Delta\lambda)2d(1-\frac{R^2}{2f^2}))=
 
-\lambda*2d(1−\frac{r^2}{2f^2}))$$\Delta\lambda(1−(R)^2/(2f^2))
+\lambda*2d(1-\frac{r^2}{2f^2}))$$\Delta\lambda(1−(R)^2/(2f^2))
 
-=\lambda 2f^2((R)^2−r^2) $
+= \frac {\lambda} {2f^2}$$ ((R)^2-r^2) $
 mit\\
-$ \frac {R^2} {2f^2} ≃0 $ für R<<f gilt: Δ$\Delta\lambda = \lambda/ 2f^2 ⋅ (R^2−r^2)$ Daraus ergibt sich die Frequenzverschiebung 
-$\Delta υ=\frac{c}{\lambda}))-\frac{c}{\lambda+\Delta\lambda})) ≃c\delta \lambda/ \lambda^2$ 
+$ \frac {R^2} {2f^2} = 0 $ für R<<f gilt:
+
+\begin{equation}
+\Delta \lambda =\frac {\lambda (R^2 -r^2)} {2f^2}
+\label{1v}
+\end{equation}
+Daraus ergibt sich die Frequenzverschiebung 
+
+
+$\Delta v=\frac{c}{\lambda}  -\frac{c}{\lambda+\delta\lambda}$ =
+
+
+\begin{equation}
+\Delta v = \frac {c*\Delta \lambda} {\lambda^2}
+ \label{1f}
+\end{equation}
+
+
 woraus wir wiederum die Energieverschiebung errechnen können. 
+
+$\Delta E=\hbar \Delta v$
+
 \subsection{ Fabry-Pérot-Interferometer} 
 
 Das Interferometer besteht aus zwei planparallelen Platten, deren Oberflächen jeweils teilverspiegelt sind, sodass ein Teil der einfallenden Strahlung durchgelassen wird und somit auch einen Teil der Wellenfront bildet, während der Rest wieder zurück in das Spalt reflektiert wird. Vor diesem optischen Resonator befindet sich ein Mikroskopaufbau, sodass die Objektivbrennweite bei der Justierung des Aufbaus zu berücksichtigen ist. Von der Strahlungsquelle aus betrachtet, findet sich zunächst eine Sammellinse, die aus der Punktlichtquelle annähernd eine Flächenlichtquelle macht und hinter der sich ein Kollimator befindet. Der Abstand zwischen diesen beiden Linsen muss der Brennweite der Kollimatorlinse entsprechen. Im Okular sind dann konzentrische Ringe zu beobachten, die HAIDINGERsche Ringe genannt werden. Um auf diese Weise mehrere versetzte Strahlengänge zu erhalten, ist der Anteil der reflektierten Strahlen recht groß. Durch den über das gesamte Material konstanten Oberflächenabstand d und den Einfallswinkel a in Bezug auf die Flächennormale kann somit der Abstand der jeweiligen Wellenbündel und damit die Weglängendifferenz d festgelegt werden.
@@ -170,7 +189,7 @@ $\Delta s=m\lambda$=2nd$\cos(\alpha)$\\
 $\lambda= \frag{2ndcos(\alpha)}/ {m} $\\
 
 Das Spektrometer arbeitet mit divergentem einfallendem Licht und einer Linse, um das Interferenzmuster auf eine Platte zu projektieren. Das entstehende Bild besteht aus konzentrischen Kreisen. 
-Die Interferenzbedingung lautet z=(2d/$\lambda$ )∗(1-$\frac{r^2} {2f^2} )$ , wobei f die Brennweite, r der Radius des beobachteten Kreises ist. Der Einfallswinkel wurde angenähert, sodass in die Formel noch die Taylorentwicklung cos(α)=1-$\alpha^2$/ 2 miteingeht.
+Die Interferenzbedingung lautet z=(2d/$\lambda$ )∗(1 -$\frac{r^2} {2f^2} )$ , wobei f die Brennweite, r der Radius des beobachteten Kreises ist. Der Einfallswinkel wurde angenähert, sodass in die Formel noch die Taylorentwicklung cos(α)=1-$\alpha^2$/ 2 miteingeht.
 
 \subsection{ Gittermonochromator}
 
@@ -239,13 +258,13 @@ Ordnung 6 - 869 Pixel\\
 Ordnung 7 - 917 Pixel\\
 \\
 Mit der Formel für die Brennweite haben wir zu jeder Ordnung den Wert ausgerechnet und den Mittelwert der Brennweiten genommen, Fehler war der größte Abstand vom Mittelwert zu den Ordnungen. \\
-Mittelwert: 109,8 $\pm$ 18,7
+Mittelwert: f = 109,8 $\pm$ 18,7
 
 
 \subsection{Bestimmung der Frequenzaufspaltung}
 
 %Die Nummer der Formel muss noch hinzugefügt werden
-Die Frequenzaufspaltung durch das Magnetfeld kann mit Hilfe von Formel ref Bestimmt werden. Der dazugehörige Fehler lässt sich mit den Gesetzen der Fehlerfortpflanzung als folgenden bestimmen:
+Die Frequenzaufspaltung durch das Magnetfeld kann mit Hilfe von Formel \ref{1v}und\ref{1f}	 Bestimmt werden. Der dazugehörige Fehler lässt sich mit den Gesetzen der Fehlerfortpflanzung als folgenden bestimmen:
 
 \begin{equation}
 \Delta\Delta\nu = \frac{c}{\lambda} \sqrt{(\frac{r_1}{f^2} \cdot\Delta r_1)^2 + (\frac{-r_2}{f^2}\cdot \Delta r_2)^2 + (\frac{r_1^2 - r_2^2}{f^3} \cdot \Delta f)^2)}

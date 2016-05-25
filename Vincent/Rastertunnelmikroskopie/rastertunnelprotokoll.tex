@@ -135,9 +135,11 @@ Der theoretische Wert für den Abstand benachbarter Ebenen in Grafit ist $335 pm
 	\label{Messungerh5}
 \end{table}
 
-Anhand von Abbildung \ref{Messungerh6} haben wir die Winkel zwischen den atomaren Richtungen gemessen. Unsere gemessenen Winkel, startend von dem Winkel rechts oben und dann entgegen dem Uhrzeigersinn laufend sind $63°$, $67°$, $48°$, $67°$, $66°$ und $49°$, mit jeweils einem Fehler von $1°$. Wegen der hexagonalen Struktur von Grafit wäre bei einer naiven Herangehensweise zu erwarten, dass alle Winkel $60°$ sind. Dies ist nicht der Fall. Es fällt auf dass die besonders kleinen Winkel($48°$ und $49°$) entgegengesetzt voneinander liegen. Die unterstützt die Theorie, dass die Winkel deshalb alle unterschiedlich groß sind, weil wir nicht senkrecht auf die Grafitprobe gucken.
+Anhand von Abbildung \ref{Messungerh6} haben wir die Winkel zwischen den atomaren Richtungen gemessen. Unsere gemessenen Winkel, startend von dem Winkel rechts oben und dann entgegen dem Uhrzeigersinn laufend sind $63^\circ$, $67^\circ$, $48^\circ$, $67^\circ$, $66^\circ$ und $49^\circ$, mit jeweils einem Fehler von $1^\circ$. Wegen der hexagonalen Struktur von Grafit wäre bei einer naiven Herangehensweise zu erwarten, dass alle Winkel $60^\circ$ sind. Dies ist nicht der Fall. Es fällt auf dass die besonders kleinen Winkel($48^\circ$ und $49^\circ$) entgegengesetzt voneinander liegen. Die unterstützt die Theorie, dass die Winkel deshalb alle unterschiedlich groß sind, weil wir nicht senkrecht auf die Grafitprobe gucken.
 
  Eine andere Erklärung für die unterschiedlichen Winkel könnte daran liegen, dass der Sensor in einem Raster über die Probe fährt. Dabei könnte es zu einem Umrechnungsfehler bei der Berechnung des Bildes aus den Rasterpunkten kommen. Wir halten diese Theorie als weit unwahrscheinlicher, als die, dass wir nicht senkrecht auf die Probe gucken.
+ 
+ Weil von uns beobachteten atomaren Erhebungen der Grafits bilden ein hexagonales Kristallgitter. Es ist 6-zählig. Entlang einer Translation von ganzzahligen Abständen der atomaren Erhebungen der in \ref{Messungerh6} eingezeichneten Linien, gibt es außerdem eine Tanslationssymmetrie. Zusätzlich sieht man, dass bei einer Spiegelung entlang einer der Geraden und einer Inversion an dem Punkt, in dem sich die Geraden schneiden, das Gitter symmetrisch ist.
 
 \begin{figure}[h]
 	\centering
@@ -149,6 +151,14 @@ Anhand von Abbildung \ref{Messungerh6} haben wir die Winkel zwischen den atomare
 \end{figure}
 
 \subsection{Fouriertransformation einer ebenen Fläche Grafits}
+
+In Abbildung \ref{fouriertansformation_ebene} kann das Gitter aus Abbildung \ref{grafob1} nach einer Fouriertransformation betrachtet werden. Man erkennt sechs Punkte, die auf einem leicht verzerrten Hexagon um den Ursprung liegen. Um den Ursprung herum sieht man Werte in geringer Intensität. Dies sind die Störungen, die beim Aufnehmen der Messung entstanden sind. Die sechs zu erkennenden Punkte beinhalten alle Informationen über die Periodizität den gemessenen Gitters. Jedem der sechs Punkte kann ein Vektor $\vec{k}$ zugeordnet werden. Dies ist ein Wellenvektor, der eine Periodizität des Gitter angibt. Verschiebt man das Gitter also um eine Periode der Welle, die mit dem Wellenvektor $\vec{k}$ zu assoziieren ist, bleibt das Gitter unverändert. Daraus lässt sich leicht folgern, dass man aus $\vec{k}$ direkt den Abstand zweier atomarer Erhebungen berechnen kann durch.
+
+\begin{equation}
+	|k| = \frac{2\pi}{a}
+\end{equation}
+
+Hier ist a der Abstand zweier atomarer Erhebungen
 
 \begin{figure}[h]
 	\centering

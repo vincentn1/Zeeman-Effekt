@@ -26,9 +26,11 @@ In physics there are many effects in which light can be scattered by interacting
 
 Before coming to the theory of Rayleigh scattering we will introduce some other kinds of light scattering.
 
-At the Compton scattering a photon will scatter on a charged particle. By colliding the photon will scatter inelastic, will give some of its energy to the particle and change its direction in some kind of angle
+In Compton scattering a photon will scatter on a charged particle. By colliding, the photon will scatter inelastic, will give some of its energy to the particle and change its direction in some kind of angle.
 
-An other kind of scattering is Raman scattering. It can happen, if a photon scatters on an atom or a molecule. Unlike in Rayleigh scattering, the scattered photons have a different wavelength as the incident photons. Due to inelastic scattering the photons can transfer or receive some energy from the molecule/atom they scatter on. This kind of energy difference if specific for the molecule/atom. Raman scattering is of factor of $10^3$ to $10^4$ more unlikely to happen than Rayleigh scattering.
+An other kind of scattering is Raman scattering. It can happen, if a photon scatters on an atom or a molecule. Unlike in Rayleigh scattering, the scattered photons have a different wavelength as the incident photons. Due to inelastic scattering the photons can transfer or receive some energy from the molecule/atom they scatter on. This amount of energy difference is specific for the molecule/atom. Raman scattering is a factor of $10^3$ to $10^4$ more unlikely to happen than Rayleigh scattering.
+
+In Mie scattering electromagnetic waves scatter elastically on spherical objects. The size of the scattering particle is comparable to the wavelength of the light. Mie scattering can be directly derived from the Maxwell equations.
 
 \subsection{Rayleigh scattering}
 
@@ -86,5 +88,20 @@ In our experiment we want to determine $\beta$. The scattering process in the ca
 \end{equation}
 
 $\tau_0$ is the ring-down time for the cavity with a vacuum inside.
+
+\subsection{Procedure}
+
+In order to determine the scattering coefficient $\beta$, we want to use Cavity Ring-Down Spectroscopy and measure the ring-down time each for a vacuum and air at room temperature and pressure inside the cavity once. The construction of the experiment can be seen in figure \ref{aufbau}.
+We start by creating a vacuum inside the cavity by using the vacuum pump. Now we need to align the laser beam in order for it to go through the cavity. To achieve this we use a green laser which can be detected easier by our eyes. We send the laser through two apertures before it enters the cavity. This makes it easier to align the laser. After the laser is aligned, we change the laser to the blue laser with a wavelength of $403 nm$ we use for measuring. After aligning the blue laser we can start to measure. We use a pulsed laser beam. The photomultiplier detectes the laser after passing through the cavity and sends the detected signal to an oscilloscope. On the oscilloscope we can observe the ring down of the laser intensity. We adjust the sensitivity of the photomultiplier and the starting intensity of the laser in order to get a good curve of the ring down. On the oscilloscope we can average over multiple ring down curves with the aim to get a more stable curve with less fluctuations. 
+
+After obtaining a good curve of the ring down, we send it to the computer where we save it in a file. Now we need to measure the ring down process without a vacuum inside the cavity. Because of refraction we can not just fill the cavity with air and then measure. The laser beam would not reach the photomultiplier anymore. In order to measure the ring down with an air-filled cavity we proceed the following way. Using a valve we let some air inside the cavity and adjust the laser beam. We repeat this process multiple times until the inside of the cavity has the same air pressure as the outside. Adjusting the sensitivity of the photomultiplier helps to track down the laser beam. After the cavity is filled with air, we can measure the ring down.
+
+\begin{figure}[h]
+	\includegraphics[scale = 0.7]{versuchsaufbau.png}
+	\centering
+	\caption{Simplified construction of the experiment}
+	\label{aufbau}
+\end{figure}
+
 
 \end{document}

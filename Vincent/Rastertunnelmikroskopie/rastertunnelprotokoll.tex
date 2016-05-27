@@ -31,7 +31,7 @@
 
 \section{Versuchsauswertung}
 
-\subsection{Ebene Fläche auf der Grafitoberfläche}
+\subsection{Ebene Grafitoberfläche}
 
 Wir sollten eine Ebene Fläche im Grafit finden und versuchen anhand dieser die Atomare Struktur des Grafits darzustellen. Obwohl wir Ebene Flächen im Grafit fanden, war es nicht möglich Atomare Strukturen zu erkennen. Dies lag wahrscheinlich daran, dass die Spitze unseres Sensors nicht spitz genug war. Deshalb haben wir zur Untersuchung der Atomaren Struktur die Daten aus den Referenzmaterialien genommen. Die Messung aus den Referenzmaterialien kann in \ref{Grafitoberflächenebene} gesehen werden. Hier ist \ref{grafob1} die rohe Messung an sich. In \ref{grafob2} haben wir mithilfe einer doppelten Fouriertransformation Störung aus der Messung entfernt. Dadurch lässt sich sie atomare Struktur genauer erkennen und untersuchen.
 
@@ -65,15 +65,15 @@ Es kann klar erkannt werden, dass die Kohlenstoffatome regelmäßig in einer Kri
 	\label{Messungerh1}
 \end{figure}
 
-Entlang der in \ref{Messungerh1} zu sehenden Linie haben wir die Abstände der Atomaren Erhebungen gemessen. Das dazugehörige Diagramm kann in Abbildung \ref{Messungerh2} gesehen werden. Wir haben alle Abstände entlang der zu sehenden Gerade gemessen und anschließend einen Mittelwert mit Standartabweichung gebildet. Die gemessenen Abstände sind in Tabelle \ref{Messungerh5} zu sehen. Unser Wert für den Abstand der atomaren Erhebungen ist $(0,266 \pm 0,001) nm$.
+Entlang der in \ref{Messungerh1} zu sehenden Linie haben wir die Abstände der atomaren Erhebungen gemessen. Das dazugehörige Diagramm kann in Abbildung \ref{Messungerh2} gesehen werden. Wir haben alle Abstände entlang der zu sehenden Gerade gemessen und anschließend einen Mittelwert mit Standartabweichung gebildet. Die gemessenen Abstände sind in Tabelle \ref{Messungerh5} zu sehen. Unser Wert für den Abstand der atomaren Erhebungen ist $(0,266 \pm 0,001) nm$.
 
-Laut der Theorie sehen wir in dem mit dem Rastertunnelmikroskop aufgenommenen Bild nur jedes zweite Atom des Grafit-Kristalls. Der planare Abstand nächster Nachbarn im Kristall ist mit $b = 0,142 nm$ gegeben. Der von uns zu erwartende Abstand der atomaren Erhebungen lässt sich dann mithilfe des Kosinussatzes als 
+Laut der Theorie sehen wir in dem mit dem Rastertunnelmikroskop aufgenommenen Bild nur jedes zweite Atom des Grafit-Kristalls. Der planare Abstand nächster Nachbarn im Kristall ist mit $b = 0,142 nm$ gegeben. Der von uns zu erwartende Abstand der atomaren Erhebungen lässt sich mithilfe des Kosinussatzes als 
 
 \begin{equation}
-	s = b \cdot \sqrt{2(1-cos(120^\circ))} = 0,2460 nm
+	s = b \cdot \sqrt{2(1-cos(120^\circ))} = 0,246 nm
 \end{equation}
 
-berechnen. Auch wenn unserer gemessener Wert bis zur ersten signifikanten Stelle mit diesem theoretischen Wert übereinstimmt, liegt dieser wegen der kleinen Standartabweichung nicht innerhalb des dritten Fehlerintervalls.
+berechnen. Auch wenn unserer gemessener Wert bis zur ersten signifikanten Stelle mit diesem theoretischen Wert übereinstimmt, liegt dieser wegen der kleinen Standartabweichung nicht innerhalb des dritten Fehlerintervalls. Dass unser Wert nicht mit dem theoretischen Übereinstimmt, könnte daran liegen, dass wir mit dem Rastertunnelmikroskop nicht senkrecht auf die Probe gucken. Dadurch werden bei der Messung Abstände zwischen atomaren Erhebungen verzerrt.
 
 \begin{figure}[h]
 	\centering
@@ -156,6 +156,7 @@ In Abbildung \ref{fouriertansformation_ebene} kann das Gitter aus Abbildung \ref
 
 \begin{equation}
 	|k| = \frac{2\pi}{a}
+	\label{formelk}
 \end{equation}
 
 Hier ist a der Abstand zweier atomarer Erhebungen
@@ -168,4 +169,15 @@ Hier ist a der Abstand zweier atomarer Erhebungen
 	\caption{Fouriertransformation von Abbildung \ref{grafob1}}
 	\label{fouriertansformation_ebene}
 \end{figure}
+
+\section{Diskussion}
+
+Wir haben mit dem Rastertunnelmikroskop die Struktur von Grafit betrachtet. Da unsere Sensorspitze nicht fein genug war konnten wir zwar Kanten an der Oberfläche erkennen, die atomare Struktur des Grafits konnten wir jedoch nicht erkennen, beziehungsweise nur eingeschränkt über eine kleine Fläche. Deshalb mussten wir zur Betrachtung der Struktur von Grafit Referenzdaten benutzen.
+
+Anhand der Referenzdaten konnten wir die hexagonale Struktur des Grafits erkennen. Es konnten Translations-, Inversions-, Spiegelungs- und Rotationssymmetrien erkannt werden. Die leicht unterschiedlichen Größen der Winkel zwischen den atomaren Richtungen konnten wir damit erklären, dass das Rastertunnelmikroskop nicht senkrecht auf die Grafitprobe schaute. Obwohl es uns gut gelang, die Struktur des Grafits zu untersuchen, konnten wir keine mit dieser Struktur zusammenhängenden physikalischen Größen, wie zum Beispiel den Abstand der Kohlenstoffatome oder den Ebenenabstand, im Einklang mit der theoretischen Werten bestimmen. Unser Wert für den Abstand der atomaren Erhebungen war $(0,266 \pm 0,001) nm$ und wich mit 20 Fehlerintervallen von dem theoretischen Wert von $0,246 nm$ ab.
+
+Anhand der Fouriertransformation (Abb. \ref{fouriertansformation_ebene}) konnte die periodische Struktur des Grafitgitters eindeutig dargestellt werden. Möglicherweise ist die fouriertransformierte Darstellung des Gitters besser als das direkte Abmessen an der Gitterstruktur geeignet, um die Abstände der atomaren Erhebungen zu bestimmen. Um dies zu tun müsste das Rastertunnelmikroskop möglich senkrecht auf das Grafit schauen, damit die periodischen Strukturen des Gitters nicht verzerrt werden. Es wäre auch möglich diese Verzerrung numerisch zu lösen, was jedoch mit hohem Aufwand verbunden wäre. Die atomaren Abstände könnten dann unter Verwendung von \ref{formelk} mit dem in der Fourierdarstellung vorkommenden $k$ berechnet werden.
+
+Um bessere Versuchsergebnisse zu erzielen, könnte man die Sensorspitze des Rastertunnelmikroskops mit einer anderen Methode herstellen. Die Feinheit der Sensorspitze ist für den Erfolg des Versuchs ausschlaggebend und bestimmt, ob es Möglich sein wird, die atomare Struktur des Grafits zu messen.
+
 \end{document}

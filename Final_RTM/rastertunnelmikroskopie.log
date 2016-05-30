@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  30 MAY 2016 17:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  30 MAY 2016 17:41
 entering extended mode
-**rastertunnelprotokoll.tex
-(rastertunnelprotokoll.tex
+**rastertunnelmikroskopie.tex
+(rastertunnelmikroskopie.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -868,7 +868,11 @@ File: lstlang1.sty 2014/09/06 1.5e listings language file
 ("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
 File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
 )
-(rastertunnelprotokoll.aux)
+(rastertunnelmikroskopie.aux
+
+LaTeX Warning: Label `list' multiply defined.
+
+)
 LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
 LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
@@ -884,8 +888,7 @@ LaTeX Font Info:    ... okay on input line 25.
 LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 25.
 LaTeX Font Info:    Try loading font information for FML+futm on input line 25.
 
-
-("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
+ ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
 LaTeX Font Info:    ... okay on input line 25.
@@ -953,7 +956,7 @@ LaTeX Info: Redefining \ref on input line 25.
 LaTeX Info: Redefining \pageref on input line 25.
 LaTeX Info: Redefining \nameref on input line 25.
 
-(rastertunnelprotokoll.out) (rastertunnelprotokoll.out)
+(rastertunnelmikroskopie.out) (rastertunnelmikroskopie.out)
 \@outlinefile=\write3
 
 *geometry* driver: auto-detecting
@@ -1022,7 +1025,7 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 29.
- (rastertunnelprotokoll.toc
+ (rastertunnelmikroskopie.toc
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1041,68 +1044,220 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 \tf@toc=\write4
  [2]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 36.
 
-Overfull \hbox (15.3023pt too wide) in paragraph at lines 36--37
+
+LaTeX Warning: Command \r invalid in math mode on input line 39.
+
+[3] <aufbau.png, id=112, 618.81187pt x 402.75468pt>
+File: aufbau.png Graphic file (type png)
+ <use aufbau.png>
+Package pdftex.def Info: aufbau.png used on input line 70.
+(pdftex.def)             Requested size: 309.40518pt x 201.37685pt.
+
+
+LaTeX Warning: Command \r invalid in math mode on input line 78.
+
+<parameter.png, id=114, 148.30406pt x 327.47343pt>
+File: parameter.png Graphic file (type png)
+ <use parameter.png>
+Package pdftex.def Info: parameter.png used on input line 85.
+(pdftex.def)             Requested size: 133.4724pt x 294.72337pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[4 <./aufbau.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 106.
+
+<bild00.png, id=121, 742.27313pt x 366.61969pt>
+File: bild00.png Graphic file (type png)
+ <use bild00.png>
+Package pdftex.def Info: bild00.png used on input line 107.
+(pdftex.def)             Requested size: 148.452pt x 73.32263pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 113.
+
+<bild11.png, id=122, 751.30687pt x 371.88937pt>
+File: bild11.png Graphic file (type png)
+ <use bild11.png>
+Package pdftex.def Info: bild11.png used on input line 114.
+(pdftex.def)             Requested size: 150.2587pt x 74.37656pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 119.
+
+<bild12.png, id=123, 742.27313pt x 369.63094pt>
+File: bild12.png Graphic file (type png)
+ <use bild12.png>
+Package pdftex.def Info: bild12.png used on input line 120.
+(pdftex.def)             Requested size: 148.452pt x 73.92487pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 126.
+
+<bild13.png, id=124, 745.28438pt x 386.19281pt>
+File: bild13.png Graphic file (type png)
+ <use bild13.png>
+Package pdftex.def Info: bild13.png used on input line 127.
+(pdftex.def)             Requested size: 149.05423pt x 77.23718pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 133.
+
+<bild23.png, id=125, 738.50906pt x 368.87813pt>
+File: bild23.png Graphic file (type png)
+ <use bild23.png>
+Package pdftex.def Info: bild23.png used on input line 134.
+(pdftex.def)             Requested size: 147.69919pt x 73.7743pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 139.
+
+<bild32.png, id=126, 743.77875pt x 385.44pt>
+File: bild32.png Graphic file (type png)
+ <use bild32.png>
+Package pdftex.def Info: bild32.png used on input line 140.
+(pdftex.def)             Requested size: 148.75311pt x 77.08662pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 146.
+
+<bild34.png, id=127, 743.77875pt x 389.95688pt>
+File: bild34.png Graphic file (type png)
+ <use bild34.png>
+Package pdftex.def Info: bild34.png used on input line 147.
+(pdftex.def)             Requested size: 148.75311pt x 77.98999pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 154.
+
+<bild43.png, id=128, 742.27313pt x 384.6872pt>
+File: bild43.png Graphic file (type png)
+ <use bild43.png>
+Package pdftex.def Info: bild43.png used on input line 155.
+(pdftex.def)             Requested size: 148.452pt x 76.93607pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 161.
+
+<bild50.png, id=129, 747.54282pt x 388.45125pt>
+File: bild50.png Graphic file (type png)
+ <use bild50.png>
+Package pdftex.def Info: bild50.png used on input line 162.
+(pdftex.def)             Requested size: 149.5059pt x 77.68886pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 168.
+
+<bild59.png, id=130, 749.04843pt x 389.95688pt>
+File: bild59.png Graphic file (type png)
+ <use bild59.png>
+Package pdftex.def Info: bild59.png used on input line 169.
+(pdftex.def)             Requested size: 149.80702pt x 77.98999pt.
+ [5 <./parameter.png> <./bild00.png> <./bild11.png>] [6 <./bild12.png> <./bild1
+3.png> <./bild23.png> <./bild32.png> <./bild34.png> <./bild43.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 177.
+
+<khglist.png, id=147, 219.82124pt x 252.945pt>
+File: khglist.png Graphic file (type png)
+ <use khglist.png>
+Package pdftex.def Info: khglist.png used on input line 178.
+(pdftex.def)             Requested size: 109.91034pt x 126.47218pt.
+
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 184.
+
+<khgdia.png, id=148, 577.40718pt x 482.55281pt>
+File: khgdia.png Graphic file (type png)
+ <use khgdia.png>
+Package pdftex.def Info: khgdia.png used on input line 185.
+(pdftex.def)             Requested size: 288.70288pt x 241.2758pt.
+
+Overfull \hbox (15.3023pt too wide) in paragraph at lines 196--197
 \T1/futs/m/n/10 Wir soll-ten eine Ebene Fläche im Grafit finden und ver-suchen 
 an-hand dieser die Atom-are Struk-tur des Grafits darzustellen.
  []
 
 
-Overfull \hbox (10.6657pt too wide) in paragraph at lines 36--37
+Overfull \hbox (10.6657pt too wide) in paragraph at lines 196--197
 \T1/futs/m/n/10 Ob-wohl wir Ebene Flächen im Grafit fan-den, war es nicht mögli
 ch Atom-are Struk-turen zu erken-nen. Dies lag wahrschein-
  []
 
-<vor_doppelter_fourier.png, id=38, 371.88937pt x 371.88937pt>
+<vor_doppelter_fourier.png, id=152, 371.88937pt x 371.88937pt>
 File: vor_doppelter_fourier.png Graphic file (type png)
 
 <use vor_doppelter_fourier.png>
-Package pdftex.def Info: vor_doppelter_fourier.png used on input line 42.
+Package pdftex.def Info: vor_doppelter_fourier.png used on input line 202.
 (pdftex.def)             Requested size: 217.66211pt x 217.66505pt.
 
-<nach_doppelter_fourier.png, id=39, 371.88937pt x 371.88937pt>
+<nach_doppelter_fourier.png, id=153, 371.88937pt x 371.88937pt>
 File: nach_doppelter_fourier.png Graphic file (type png)
 
 <use nach_doppelter_fourier.png>
-Package pdftex.def Info: nach_doppelter_fourier.png used on input line 48.
+Package pdftex.def Info: nach_doppelter_fourier.png used on input line 208.
 (pdftex.def)             Requested size: 217.66211pt x 217.66505pt.
 
-Underfull \hbox (badness 5862) in paragraph at lines 49--49
+Underfull \hbox (badness 5862) in paragraph at lines 209--209
 []\T1/futs/m/n/9 (b) |Gemessene Grafi-to-ber-fläche, nach-dem Störun-gen
  []
 
-<Aufnahme_Ebene_doppelte_fourier2.png, id=40, 370.38374pt x 371.88937pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<Aufnahme_Ebene_doppelte_fourier2.png, id=154, 370.38374pt x 371.88937pt>
 File: Aufnahme_Ebene_doppelte_fourier2.png Graphic file (type png)
 
 <use Aufnahme_Ebene_doppelte_fourier2.png>
 Package pdftex.def Info: Aufnahme_Ebene_doppelte_fourier2.png used on input lin
-e 62.
+e 222.
 (pdftex.def)             Requested size: 222.23195pt x 223.13533pt.
- [3 <./vor_doppelter_fourier.png> <./nach_doppelter_fourier.png> <./Aufnahme_Eb
-ene_doppelte_fourier2.png>]
-<Aufnahme_Ebene_doppelte_fourier.png, id=51, 1424.32124pt x 632.3625pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[7 <./bild50.png> <./bild59.png> <./khglist.png>]
+<Aufnahme_Ebene_doppelte_fourier.png, id=170, 1424.32124pt x 632.3625pt>
 File: Aufnahme_Ebene_doppelte_fourier.png Graphic file (type png)
 
 <use Aufnahme_Ebene_doppelte_fourier.png>
 Package pdftex.def Info: Aufnahme_Ebene_doppelte_fourier.png used on input line
- 81.
+ 241.
 (pdftex.def)             Requested size: 427.29967pt x 189.7102pt.
 
-<hohenmessung11.png, id=56, 620.3175pt x 614.295pt>
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<hohenmessung11.png, id=175, 620.3175pt x 614.295pt>
 File: hohenmessung11.png Graphic file (type png)
  <use hohenmessung11.png>
-Package pdftex.def Info: hohenmessung11.png used on input line 94.
+Package pdftex.def Info: hohenmessung11.png used on input line 254.
 (pdftex.def)             Requested size: 248.1226pt x 245.71364pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<hohenmessung1_diagramm.png, id=57, 653.44125pt x 501.37312pt>
+<hohenmessung1_diagramm.png, id=176, 653.44125pt x 501.37312pt>
 File: hohenmessung1_diagramm.png Graphic file (type png)
 
 <use hohenmessung1_diagramm.png>
-Package pdftex.def Info: hohenmessung1_diagramm.png used on input line 103.
+Package pdftex.def Info: hohenmessung1_diagramm.png used on input line 263.
 (pdftex.def)             Requested size: 457.40576pt x 350.95879pt.
 
 
@@ -1111,47 +1266,55 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-<Winkelmessung_kristall.png, id=60, 373.395pt x 371.88937pt>
+<Winkelmessung_kristall.png, id=179, 373.395pt x 371.88937pt>
 File: Winkelmessung_kristall.png Graphic file (type png)
 
 <use Winkelmessung_kristall.png>
-Package pdftex.def Info: Winkelmessung_kristall.png used on input line 147.
+Package pdftex.def Info: Winkelmessung_kristall.png used on input line 307.
 (pdftex.def)             Requested size: 261.37471pt x 260.32079pt.
- [4 <./Aufnahme_Ebene_doppelte_fourier.png>]
+ [8 <./khgdia.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[5 <./hohenmessung11.png>]
-<Fouriertrasformation_kristall.png, id=81, 682.04813pt x 682.04813pt>
+[9 <./vor_doppelter_fourier.png> <./nach_doppelter_fourier.png>]
+<Fouriertrasformation_kristall.png, id=197, 682.04813pt x 682.04813pt>
 File: Fouriertrasformation_kristall.png Graphic file (type png)
 
 <use Fouriertrasformation_kristall.png>
-Package pdftex.def Info: Fouriertrasformation_kristall.png used on input line 1
-67.
+Package pdftex.def Info: Fouriertrasformation_kristall.png used on input line 3
+27.
 (pdftex.def)             Requested size: 341.02322pt x 341.02322pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 183.
-[6 <./hohenmessung1_diagramm.png>] [7 <./Winkelmessung_kristall.png>] [8 <./Fou
-riertrasformation_kristall.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 183.
- (rastertunnelprotokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 183.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 183.
-Package rerunfilecheck Info: File `rastertunnelprotokoll.out' has not changed.
-(rerunfilecheck)             Checksum: 4BD7B85EFB54701F51C5A30D9FCD59AD;277.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 183.
+[10 <./Aufnahme_Ebene_doppelte_fourier2.png> <./Aufnahme_Ebene_doppelte_fourier
+.png>]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 345.
+ [11 <./hohenmessung11.png>] [12 <./hohenmessung1_diagramm.png> <./Winkelmessun
+g_kristall.png>] [13 <./Fouriertrasformation_kristall.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 345.
+
+(rastertunnelmikroskopie.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 345.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 345.
+Package rerunfilecheck Info: File `rastertunnelmikroskopie.out' has not changed
+.
+(rerunfilecheck)             Checksum: C28D6EE6FA792D2CF881C11A39954860;1324.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 345.
  ) 
 Here is how much of TeX's memory you used:
- 10381 strings out of 493698
- 150651 string characters out of 3144407
- 273000 words of memory out of 3000000
- 13500 multiletter control sequences out of 15000+200000
- 75990 words of font info for 90 fonts, out of 3000000 for 9000
+ 10514 strings out of 493698
+ 152468 string characters out of 3144407
+ 275000 words of memory out of 3000000
+ 13583 multiletter control sequences out of 15000+200000
+ 76949 words of font info for 93 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,8n,58p,1096b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,8n,58p,1133b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fo
@@ -1159,9 +1322,9 @@ nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
 e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on rastertunnelprotokoll.pdf (8 pages, 1582565 bytes).
+Output written on rastertunnelmikroskopie.pdf (13 pages, 2913891 bytes).
 PDF statistics:
- 132 PDF objects out of 1000 (max. 8388607)
- 24 named destinations out of 1000 (max. 500000)
- 73 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 260 PDF objects out of 1000 (max. 8388607)
+ 57 named destinations out of 1000 (max. 500000)
+ 255 words of extra memory for PDF output out of 10000 (max. 10000000)
 

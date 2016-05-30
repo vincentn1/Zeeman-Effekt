@@ -1,0 +1,19 @@
+\select@language {english}
+\contentsline {section}{\numberline {1} Theoretische Vorbereitung}{3}{section.1}
+\contentsline {subsection}{\numberline {1.1} Der quantenmechanische Tunneleffekt}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2} Piezoelektrischer Effekt}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3} R\IeC {\"u}ckkopplung und Regelkreistitle}{3}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4} Tunnelspektroskopie}{3}{subsection.1.4}
+\contentsline {subsection}{\numberline {1.5} R\IeC {\"a}umliche Struktur von Festk\IeC {\"o}rpern}{3}{subsection.1.5}
+\contentsline {subsection}{\numberline {1.6} Elektronische Struktur einer Festk\IeC {\"o}rperoberfl\IeC {\"a}che}{3}{subsection.1.6}
+\contentsline {subsection}{\numberline {1.7} Fourier Transformation}{3}{subsection.1.7}
+\contentsline {section}{\numberline {2} Versuchsaufbau}{4}{section.2}
+\contentsline {section}{\numberline {3}Durchf\IeC {\"u}hrung}{4}{section.3}
+\contentsline {subsection}{\numberline {3.1}Parameter}{4}{subsection.3.1}
+\contentsline {section}{\numberline {4}Versuchsauswertung}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}Vermessung von Graphit }{5}{subsection.4.1}
+\contentsline {subsubsection}{\numberline {4.1.1} Kantenh\IeC {\"o}hen}{5}{subsubsection.4.1.1}
+\contentsline {subsubsection}{\numberline {4.1.2}Bilder von 10 Kanten}{7}{subsubsection.4.1.2}
+\contentsline {subsection}{\numberline {4.2}Ebene Grafitoberfl\IeC {\"a}che}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}Fouriertransformation einer ebenen Fl\IeC {\"a}che Grafits}{9}{subsection.4.3}
+\contentsline {section}{\numberline {5}Diskussion}{10}{section.5}

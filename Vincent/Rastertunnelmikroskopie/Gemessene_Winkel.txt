@@ -1,0 +1,13 @@
+Die gemessenen Winkel im Gitter, angegeben in Grad:
+
+63.21
+67.38
+48,01
+66.57
+65,95
+48,8
+
+
+Manche Werte weichen sehr von 60° ab, vielleicht, weil man schief auf den Kristall sieht.
+
+Die Winkel wurden von der rechten Geraden entgegen dem Uhrzeigersinn gemessen.

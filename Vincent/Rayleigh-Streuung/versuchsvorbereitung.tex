@@ -42,9 +42,27 @@ The cross section of Rayleigh scattering for low frequencies is given by
 \sigma(\omega) = \sigma_{Th} \frac{\omega^4}{\omega_0^4}
 \end{equation}
 
-with $\sigma_{Th} = 0.665 \cdot 10^-24 cm^2$. On this formula we can observe, that Rayleigh scattering is much more likely to happen for light with smaller wavelengths.
+with $\sigma_{Th} = 0.665 \cdot 10^-24 cm^2$. In this formula we can observe, that Rayleigh scattering is much more likely to happen for light with smaller wavelengths.
 
 This also explains the blue color of the sky. The longer wavelength of the red light gets scattered less than the short wavelength of blue light. Hence from the light of the sun, which gets scattered on the atmosphere of the earth, we see the visible light with the shortest wavelength with the most intensity. Thus the sky appears to be blue.
+
+\subsubsection{Scattering coefficient}
+
+The power of light, scattered by a particle, is proportional to the incident intensity. The proportionality constant for this case is known as the scattering cross section $\sigma(\lambda)$. However, in most cases we have more than one object the light can scatter on. If light travels through a medium, the probability that it is scattered does not only depend on the cross section, but also on the density of partiles the light can scatter on. If we multiply this density with the scattering cross section we get the scattering coefficient $\beta(\lambda)$
+
+\begin{equation}
+\beta(\lambda) = N \sigma(\lambda)
+\end{equation} 
+
+By approximating scattering molecules as oscillating Hertzian dipoles that reemit incident electromagnetic waves, one can show that the scattering coefficient of Rayleigh scattering is given by
+
+\begin{equation}
+\beta(\lambda) =  \frac{8 \pi^3 (n^2-1)^2}{3N\lambda^4}
+\end{equation}
+
+with $\lambda$ being the wavelength of the scattered light and $n$ being the refractive index of the medium the light travels through.
+
+In our experiment we will try to determine the scattering coefficient of a specific wavelength, using an optical cavity.
 
 \subsection{Optical cavity}
 
@@ -73,21 +91,39 @@ Now the laser is turned off and the decay of the light intensity leaking from th
 I(t) = I_0 \cdot e^{- \frac{t}{\tau}}
 \end{equation}
 
-$\tau$ depends on the wavelength of the laser light
+$\tau$ depends on the wavelength of the laser light.
 
 \begin{equation}
 \tau (\lambda) = \frac{L}{c (1- R(\lambda) + \beta(\lambda) L)}
+\label{tau_formel}
 \end{equation}
 
 $R(\lambda)$ is the percentage of the light which is reflected by the mirror and $L$ is the length of the resonator. $\beta$ is the scattering coefficient and describes the amount of energy in the laser which gets lost due to the scattering process.
 
-In our experiment we want to determine $\beta$. The scattering process in the cavity will mostly be due to Rayleigh scattering. There is also a small fraction, which will be scatted due to Raman scattering. If we measure one decay process for a vacuum inside the cavity($\beta = 0$, because no scattering is possible) and one with a gas filling up the cavity, we can determine $\beta(\lambda)$ for our laser wavelength with the following formula by measuring the ring-down times $\tau$
+In our experiment we want to determine $\beta$. The scattering process in the cavity will mostly be due to Rayleigh scattering. There is also a small fraction, which will be scatted due to Raman scattering. If we measure one decay process having a vacuum inside the cavity($\beta = 0$, because no scattering is possible) and one having a gas filling up the cavity, we can determine $\beta(\lambda)$ for our laser wavelength with the following formula by measuring the ring-down times $\tau$
 
 \begin{equation}
 \beta(\lambda) = \frac{1}{c} (\frac{1}{\tau(\lambda)} - \frac{1}{\tau_0(\lambda)})
+\label{beta_formel}
 \end{equation}
 
 $\tau_0$ is the ring-down time for the cavity with a vacuum inside.
+
+\ref{beta_formel} can be derived from \ref{tau_formel}: By changing the expression of \ref{tau_formel} we get the following formula.
+
+\begin{equation}
+\frac{1}{c \tau(\lambda)} = \frac{1-R(\lambda) + \beta L}{L}
+\end{equation}
+
+
+
+If we subtract this formula for the air-filled cavity from the one with a vacuum inside the cavity we get
+
+\begin{equation}
+\frac{1}{c}(\frac{1}{\tau(\lambda)} - \frac{1}{\tau_0(\lambda)}) = \frac{1 - R(\lambda) + \beta(\lambda) L}{L} - \frac{1 - R(\lambda) + \beta_0 L}{L} = \beta(\lambda) - \beta_0
+\end{equation}  
+
+which is the same as \ref{beta_formel}, because $\beta_0 = 0$(no Rayleigh scattering inside a vacuum).
 
 \subsection{Procedure}
 

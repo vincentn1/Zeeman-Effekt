@@ -1,5 +1,7 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Versuchsauswertung}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Ebene Grafitoberfl\IeC {\"a}che}{3}{subsection.1.1}
-\contentsline {subsection}{\numberline {1.2}Fouriertransformation einer ebenen Fl\IeC {\"a}che Grafits}{5}{subsection.1.2}
-\contentsline {section}{\numberline {2}Diskussion}{6}{section.2}
+\contentsline {subsubsection}{\numberline {1.1.1}Messungen an atomaren Erhebungen}{3}{subsubsection.1.1.1}
+\contentsline {subsubsection}{\numberline {1.1.2}Winkel und Symmetrien}{5}{subsubsection.1.1.2}
+\contentsline {subsection}{\numberline {1.2}Fouriertransformation einer ebenen Fl\IeC {\"a}che Grafits}{7}{subsection.1.2}
+\contentsline {section}{\numberline {2}Diskussion}{7}{section.2}

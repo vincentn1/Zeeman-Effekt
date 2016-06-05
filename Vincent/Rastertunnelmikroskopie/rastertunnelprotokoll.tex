@@ -33,7 +33,9 @@
 
 \subsection{Ebene Grafitoberfläche}
 
-Wir sollten eine Ebene Fläche im Grafit finden und versuchen anhand dieser die Atomare Struktur des Grafits darzustellen. Obwohl wir Ebene Flächen im Grafit fanden, war es nicht möglich Atomare Strukturen zu erkennen. Dies lag wahrscheinlich daran, dass die Spitze unseres Sensors nicht spitz genug war. Deshalb haben wir zur Untersuchung der Atomaren Struktur die Daten aus den Referenzmaterialien genommen. Die Messung aus den Referenzmaterialien kann in \ref{Grafitoberflächenebene} gesehen werden. Hier ist \ref{grafob1} die rohe Messung an sich. In \ref{grafob2} haben wir mithilfe einer doppelten Fouriertransformation Störung aus der Messung entfernt. Dadurch lässt sich sie atomare Struktur genauer erkennen und untersuchen.
+Zum untersuchen der atomaren Struktur von Grafit, haben wir versucht eine ebene Fläche in unserer Probe zu finden und sie zu messen. Die Feinheit der zur Messung verwendeten Sensorspitze ist ausschlaggebend dafür, wie exakt Strukturen auf der Grafitoberfläche gemessen werden können. Weil wir die Spitze mit einer Zange, durch das abkneifen eines Drahtes, hergestellt haben, war die Wahrscheinlichkeit groß, dass der Sensor zum messen der atomaren Struktur nicht fein genug ist. Obwohl wir ebene Flächen im Grafit fanden, war es nicht möglich atomare Strukturen zu erkennen.
+
+ Deshalb haben wir zur Untersuchung der atomaren Struktur die Daten aus den Referenzmessungen verwendet. Die Messung aus den Referenzmaterialien kann in Abbildung \ref{Grafitoberflächenebene} gesehen werden. Hier ist \ref{grafob1} die rohe Messung an sich. Es ist die ebene Oberfläche des Grafits zu erkennen. In \ref{grafob2} haben wir mithilfe einer doppelten Fouriertransformation Störungen aus der Messung entfernt. Dadurch lässt sich die atomare Struktur genauer untersuchen.
 
 \begin{figure}[h]
 	\centering
@@ -65,7 +67,9 @@ Es kann klar erkannt werden, dass die Kohlenstoffatome regelmäßig in einer Kri
 	\label{Messungerh1}
 \end{figure}
 
-Entlang der in \ref{Messungerh1} zu sehenden Linie haben wir die Abstände der atomaren Erhebungen gemessen. Das dazugehörige Diagramm kann in Abbildung \ref{Messungerh2} gesehen werden. Wir haben alle Abstände entlang der zu sehenden Gerade gemessen und anschließend einen Mittelwert mit Standartabweichung gebildet. Die gemessenen Abstände sind in Tabelle \ref{Messungerh5} zu sehen. Unser Wert für den Abstand der atomaren Erhebungen ist $(0,266 \pm 0,001) nm$.
+\subsubsection{Messungen an atomaren Erhebungen}
+
+Entlang der in \ref{Messungerh1} zu sehenden Linie haben wir die Abstände der atomaren Erhebungen gemessen. Das dazugehörige Diagramm kann in Abbildung \ref{Messungerh2} gesehen werden. Wir haben alle Abstände entlang der zu sehenden Gerade gemessen und anschließend einen Mittelwert mit Standardabweichung gebildet. Die gemessenen Abstände sind in Tabelle \ref{Messungerh5} zu sehen. Unser Wert für den Abstand der atomaren Erhebungen ist $(0,266 \pm 0,001) nm$. Unser durch die Standardabweichung erhaltener Fehler von $0,001 nm$ ist kleiner, als es physikalisch sinnvoll wäre. Alleine der Fehler durch die Schwingung des Gitters, abhängig von der Temperatur sollte größer sein.
 
 Laut der Theorie sehen wir in dem mit dem Rastertunnelmikroskop aufgenommenen Bild nur jedes zweite Atom des Grafit-Kristalls. Der planare Abstand nächster Nachbarn im Kristall ist mit $b = 0,142 nm$ gegeben. Der von uns zu erwartende Abstand der atomaren Erhebungen lässt sich mithilfe des Kosinussatzes als 
 
@@ -73,7 +77,20 @@ Laut der Theorie sehen wir in dem mit dem Rastertunnelmikroskop aufgenommenen Bi
 	s = b \cdot \sqrt{2(1-cos(120^\circ))} = 0,246 nm
 \end{equation}
 
-berechnen. Auch wenn unserer gemessener Wert bis zur ersten signifikanten Stelle mit diesem theoretischen Wert übereinstimmt, liegt dieser wegen der kleinen Standartabweichung nicht innerhalb des dritten Fehlerintervalls. Dass unser Wert nicht mit dem theoretischen Übereinstimmt, könnte daran liegen, dass wir mit dem Rastertunnelmikroskop nicht senkrecht auf die Probe gucken. Dadurch werden bei der Messung Abstände zwischen atomaren Erhebungen verzerrt.
+berechnen. Die Rechnung kann sich anhand von Abbildung \ref{rechnungatomabstand}, in der die hexagonale Struktur Grafits dargestellt ist, klargemacht werden. Auch wenn unser gemessener Wert bis zur ersten signifikanten Stelle mit diesem theoretischen Wert übereinstimmt, liegt dieser wegen der kleinen Standardabweichung nicht innerhalb des dritten Fehlerintervalls.
+
+\begin{figure}[h]
+	\centering
+	
+	\includegraphics[scale = 0.4]{hexagon.jpg}
+	
+	\caption{Hexagonale Struktur des Grafits: Im Rastertunnelmikroskop sichtbare Atome sind rot gekennzeichnet}
+	\label{rechnungatomabstand}
+\end{figure}
+
+Eine wichtige Größe, die großen Einfluss auf den Messfehler hat, ist die Temperatur während der Messung. Sie beeinflusst die Energie des Kristalls und somit auch seine Eigenbewegung. Eine weitere Fehlerquelle, dass unser Wert nicht mit dem theoretischen übereinstimmt wäre, dass wir mit dem Rastertunnelmikroskop nicht senkrecht zur Probe messen. Dieser Fehler ist jedoch so klein einzuschätzen, dass er nicht ausschlaggebend für die falschen Messwerte ist. Eine größere Fehlerquelle ist, dass der Sensor in einem Raster über die Ebene fährt. Dies tut er mit Hilfe von einem X- und Y-Piezoelement. Sind die Piezoelement nicht richtig kalibriert, so kommt es in den Messbildern zu Verzerrungen. Diese Verzerrungen stellen einen systematischen Fehler dar, der erklären würde, weshalb alle von uns gemessenen Werte über dem theoretischen Wert liegen (mehr zur Verzerrung durch die Piezoelemente in Kapitel \ref{winkelsec}). Daraus folgt, dass unser gemessener Wert möglicherweise beim dreifachen Fehlerintervall mit dem theoretischen Wert übereinstimmen könnte, wenn man den systematischen Fehler entfernen würde.  
+
+Eine Möglichkeit die Verzerrung zu beheben ist, die Piezoelemente neu zu kalibrieren. Eine weitere Methode wäre es, den systematischen Fehler der Verzerrung numerisch zu lösen. Die Geschwindigkeit, mit der der Sensor über die Probe fährt wird auch einen Messfehler verursachen. Eine Möglichkeit dem Fehler durch die Bewegung des Sensors entgegenzuwirken ist, den Sensor mit einer kleineren Geschwindigkeit über die Probe fahren zu lassen. Dies hätte den Nachteil, dass die Messungen länger dauern würden.
 
 \begin{figure}[h]
 	\centering
@@ -84,9 +101,11 @@ berechnen. Auch wenn unserer gemessener Wert bis zur ersten signifikanten Stelle
 	\label{Messungerh2}
 \end{figure}
 
-Zur Messung der Höhe der atomaren Erhebungen mussten wir die Messdaten, die die Höhen und nicht den Tunnelstrom angeben verwenden. Auf diesen Messdaten waren die atomaren Erhebungen selbst nach einer doppelten Fouriertransformation nicht sehr klar zu erkennen, wie in Abbildung \ref{Messungerh3} zu sehen ist. Wir haben entlang der in Abbildung \ref{Messungerh3} zu sehenden Geraden gemessen. Das zu der Geraden gehörende Diagramm kann in \ref{Messungerh4} gesehen werden. An diesem Diagramm haben wir durch das Bilden der Differenz von Maxima und Minima die Höhen der atomaren Erhebungen gemessen. Die Werte können in Tabelle \ref{Messungerh5} gesehen werden. Nach dem Bilden eines Mittelwerts und einer Standardabweichung haben wir für den Wert der Höhe $(8,8 \pm 0,4) pm$.
+Zur Messung der Höhe der atomaren Erhebungen wurden die Messdaten, welche die Höhen und nicht den Tunnelstrom angeben, verwendet. Auf diesen Messdaten waren die atomaren Erhebungen selbst nach einer doppelten Fouriertransformation sehr ungenau zu erkennen, wie in Abbildung \ref{Messungerh3} zu sehen ist. Im Vergleich zu Abb. \ref{grafob2} sind die atomaren Erhebungen unschärfer und Erhebungen, die sich horizontal anordnen sind weniger abgegrenzt, als welche, die sich vertikal anordnen. Dies kommt wahrscheinlich dadurch zustande, dass der Sensor in einem Raster über die Probe fährt.
 
-Der theoretische Wert für den Abstand benachbarter Ebenen in Grafit ist $335 pm$. Dieser Wert übersteigt bei weitem die von uns gemessene Höhe der atomaren Erhebungen. Folglich lassen sich unsere gemessenen Höhen nicht mit diesem Wert identifizieren. Um nachzuvollziehen, wie unsere gemessenen Höhen für die atomaren Erhebungen zustande kommen, müssen wir die Form der Metallspitze, die wir als Sensor benutzen, mit in Betracht ziehen. Diese Spitze hat einen gewisses Ausmaß und kann, wenn es als äußerstes Orbital ein s-Orbital hat, als eine Kugel mit gewissen Radius verstanden werden. Lässt der Tunnelstrom zwischen Sensor und Probe nach, fährt dieser näher an die Probe ran. Dies ist zum Beispiel zwischen den atomaren Erhebungen der Fall. Weil die Metallspitze jedoch einen Radius hat wird es auch, wenn es über einer Stelle zwischen den atomaren Erhebungen ist, mit diesen beim Versuch sich der Probe anzunähern "zusammenstoßen". Deshalb sind die gemessenen Höhen der atomaren Erhebungen viel kleiner als der tatsächliche Ebenenabstand.
+ Wir haben entlang der in Abbildung \ref{Messungerh3} zu sehenden Geraden gemessen. Das zu der Geraden gehörende Diagramm kann in Abb. \ref{Messungerh4} gesehen werden. An diesem Diagramm haben wir durch das Bilden der Differenz von Maxima und Minima die Höhen der atomaren Erhebungen gemessen. Die Werte können in Tabelle \ref{Messungerh5} gesehen werden. Nach dem Bilden eines Mittelwerts und einer Standardabweichung erhält man für den Wert der Höhe $(8,8 \pm 0,4) pm$.
+
+Der theoretische Wert für den Abstand benachbarter Ebenen in Grafit ist $335 pm$. Dieser Wert übersteigt bei weitem die von uns gemessene Höhe der atomaren Erhebungen. Folglich lassen sich unsere gemessenen Höhen nicht mit diesem Wert identifizieren. Um nachzuvollziehen, wie unsere gemessenen Höhen der atomaren Erhebungen zustande kommen, müssen wir die Form der Metallspitze, die wir als Sensor benutzen, mit in Betracht ziehen. In diesem Fall betrachten wir eine einatomige Sensorspitze. Das führende Atom der Spitze hat einen gewissen Durchmesser und kann, wenn sein äußerstes Orbital ein s-Orbital ist, als eine Kugel mit gewissem Radius verstanden werden. Lässt der Tunnelstrom zwischen Sensor und Probe nach, fährt dieser näher an die Probe heran. Dies ist zum Beispiel zwischen den atomaren Erhebungen der Fall. Weil die Metallspitze jedoch einen Radius hat wird sie, wenn sie über einer Stelle zwischen den atomaren Erhebungen ist, mit diesen beim Versuch sich der Probe anzunähern "zusammenstoßen" (Orbitale von Spitze und Probe überlappen sich). Deshalb sind die gemessenen Höhen der atomaren Erhebungen viel kleiner als der tatsächliche Ebenenabstand.
 
 \begin{figure}[h]
 	\centering
@@ -135,11 +154,15 @@ Der theoretische Wert für den Abstand benachbarter Ebenen in Grafit ist $335 pm
 	\label{Messungerh5}
 \end{table}
 
-Anhand von Abbildung \ref{Messungerh6} haben wir die Winkel zwischen den atomaren Richtungen gemessen. Unsere gemessenen Winkel, startend von dem Winkel rechts oben und dann entgegen dem Uhrzeigersinn laufend sind $63^\circ$, $67^\circ$, $48^\circ$, $67^\circ$, $66^\circ$ und $49^\circ$, mit jeweils einem Fehler von $1^\circ$. Wegen der hexagonalen Struktur von Grafit wäre bei einer naiven Herangehensweise zu erwarten, dass alle Winkel $60^\circ$ sind. Dies ist nicht der Fall. Es fällt auf dass die besonders kleinen Winkel($48^\circ$ und $49^\circ$) entgegengesetzt voneinander liegen. Die unterstützt die Theorie, dass die Winkel deshalb alle unterschiedlich groß sind, weil wir nicht senkrecht auf die Grafitprobe gucken.
+\subsubsection{Winkel und Symmetrien} \label{winkelsec}
 
- Eine andere Erklärung für die unterschiedlichen Winkel könnte daran liegen, dass der Sensor in einem Raster über die Probe fährt. Dabei könnte es zu einem Umrechnungsfehler bei der Berechnung des Bildes aus den Rasterpunkten kommen. Wir halten diese Theorie als weit unwahrscheinlicher, als die, dass wir nicht senkrecht auf die Probe gucken.
+Anhand von Abbildung \ref{Messungerh6} haben wir die Winkel zwischen den atomaren Richtungen gemessen. Unsere gemessenen Winkel, startend von dem Winkel rechts oben und dann entgegen dem Uhrzeigersinn laufend, sind $63^\circ$, $67^\circ$, $48^\circ$, $67^\circ$, $66^\circ$ und $49^\circ$, mit jeweils einem Fehler von $1^\circ$. Wegen der hexagonalen Struktur von Grafit wäre bei einer naiven Herangehensweise zu erwarten, dass alle Winkel $60^\circ$ sind. Dies ist nicht der Fall. Es fällt auf dass die besonders kleinen Winkel($48^\circ$ und $49^\circ$) entgegengesetzt voneinander liegen. 
+
+Die Winkel sollten nicht alle bei $60^\circ$ sein, wenn man mit dem Sensor nicht senkrecht zur Probe misst. Damit Winkel von $60^\circ$ auf $48^\circ$ heruntergehen, müsste man jedoch mit viel größeren Winkeln zum Lot auf die Probe gucken, als es bei unserem Experiment der Fall ist. Dass die Winkel von $60^\circ$ abweichen muss also eine andere Erklärung haben.
+
+ Eine wahrscheinlichere Erklärung für die unterschiedlichen Winkel ist, dass wegen der die Probe im Raster abfahrenden Sensorspitze, das Messbild verzerrt wird. Der Sensor wird mithilfe von Piezoelementen entlang der X- und Y-Achse verschoben. Es kann sein, dass das Piezoelement, das für die Verschiebung in X- oder Y-Richtung verantwortlich ist, nicht richtig kalibriert ist. In diesem Fall fährt der Sensor nicht über die Fläche, die in den Messdaten angegeben ist. Ist zum Beispiel das Piezoelement für die y-Richtung falsch kalibriert, kann es sein, dass es eine größere Strecke abfährt, als es sollte. Weil das Programm zum berechnen der Messbilder eine andere Strecke erwartet, wird das Messbild in y-Richtung gestaucht. Dadurch verändern sich die gemessenen Abstände und Winkel von den tatsächlichen. Durch diesen Messfehler lassen sich die bei uns von $60^\circ$ abweichenden Winkel erklären. Auch erklärt dieser Fehler, wieso die kleinsten Winkel entgegengesetzt voneinander sind.
  
- Weil von uns beobachteten atomaren Erhebungen der Grafits bilden ein hexagonales Kristallgitter. Es ist 6-zählig. Entlang einer Translation von ganzzahligen Abständen der atomaren Erhebungen der in \ref{Messungerh6} eingezeichneten Linien, gibt es außerdem eine Tanslationssymmetrie. Zusätzlich sieht man, dass bei einer Spiegelung entlang einer der Geraden und einer Inversion an dem Punkt, in dem sich die Geraden schneiden, das Gitter symmetrisch ist.
+Die von uns beobachteten atomaren Erhebungen des Grafits bilden ein hexagonales Kristallgitter. Es ist 6-zählig. Entlang einer Translation von ganzzahligen Abständen der atomaren Erhebungen der in \ref{Messungerh6} eingezeichneten Linien, gibt es außerdem eine Translationssymmetrie. Zusätzlich sieht man, dass bei einer Spiegelung entlang einer der Geraden und einer Inversion an dem Punkt, in dem sich die Geraden schneiden, das Gitter symmetrisch ist.
 
 \begin{figure}[h]
 	\centering
@@ -152,14 +175,14 @@ Anhand von Abbildung \ref{Messungerh6} haben wir die Winkel zwischen den atomare
 
 \subsection{Fouriertransformation einer ebenen Fläche Grafits}
 
-In Abbildung \ref{fouriertansformation_ebene} kann das Gitter aus Abbildung \ref{grafob1} nach einer Fouriertransformation betrachtet werden. Man erkennt sechs Punkte, die auf einem leicht verzerrten Hexagon um den Ursprung liegen. Um den Ursprung herum sieht man Werte in geringer Intensität. Dies sind die Störungen, die beim Aufnehmen der Messung entstanden sind. Die sechs zu erkennenden Punkte beinhalten alle Informationen über die Periodizität den gemessenen Gitters. Jedem der sechs Punkte kann ein Vektor $\vec{k}$ zugeordnet werden. Dies ist ein Wellenvektor, der eine Periodizität des Gitter angibt. Verschiebt man das Gitter also um eine Periode der Welle, die mit dem Wellenvektor $\vec{k}$ zu assoziieren ist, bleibt das Gitter unverändert. Daraus lässt sich leicht folgern, dass man aus $\vec{k}$ direkt den Abstand zweier atomarer Erhebungen berechnen kann durch.
+In Abbildung \ref{fouriertansformation_ebene} kann das Gitter aus Abbildung \ref{grafob1} nach einer Fouriertransformation betrachtet werden. Man erkennt sechs Punkte, die auf einem leicht verzerrten Hexagon um den Ursprung liegen. Um den Ursprung herum sieht man Werte in geringer Intensität. Dies sind die Störungen, die beim Aufnehmen der Messung entstanden sind. Die sechs zu erkennenden Punkte beinhalten alle Informationen über die Periodizität des gemessenen Gitters. Jedem der sechs Punkte kann ein Vektor $\vec{k}$ zugeordnet werden. Dies ist ein Wellenvektor, der eine Periodizität des Gitters angibt. Verschiebt man das Gitter also um eine Periode der Welle, die mit dem Wellenvektor $\vec{k}$ zu assoziieren ist, bleibt das Gitter unverändert. Daraus lässt sich leicht folgern, dass man aus $\vec{k}$ mit der folgenden Gleichung direkt den Abstand zweier atomarer Erhebungen berechnen kann.
 
 \begin{equation}
 	|k| = \frac{2\pi}{a}
 	\label{formelk}
 \end{equation}
 
-Hier ist a der Abstand zweier atomarer Erhebungen
+Hier ist a der Abstand zweier atomarer Erhebungen.
 
 \begin{figure}[h]
 	\centering
@@ -172,12 +195,12 @@ Hier ist a der Abstand zweier atomarer Erhebungen
 
 \section{Diskussion}
 
-Wir haben mit dem Rastertunnelmikroskop die Struktur von Grafit betrachtet. Da unsere Sensorspitze nicht fein genug war konnten wir zwar Kanten an der Oberfläche erkennen, die atomare Struktur des Grafits konnten wir jedoch nicht erkennen, beziehungsweise nur eingeschränkt über eine kleine Fläche. Deshalb mussten wir zur Betrachtung der Struktur von Grafit Referenzdaten benutzen.
+Wir haben mit dem Rastertunnelmikroskop die Struktur von Grafit betrachtet. Da unsere Sensorspitze nicht fein genug war konnten wir zwar Kanten an der Oberfläche, die atomare Struktur des Grafits jedoch nicht erkennen, beziehungsweise nur eingeschränkt über eine kleine Fläche. Deshalb mussten wir zur Betrachtung der Struktur von Grafit Referenzmessungen benutzen.
 
-Anhand der Referenzdaten konnten wir die hexagonale Struktur des Grafits erkennen. Es konnten Translations-, Inversions-, Spiegelungs- und Rotationssymmetrien erkannt werden. Die leicht unterschiedlichen Größen der Winkel zwischen den atomaren Richtungen konnten wir damit erklären, dass das Rastertunnelmikroskop nicht senkrecht auf die Grafitprobe schaute. Obwohl es uns gut gelang, die Struktur des Grafits zu untersuchen, konnten wir keine mit dieser Struktur zusammenhängenden physikalischen Größen, wie zum Beispiel den Abstand der Kohlenstoffatome oder den Ebenenabstand, im Einklang mit der theoretischen Werten bestimmen. Unser Wert für den Abstand der atomaren Erhebungen war $(0,266 \pm 0,001) nm$ und wich mit 20 Fehlerintervallen von dem theoretischen Wert von $0,246 nm$ ab.
+Anhand der Referenzdaten konnten wir die hexagonale Struktur des Grafits untersuchen. Es konnten Translations-, Inversions-, Spiegelungs- und Rotationssymmetrien erkannt werden. Die leicht unterschiedlichen Größen der Winkel zwischen den atomaren Richtungen konnten wir damit erklären, dass das X- oder Y-Piezoelement zum Bewegen des Sensors nicht richtig kalibriert war. Obwohl es uns gut gelang, die Struktur des Grafits zu untersuchen, konnten wir keine mit dieser Struktur zusammenhängenden physikalischen Größen, wie zum Beispiel den Abstand der Kohlenstoffatome oder den Ebenenabstand, im Einklang mit den theoretischen Werten bestimmen. Unser Wert für den Abstand der atomaren Erhebungen war $(0,266 \pm 0,001) nm$ und wich mit 20 Fehlerintervallen von dem theoretischen Wert von $0,246 nm$ ab.
 
-Anhand der Fouriertransformation (Abb. \ref{fouriertansformation_ebene}) konnte die periodische Struktur des Grafitgitters eindeutig dargestellt werden. Möglicherweise ist die fouriertransformierte Darstellung des Gitters besser als das direkte Abmessen an der Gitterstruktur geeignet, um die Abstände der atomaren Erhebungen zu bestimmen. Um dies zu tun müsste das Rastertunnelmikroskop möglich senkrecht auf das Grafit schauen, damit die periodischen Strukturen des Gitters nicht verzerrt werden. Es wäre auch möglich diese Verzerrung numerisch zu lösen, was jedoch mit hohem Aufwand verbunden wäre. Die atomaren Abstände könnten dann unter Verwendung von \ref{formelk} mit dem in der Fourierdarstellung vorkommenden $k$ berechnet werden.
+Anhand der Fouriertransformation (Abb. \ref{fouriertansformation_ebene}) konnte die periodische Struktur des Grafitgitters eindeutig dargestellt werden. Möglicherweise ist die fouriertransformierte Darstellung des Gitters besser als das direkte Abmessen an der Gitterstruktur geeignet, um die Abstände der atomaren Erhebungen zu bestimmen. Um dies zu tun müsste das X- und Y-Piezoelement richtig kalibriert sein, damit die periodischen Strukturen des Gitters nicht verzerrt werden. Es wäre auch möglich diese Verzerrung numerisch zu lösen, was jedoch mit hohem Aufwand verbunden wäre. Die atomaren Abstände könnten dann unter Verwendung von \eqref{formelk} mit dem in der Fourierdarstellung vorkommenden $k$ berechnet werden.
 
-Um bessere Versuchsergebnisse zu erzielen, könnte man die Sensorspitze des Rastertunnelmikroskops mit einer anderen Methode herstellen. Die Feinheit der Sensorspitze ist für den Erfolg des Versuchs ausschlaggebend und bestimmt, ob es Möglich sein wird, die atomare Struktur des Grafits zu messen.
+Um bessere Versuchsergebnisse zu erzielen, könnte man die Sensorspitze des Rastertunnelmikroskops mit einer anderen Methode herstellen. Die Feinheit der Sensorspitze ist für den Erfolg des Versuchs ausschlaggebend und bestimmt, ob es möglich sein wird, die atomare Struktur des Grafits zu messen.
 
 \end{document}

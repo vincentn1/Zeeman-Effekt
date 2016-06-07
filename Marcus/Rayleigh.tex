@@ -42,7 +42,7 @@ In Mie scattering electromagnetic waves scatter elastically on spherical objects
 
 \subsection{Rayleigh scattering}
 
-Rayleigh scattering is the elastic scattering of by particles much smaller than the wavelength of the radiation. Here the incoming light has the same wavelength as the outgoing light.
+Rayleigh scattering is the elastic scattering of light by particles much smaller than the wavelength of the radiation. Here the incoming light has the same wavelength as the outgoing light.
 The scattering can be explained due to that a electromagnetic wave induces a dipole moment at an electron of the atom/molecule in scatters on ($\vec{p}_{ind} = \alpha \cdot \vec{E}$). The electron is now excited, performs as a dipole antenna and emits a photon of the same wavelength as the incident photon.
 The cross section of Rayleigh scattering for low frequencies is given by
 
@@ -56,7 +56,7 @@ This also explains the blue color of the sky. The longer wavelength of the red l
 
 \subsubsection{Scattering coefficient}
 
-The power of light, scattered by a particle, is proportional to the incident intensity. The proportionality constant for this case is known as the scattering cross section $\sigma(\lambda)$. However, in most cases we have more than one object the light can scatter on. If light travels through a medium, the probability that it is scattered does not only depend on the cross section, but also on the density of partiles the light can scatter on. If we multiply this density with the scattering cross section we get the scattering coefficient $\beta(\lambda)$
+The power of light, scattered by a particle, is proportional to the incident intensity. The proportionality constant for this case is known as the scattering cross section $\sigma(\lambda)$. However, in most cases we have more than one object the light can scatter on. If light travels through a medium, the probability that it is scattered does not only depend on the cross section, but also on the density of partiles the light can scatter on. If we multiply this density with the scattering cross section we get the scattering coefficient $\beta(\lambda)$.
 
 \begin{equation}
 \beta(\lambda) = N \sigma(\lambda)
@@ -74,7 +74,7 @@ In our experiment we will try to determine the scattering coefficient of a speci
 
 \subsection{Optical cavity}
 
-An optical cavity is an arrangement of mirrors used to reflect light as often as possible. Depending on how the mirrors are arranged, standing waves can form due to interference. The standing wave, which are possible to form are called the modes of an optical cavity. The components of an optical cavity are ofter a laser, a gas medium it is filled with(in our case the gas medium will play an important role in measuring the Rayleigh scattering) and mirrors. Whether a optical cavity is stable can be calculated with the stability criterion:
+An optical cavity is an arrangement of mirrors used to reflect light as often as possible. Depending on how the mirrors are arranged, standing waves can form due to interference. The standing wave, which are possible to form are called the modes of an optical cavity. The components of an optical cavity are often a laser, a gas medium it is filled with(in our case the gas medium will play an important role in measuring the Rayleigh scattering) and mirrors. Whether a optical cavity is stable can be calculated with the stability criterion:
 
 \begin{equation}
 0 \leq (1 -  \frac{L}{R_1})(1- \frac{L}{R_2}) \leq 1
@@ -93,7 +93,7 @@ Here $L$ is the length of the resonator and $R_1$ and $R_2$ are the radii of the
 
 Cavity-Ring-Down Spectroscopy is a kind of spectroscopy which uses optical cavities. By filling the resonator with a gaseous sample, the properties of it in scattering or absorbing light can be studied. In the most simple form of the spectroscopy we have 2 highly reflective mirrors and a laser which is in resonance with a cavity mode. Because the mirror only lets a small fraction of the light through, the intensity of the light inside the cavity builds up due to constructive interference. 
 
-Now the laser is turned off and the decay of the light intensity leaking from the cavity is measured. During the decay, the light in the cavity is reflected between the two mirrors. Every time the light hits upon the mirror, a small fraction is able to pass it. Thus the light intesity inside and passing through the mirror will decrease exponentially. If there is a gas inside the cavity which scatters the light, the intensity of the light intensity during the decay process will decrease faster. The decrease of intensity can described by
+Now the laser is turned off and the decay of the light intensity leaking from the cavity is measured. During the decay, the light in the cavity is reflected between the two mirrors. Every time the light hits upon the mirror, a small fraction is able to pass it. Thus the light intesity inside and passing through the mirror will decrease exponentially. If there is a gas inside the cavity which scatters the light, the intensity of the light intensity during the decay process will decrease faster. The decrease of intensity can be described by
 
 \begin{equation}
 I(t) = I_0 \cdot e^{- \frac{t}{\tau}}
@@ -135,7 +135,7 @@ which is the same as \ref{beta_formel}, because $\beta_0 = 0$(no Rayleigh scatte
 
 \subsection{Procedure}
 
-In order to determine the scattering coefficient $\beta$, we want to use Cavity Ring-Down Spectroscopy and measure the ring-down time each for a vacuum and air at room temperature and pressure inside the cavity once. The construction of the experiment can be seen in figure \ref{aufbau}.
+In order to determine the scattering coefficient $\beta$, we use Cavity Ring-Down Spectroscopy and measure the ring-down time each for a vacuum and air at room temperature and pressure inside the cavity once. The construction of the experiment can be seen in figure \ref{aufbau}.
 We start by creating a vacuum inside the cavity by using the vacuum pump. Now we need to align the laser beam in order for it to go through the cavity. To achieve this we use a green laser which can be detected easier by our eyes. We send the laser through two apertures before it enters the cavity. This makes it easier to align the laser. After the laser is aligned, we change the laser to the blue laser with a wavelength of $403 nm$ we use for measuring. After aligning the blue laser we can start to measure. We use a pulsed laser beam. The photomultiplier detectes the laser after passing through the cavity and sends the detected signal to an oscilloscope. On the oscilloscope we can observe the ring down of the laser intensity. We adjust the sensitivity of the photomultiplier and the starting intensity of the laser in order to get a good curve of the ring down. On the oscilloscope we can average over multiple ring down curves with the aim to get a more stable curve with less fluctuations. 
 
 After obtaining a good curve of the ring down, we send it to the computer where we save it in a file. Now we need to measure the ring down process without a vacuum inside the cavity. Because of refraction we can not just fill the cavity with air and then measure. The laser beam would not reach the photomultiplier anymore. In order to measure the ring down with an air-filled cavity we proceed the following way. Using a valve we let some air inside the cavity and adjust the laser beam. We repeat this process multiple times until the inside of the cavity has the same air pressure as the outside. Adjusting the sensitivity of the photomultiplier helps to track down the laser beam. After the cavity is filled with air, we can measure the ring down.
@@ -184,10 +184,10 @@ $$ \tau = (7.769 \pm 0.017) * 10^{-6} s $$
 Coefficients for the evacuated cavity:
 $$ a_{0} = (-1.270 \pm 0.002 ) * 10^{-1}\frac{W}{m^{2}} $$
 $$ \tau_{0} = (8.802 \pm 0.020) * 10^{-6} s $$
-As we described in the preparation the Rayleigh-Scattering coefficient can be calculated over the determinded values of $\tau$ and $\tau_{0}$ in formula (7). 
+As we described in the preparation, the Rayleigh-Scattering coefficient can be calculated by using the determined values of $\tau$ and $\tau_{0}$ in formula (7). 
 
 $$ \beta_{exp}(\lambda) = (5.07 \pm 0.13) 10^{-5}\frac{1}{m} $$
-The error for the experimental scattering coefficient was calculated over the gaussian error propagation.
+The error for the experimental scattering coefficient was calculated with gaussian error propagation.
 
 \begin{equation}
 \Delta \beta_{exp} = \sqrt{(\frac{\partial \beta}{\partial \tau})^{2}\Delta \tau^{2} + (\frac{\partial \beta}{\partial \tau_{0}})^{2}\Delta \tau_{0}^{2}} = \frac{1}{c} \sqrt{\frac{\Delta \tau^{2}}{\tau^{4}} + \frac{\Delta \tau_{0}^{2}}{\tau_{0}^{4}} }
@@ -199,9 +199,9 @@ $$ N_{v} = \frac{N}{V} = \frac{P}{k_{b}T} $$
 \begin{equation}
  \Rightarrow \beta(\lambda) = \frac{8\pi^{3}(n^{2}-1)^{2}k_{b}T}{3P \lambda^{4}} 
 \end{equation}
-Using the recorded values which we collected during the measurement ($T = (25.5 \pm 0.5) °C$ , $ P = (1010.8 \pm 0.5) hPa$ , $\lambda = (405.0 \pm 0.2) nm$ and refractive index n = 1.00029) we were able to calculate the theoretical value of $\beta (\lambda)$:
+Using the recorded values which we collected during the measurement ($T = (25.5 \pm 0.5) ^\circ C$ , $ P = (1010.8 \pm 0.5) hPa$ , $\lambda = (405.0 \pm 0.2) nm$ and refractive index n = 1.00029) we are able to calculate the theoretical value of $\beta (\lambda)$:
 $$ \beta_{theo} (\lambda) = (4.275 \pm 0.714) 10^{-5} \frac{1}{m} $$
-The error was again calculated over the gaussian error propagation:
+The error is calculated by gaussian error propagation:
 
 \begin{equation}
 \Delta \beta_{theo} (\lambda) = \frac{8\pi ^{3}(n^{2}-1)^{2}}{3}\sqrt{\Delta T^{2} + \frac{\Delta P^{2}}{P^{4}}+ \frac{\Delta \lambda^{2}}{\lambda^{10}}}
@@ -209,7 +209,8 @@ The error was again calculated over the gaussian error propagation:
 
 \section{Discussion}
 
-Comparing the experimental and the theoretical value of the Rayleigh-scattering coefficient, we can see that $\beta_{exp}(\lambda)$ fits in the triple error range of $\beta_{theo}(\lambda)$ but not vice versa. The first conclusion can we draw is, that our experimental results are consistent with the theoretical consideration.The difference between the theoretical and the experimental value of $ \beta$ could primarily result from two reason.
-While the cavity is filled with air, the possibility to get scattering processes with larger particles is pretty high. This scattering processes do not have the same probability to scatter in any direction which cannot be described by the Rayleigh-scattering, which results in a blur of the evaluated values. The other reason could be the fluctuation of the transmission curves in Figure 4 and 5. This results in a bit not fitting curve for the exponential fit, which stil got the best deviation to the experimental results. As a consequence the values for $\tau$ and $\tau_{0}$ are able to depart. 
-Nevertheless our results fit more or less with the theoretical expectations and we were able to prove the Rayleigh-scattering in our experimental setup.
+Comparing the experimental and the theoretical value of the Rayleigh-scattering coefficient, we can see that $\beta_{exp}(\lambda)$ fits in the triple error range of $\beta_{theo}(\lambda)$ but not vice versa. The first conclusion can we draw is, that our experimental results are consistent with the theoretical consideration.The difference between the theoretical and the experimental value of $ \beta$ could primarily result from two reasons.
+
+While the cavity is filled with air, the possibility to get scattering processes with larger particles is pretty high. This scattering processes do not have the same probability to scatter in any direction which cannot be described by the Rayleigh-scattering, which results in a blur of the evaluated values. The other reason could be the fluctuation of the transmission curves in Figure 4 and 5. This results in a bit not fitting curve for the exponential fit, which still got the best deviation to the experimental results. As a consequence the values for $\tau$ and $\tau_{0}$ are able to depart. 
+Nevertheless our results fit more or less with the theoretical expectations and we were able to prove the Rayleigh-scattering with our experimental setup.
 \end{document}

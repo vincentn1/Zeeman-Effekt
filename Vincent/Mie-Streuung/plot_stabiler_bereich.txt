@@ -1,0 +1,10 @@
+set title ''
+set xlabel 'q'
+set ylabel 'a'
+set xrange [0 to 1.2]
+set yrange [-0.3:0.3]
+f(x) = -x**2*1/2+x**4*7/128-x**6*29/2304+x**8*68687/18874368
+h(x) = 1-x-x**2*1/8+x**3*1/64-x**4*1/1536-x**5*11/35864 
+g(x) = -x**2*1/2
+plot f(x) title '', h(x) title '', 'stabiler_bereich.txt' with xyerrorbars title 'stabile Messwerte'
+#plot 'stabiler_bereich.txt' title ''

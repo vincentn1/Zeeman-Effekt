@@ -1,4 +1,4 @@
-set title 'Eichkurve der Spannung'
+set title ''
 set xlabel 'Angezeigte Spannung in V'
 set ylabel 'Gemessene angelegte Spannung in V'
 f(x) = a*x

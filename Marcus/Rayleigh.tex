@@ -1,0 +1,215 @@
+\documentclass[10pt,a4paper]{article}
+\usepackage[utf8]{inputenc}
+\usepackage[english]{babel}
+\usepackage[T1]{fontenc}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{subcaption}
+\usepackage{makeidx}
+\usepackage{graphicx}
+\usepackage{fourier}
+\usepackage{listings}
+\usepackage{color}
+\usepackage{hyperref}
+\usepackage[left=2cm,right=2cm,top=2cm,bottom=2cm]{geometry}
+\author{Tommy Müller, Marcus Dittrich, Vincent Noculak}
+\title{Rayleigh-Scattering}
+
+\lstset{language=C++,
+	keywordstyle=\bfseries\color{blue},
+	commentstyle=\itshape\color{red},
+	stringstyle=\color{green},
+	identifierstyle=\bfseries,
+	frame=single}
+\begin{document}
+
+\maketitle
+\newpage
+\newpage
+
+\section{Theory}
+
+In physics there are many effects in which light can be scattered by interacting with other particles. In this experiment we will look at the Rayleigh scattering.
+
+Before coming to the theory of Rayleigh scattering we will introduce some other kinds of light scattering.
+
+In Compton scattering a photon will scatter on a charged particle. By colliding, the photon will scatter inelastic, will give some of its energy to the particle and change its direction in some kind of angle.
+
+An other kind of scattering is Raman scattering. It can happen, if a photon scatters on an atom or a molecule. Unlike in Rayleigh scattering, the scattered photons have a different wavelength as the incident photons. Due to inelastic scattering the photons can transfer or receive some energy from the molecule/atom they scatter on. This amount of energy difference is specific for the molecule/atom. Raman scattering is a factor of $10^3$ to $10^4$ more unlikely to happen than Rayleigh scattering.
+
+In Mie scattering electromagnetic waves scatter elastically on spherical objects. The size of the scattering particle is comparable to the wavelength of the light. Mie scattering can be directly derived from the Maxwell equations.
+
+\subsection{Rayleigh scattering}
+
+Rayleigh scattering is the elastic scattering of by particles much smaller than the wavelength of the radiation. Here the incoming light has the same wavelength as the outgoing light.
+The scattering can be explained due to that a electromagnetic wave induces a dipole moment at an electron of the atom/molecule in scatters on ($\vec{p}_{ind} = \alpha \cdot \vec{E}$). The electron is now excited, performs as a dipole antenna and emits a photon of the same wavelength as the incident photon.
+The cross section of Rayleigh scattering for low frequencies is given by
+
+\begin{equation}
+\sigma(\omega) = \sigma_{Th} \frac{\omega^4}{\omega_0^4}
+\end{equation}
+
+with $\sigma_{Th} = 0.665 \cdot 10^-24 cm^2$. In this formula we can observe, that Rayleigh scattering is much more likely to happen for light with smaller wavelengths.
+
+This also explains the blue color of the sky. The longer wavelength of the red light gets scattered less than the short wavelength of blue light. Hence from the light of the sun, which gets scattered on the atmosphere of the earth, we see the visible light with the shortest wavelength with the most intensity. Thus the sky appears to be blue.
+
+\subsubsection{Scattering coefficient}
+
+The power of light, scattered by a particle, is proportional to the incident intensity. The proportionality constant for this case is known as the scattering cross section $\sigma(\lambda)$. However, in most cases we have more than one object the light can scatter on. If light travels through a medium, the probability that it is scattered does not only depend on the cross section, but also on the density of partiles the light can scatter on. If we multiply this density with the scattering cross section we get the scattering coefficient $\beta(\lambda)$
+
+\begin{equation}
+\beta(\lambda) = N \sigma(\lambda)
+\end{equation} 
+
+By approximating scattering molecules as oscillating Hertzian dipoles that reemit incident electromagnetic waves, one can show that the scattering coefficient of Rayleigh scattering is given by
+
+\begin{equation}
+\beta(\lambda) =  \frac{8 \pi^3 (n^2-1)^2}{3N_{v}\lambda^4}
+\end{equation}
+
+with $\lambda$ being the wavelength of the scattered light and $n$ being the refractive index of the medium the light travels through.
+
+In our experiment we will try to determine the scattering coefficient of a specific wavelength, using an optical cavity.
+
+\subsection{Optical cavity}
+
+An optical cavity is an arrangement of mirrors used to reflect light as often as possible. Depending on how the mirrors are arranged, standing waves can form due to interference. The standing wave, which are possible to form are called the modes of an optical cavity. The components of an optical cavity are ofter a laser, a gas medium it is filled with(in our case the gas medium will play an important role in measuring the Rayleigh scattering) and mirrors. Whether a optical cavity is stable can be calculated with the stability criterion:
+
+\begin{equation}
+0 \leq (1 -  \frac{L}{R_1})(1- \frac{L}{R_2}) \leq 1
+\end{equation}
+
+Here $L$ is the length of the resonator and $R_1$ and $R_2$ are the radii of the curvatures of the mirrors. Some examples for optical cavities can be seen in \ref{optical_cavities}.
+
+\begin{figure}[h]
+	\includegraphics[scale = 0.5]{Optical-cavity1.png}
+	\centering
+	\caption{Examples for optical cavities, source: \href{https://en.wikipedia.org/wiki/Optical_cavity}{$https://en.wikipedia.org/wiki/Optical_{}cavity$}}
+	\label{optical_cavities}
+\end{figure}
+
+\subsection{Cavity-Ring-Down Spectroscopy}
+
+Cavity-Ring-Down Spectroscopy is a kind of spectroscopy which uses optical cavities. By filling the resonator with a gaseous sample, the properties of it in scattering or absorbing light can be studied. In the most simple form of the spectroscopy we have 2 highly reflective mirrors and a laser which is in resonance with a cavity mode. Because the mirror only lets a small fraction of the light through, the intensity of the light inside the cavity builds up due to constructive interference. 
+
+Now the laser is turned off and the decay of the light intensity leaking from the cavity is measured. During the decay, the light in the cavity is reflected between the two mirrors. Every time the light hits upon the mirror, a small fraction is able to pass it. Thus the light intesity inside and passing through the mirror will decrease exponentially. If there is a gas inside the cavity which scatters the light, the intensity of the light intensity during the decay process will decrease faster. The decrease of intensity can described by
+
+\begin{equation}
+I(t) = I_0 \cdot e^{- \frac{t}{\tau}}
+\end{equation}
+
+$\tau$ depends on the wavelength of the laser light.
+
+\begin{equation}
+\tau (\lambda) = \frac{L}{c (1- R(\lambda) + \beta(\lambda) L)}
+\label{tau_formel}
+\end{equation}
+
+$R(\lambda)$ is the percentage of the light which is reflected by the mirror and $L$ is the length of the resonator. $\beta$ is the scattering coefficient and describes the amount of energy in the laser which gets lost due to the scattering process.
+
+In our experiment we want to determine $\beta$. The scattering process in the cavity will mostly be due to Rayleigh scattering. There is also a small fraction, which will be scatted due to Raman scattering. If we measure one decay process having a vacuum inside the cavity($\beta = 0$, because no scattering is possible) and one having a gas filling up the cavity, we can determine $\beta(\lambda)$ for our laser wavelength with the following formula by measuring the ring-down times $\tau$
+
+\begin{equation}
+\beta(\lambda) = \frac{1}{c} (\frac{1}{\tau(\lambda)} - \frac{1}{\tau_0(\lambda)})
+\label{beta_formel}
+\end{equation}
+
+$\tau_0$ is the ring-down time for the cavity with a vacuum inside.
+
+\ref{beta_formel} can be derived from \ref{tau_formel}: By changing the expression of \ref{tau_formel} we get the following formula.
+
+\begin{equation}
+\frac{1}{c \tau(\lambda)} = \frac{1-R(\lambda) + \beta L}{L}
+\end{equation}
+
+
+
+If we subtract this formula for the air-filled cavity from the one with a vacuum inside the cavity we get
+
+\begin{equation}
+\frac{1}{c}(\frac{1}{\tau(\lambda)} - \frac{1}{\tau_0(\lambda)}) = \frac{1 - R(\lambda) + \beta(\lambda) L}{L} - \frac{1 - R(\lambda) + \beta_0 L}{L} = \beta(\lambda) - \beta_0
+\end{equation}  
+
+which is the same as \ref{beta_formel}, because $\beta_0 = 0$(no Rayleigh scattering inside a vacuum).
+
+\subsection{Procedure}
+
+In order to determine the scattering coefficient $\beta$, we want to use Cavity Ring-Down Spectroscopy and measure the ring-down time each for a vacuum and air at room temperature and pressure inside the cavity once. The construction of the experiment can be seen in figure \ref{aufbau}.
+We start by creating a vacuum inside the cavity by using the vacuum pump. Now we need to align the laser beam in order for it to go through the cavity. To achieve this we use a green laser which can be detected easier by our eyes. We send the laser through two apertures before it enters the cavity. This makes it easier to align the laser. After the laser is aligned, we change the laser to the blue laser with a wavelength of $403 nm$ we use for measuring. After aligning the blue laser we can start to measure. We use a pulsed laser beam. The photomultiplier detectes the laser after passing through the cavity and sends the detected signal to an oscilloscope. On the oscilloscope we can observe the ring down of the laser intensity. We adjust the sensitivity of the photomultiplier and the starting intensity of the laser in order to get a good curve of the ring down. On the oscilloscope we can average over multiple ring down curves with the aim to get a more stable curve with less fluctuations. 
+
+After obtaining a good curve of the ring down, we send it to the computer where we save it in a file. Now we need to measure the ring down process without a vacuum inside the cavity. Because of refraction we can not just fill the cavity with air and then measure. The laser beam would not reach the photomultiplier anymore. In order to measure the ring down with an air-filled cavity we proceed the following way. Using a valve we let some air inside the cavity and adjust the laser beam. We repeat this process multiple times until the inside of the cavity has the same air pressure as the outside. Adjusting the sensitivity of the photomultiplier helps to track down the laser beam. After the cavity is filled with air, we can measure the ring down.
+
+\begin{figure}[h]
+	\includegraphics[scale = 0.7]{versuchsaufbau.png}
+	\centering
+	\caption{Simplified construction of the experiment}
+	\label{aufbau}
+\end{figure}
+
+\newpage
+\section{Evaluation}
+
+In this experiment we evaluated the exponantial deccrease in the intensity of the incident light by the Cavity-Ring-Down-Spectroscopy. Therefore we examined the decay, which can be comprehended in Figure 3, as the area between the black bars, to obtain a decay constant for the cavity filled with and without air.
+\begin{figure}[h]
+	\includegraphics[scale = 0.7]{graphair.png}
+	\centering
+	\caption{The complete recorded measurement for the air-filled cavity}
+	\label{Complete Measurement for air}
+\end{figure}
+For the non-linear Regression we used the computer program Python to gain the coefficients a and $\tau$ for the exponential fit.
+\begin{equation}
+	y = a e^{-t/\tau}
+\end{equation}
+We used the internal function curve-fit to get the coeffcients a and $\tau$ and the associated errors for the lowest derivation for all values of y in the investigated interval. We determined the following values for a and $\tau$ for the two experimental setups and plotted the calculated fits with the measurement results in Figure 4 and 5 :
+\\
+\begin{figure}[h]
+	\includegraphics[scale = 0.7]{expair.png}
+	\centering
+	\caption{The comparison between the evaluated fit and the measurement result for the cavity filled with air}
+	\label{exponential air}
+\end{figure}
+
+Coefficients for the cavity filled with air:
+
+$$ a = (-1.232 \pm 0.002 ) * 10^{-1}\frac{W}{m^{2}} $$
+$$ \tau = (7.769 \pm 0.017) * 10^{-6} s $$
+
+\begin{figure}[h]
+	\includegraphics[scale = 0.7]{expvac.png}
+	\centering
+	\caption{The comparison between the evaluated fit and the measurement result for the evacuated cavity}
+	\label{exponential vac}
+\end{figure}
+Coefficients for the evacuated cavity:
+$$ a_{0} = (-1.270 \pm 0.002 ) * 10^{-1}\frac{W}{m^{2}} $$
+$$ \tau_{0} = (8.802 \pm 0.020) * 10^{-6} s $$
+As we described in the preparation the Rayleigh-Scattering coefficient can be calculated over the determinded values of $\tau$ and $\tau_{0}$ in formula (7). 
+
+$$ \beta_{exp}(\lambda) = (5.07 \pm 0.13) 10^{-5}\frac{1}{m} $$
+The error for the experimental scattering coefficient was calculated over the gaussian error propagation.
+
+\begin{equation}
+\Delta \beta_{exp} = \sqrt{(\frac{\partial \beta}{\partial \tau})^{2}\Delta \tau^{2} + (\frac{\partial \beta}{\partial \tau_{0}})^{2}\Delta \tau_{0}^{2}} = \frac{1}{c} \sqrt{\frac{\Delta \tau^{2}}{\tau^{4}} + \frac{\Delta \tau_{0}^{2}}{\tau_{0}^{4}} }
+\end{equation}
+In order to determine the value of our measurement we got to compare the theoretical value with our experimental gained scattering coefficient. Therefore we have to add the ideal gas law to equation (3).
+
+$$ N_{v} = \frac{N}{V} = \frac{P}{k_{b}T} $$
+
+\begin{equation}
+ \Rightarrow \beta(\lambda) = \frac{8\pi^{3}(n^{2}-1)^{2}k_{b}T}{3P \lambda^{4}} 
+\end{equation}
+Using the recorded values which we collected during the measurement ($T = (25.5 \pm 0.5) °C$ , $ P = (1010.8 \pm 0.5) hPa$ , $\lambda = (405.0 \pm 0.2) nm$ and refractive index n = 1.00029) we were able to calculate the theoretical value of $\beta (\lambda)$:
+$$ \beta_{theo} (\lambda) = (4.275 \pm 0.714) 10^{-5} \frac{1}{m} $$
+The error was again calculated over the gaussian error propagation:
+
+\begin{equation}
+\Delta \beta_{theo} (\lambda) = \frac{8\pi ^{3}(n^{2}-1)^{2}}{3}\sqrt{\Delta T^{2} + \frac{\Delta P^{2}}{P^{4}}+ \frac{\Delta \lambda^{2}}{\lambda^{10}}}
+\end{equation}
+
+\section{Discussion}
+
+Comparing the experimental and the theoretical value of the Rayleigh-scattering coefficient, we can see that $\beta_{exp}(\lambda)$ fits in the triple error range of $\beta_{theo}(\lambda)$ but not vice versa. The first conclusion can we draw is, that our experimental results are consistent with the theoretical consideration.The difference between the theoretical and the experimental value of $ \beta$ could primarily result from two reason.
+While the cavity is filled with air, the possibility to get scattering processes with larger particles is pretty high. This scattering processes do not have the same probability to scatter in any direction which cannot be described by the Rayleigh-scattering, which results in a blur of the evaluated values. The other reason could be the fluctuation of the transmission curves in Figure 4 and 5. This results in a bit not fitting curve for the exponential fit, which stil got the best deviation to the experimental results. As a consequence the values for $\tau$ and $\tau_{0}$ are able to depart. 
+Nevertheless our results fit more or less with the theoretical expectations and we were able to prove the Rayleigh-scattering in our experimental setup.
+\end{document}

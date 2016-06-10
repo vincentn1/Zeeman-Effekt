@@ -1,0 +1,5 @@
+\select@language {english}
+\contentsline {section}{\numberline {1}Vermessung von Graphit }{3}{section.1}
+\contentsline {subsection}{\numberline {1.1} Kantenh\IeC {\"o}hen}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Beispiel Kanten}{3}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3} Diskussion}{5}{subsection.1.3}

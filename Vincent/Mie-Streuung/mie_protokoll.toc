@@ -4,3 +4,4 @@
 \contentsline {section}{\numberline {2}Versuchsauswertung}{3}{section.2}
 \contentsline {subsection}{\numberline {2.1}Q/m-Werte gefangener Glaskugeln}{3}{subsection.2.1}
 \contentsline {subsection}{\numberline {2.2}Stabiler Bereich im a/q-Raum}{4}{subsection.2.2}
+\contentsline {section}{\numberline {3}Diskussion}{5}{section.3}

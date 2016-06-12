@@ -1,3 +1,6 @@
 \select@language {english}
 \contentsline {section}{\numberline {1}Theoretische Vorbereitung}{3}{section.1}
 \contentsline {subsection}{\numberline {1.1}Quadrupolfeld}{3}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}Mathieusche Differentialgleichung und Stabilit\IeC {\"a}tsdiagramme}{4}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}Quadrupol-Massenspektrometer}{4}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}Ionisierungspotential}{4}{subsection.1.4}

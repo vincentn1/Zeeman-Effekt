@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.13)  11 JUN 2016 19:22
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  12 JUN 2016 13:16
 entering extended mode
 **Rastertunnelmikroskopie_Theorie.tex
 (Rastertunnelmikroskopie_Theorie.tex
@@ -1128,53 +1128,30 @@ LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 LaTeX Warning: No positions in optional float specifier.
                Default added (so using `tbp') on input line 101.
 
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 121.
 
-LaTeX Warning: Command \" invalid in math mode on input line 125.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 125.
-
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1cmtt.fd"
+File: t1cmtt.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
 
-Overfull \hbox (103.12381pt too wide) in paragraph at lines 121--126
-\T1/futs/m/n/10 (Figure 1):$\FML/futmi/m/it/10 https \T1/futs/m/n/10 : //\FML/f
-utmi/m/it/10 elearning:physik:uni \FMS/futm/m/n/10   \FML/futmi/m/it/10 frankfu
-rt:de\T1/futs/m/n/10 /\FML/futmi/m/it/10 data\T1/futs/m/n/10 /\FML/futmi/m/it/1
-0 FB\T1/futs/m/n/10 13 \FMS/futm/m/n/10   \FML/futmi/m/it/10 PhysikOnline\T1/fu
-ts/m/n/10 /\FML/futmi/m/it/10 lm[]ata\T1/futs/m/n/10 /\FML/futmi/m/it/10 lm[]\T
-1/futs/m/n/10 82/\FML/futmi/m/it/10 auto\T1/futs/m/n/10 /\FML/futmi/m/it/10 kap
-\T1/futs/m/n/10 26/\FML/futmi/m/it/10 picts\T1/futs/m/n/10 /\FML/futmi/m/it/10 
-tunnel:gif$
+Overfull \hbox (5.19406pt too wide) in paragraph at lines 121--126
+\T1/futs/m/n/10 (Figure 1):[]$\T1/cmtt/m/n/10 https : / / elearning . physik . 
+uni-[]frankfurt . de / data / FB13-[]PhysikOnline / lm _ data / lm _ 282 / auto
+ /$
  []
 
 
-Overfull \hbox (140.2652pt too wide) in paragraph at lines 121--126
-\T1/futs/m/n/10 (Fig-ure 2):$\FML/futmi/m/it/10 http \T1/futs/m/n/10 : //\FML/f
-utmi/m/it/10 www:uni \FMS/futm/m/n/10   \FML/futmi/m/it/10 ulm:de\T1/futs/m/n/1
-0 /\FML/futmi/m/it/10 physchem \FMS/futm/m/n/10   \FML/futmi/m/it/10 praktikum\
-T1/futs/m/n/10 /\FML/futmi/m/it/10 media\T1/futs/m/n/10 /\FML/futmi/m/it/10 fp\
-T1/futs/m/n/10 /\FML/futmi/m/it/10 v[]\T1/futs/m/n/10 1\FML/futmi/m/it/10 :pdf$
- \T1/futs/m/n/10 (Fig-ure 3):$\FML/futmi/m/it/10 http \T1/futs/m/n/10 : //\FML/
-futmi/m/it/10 www:piezoeffekt:de\T1/futs/m/n/10 /\FML/futmi/m/it/10 bilder\T1/f
-uts/m/n/10 /1\FML/futmi/m/it/10 piezo:gif$
+Overfull \hbox (75.24739pt too wide) in paragraph at lines 121--126
+\T1/futs/m/n/10 (Figure 4): []$\T1/cmtt/m/n/10 https : / / upload . wikimedia .
+ org / wikipedia / commons / thumb / 5 / 54 / GraphitGitter4 . png / 237px-[]Gr
+aphitGitter4 .$
  []
 
 
-Overfull \hbox (2.86444pt too wide) in paragraph at lines 121--126
-\T1/futs/m/n/10 (Fig-ure 4): $\FML/futmi/m/it/10 https \T1/futs/m/n/10 : //\FML
-/futmi/m/it/10 upload:wikimedia:org\T1/futs/m/n/10 /\FML/futmi/m/it/10 wikipedi
-a\T1/futs/m/n/10 /\FML/futmi/m/it/10 commons\T1/futs/m/n/10 /\FML/futmi/m/it/10
- thumb\T1/futs/m/n/10 /5/54/\FML/futmi/m/it/10 GraphitGitter\T1/futs/m/n/10 4\F
-ML/futmi/m/it/10 :png\T1/futs/m/n/10 /237\FML/futmi/m/it/10 px \FMS/futm/m/n/10
-  $
- []
-
-
-Overfull \hbox (13.10204pt too wide) in paragraph at lines 121--126
-$\FML/futmi/m/it/10 GraphitGitter\T1/futs/m/n/10 4\FML/futmi/m/it/10 :png$ $\T1
-/futs/m/n/10 (\FML/futmi/m/it/10 Figure\T1/futs/m/n/10 5) : \FML/futmi/m/it/10 
-BlockschaltbildeinesRaster \FMS/futm/m/n/10   \FML/futmi/m/it/10 Tunnelmikrosko
-psvonFrankTrixler; Ludwig \FMS/futm/m/n/10  $
+Overfull \hbox (8.6523pt too wide) in paragraph at lines 121--126
+\T1/futs/m/n/10 (Figure 5): Blockschalt-bild eines Raster-Tunnelmikroskops von 
+Frank Trixler, Ludwig-Maximilians-Universität München
  []
 
 [5 <./aufbau.png>] [6]
@@ -1192,23 +1169,25 @@ LaTeX Warning: There were multiply-defined labels.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 10342 strings out of 493698
- 149511 string characters out of 3144409
+ 10361 strings out of 493698
+ 150108 string characters out of 3144407
  274990 words of memory out of 3000000
- 13470 multiletter control sequences out of 15000+200000
- 72457 words of font info for 91 fonts, out of 3000000 for 9000
+ 13485 multiletter control sequences out of 15000+200000
+ 72770 words of font info for 92 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
  42i,8n,58p,1644b,362s stack positions out of 5000i,500n,10000p,200000b,50000s
-{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
-s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTe
-X 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fo
-nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
-pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
-e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
-a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Rastertunnelmikroskopie_Theorie.pdf (6 pages, 297678 bytes).
+{C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/cm-super/cm-super-t1.enc}{C:/Pro
+gram Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program Files/MiKTeX 
+2.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTeX 2.9/fon
+ts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1
+/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/publi
+c/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/
+putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8a.pfb><C:
+/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb><C:/Program File
+s/MiKTeX 2.9/fonts/type1/public/cm-super/sftt1000.pfb>
+Output written on Rastertunnelmikroskopie_Theorie.pdf (6 pages, 327264 bytes).
 PDF statistics:
- 103 PDF objects out of 1000 (max. 8388607)
+ 114 PDF objects out of 1000 (max. 8388607)
  19 named destinations out of 1000 (max. 500000)
  66 words of extra memory for PDF output out of 10000 (max. 10000000)
 

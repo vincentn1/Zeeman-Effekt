@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.13)  14 JUN 2016 23:08
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  14 JUN 2016 23:55
 entering extended mode
 **Mie_final.tex
 (Mie_final.tex
@@ -1079,44 +1079,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 73--75
 
  []
 
-! Undefined control sequence.
-l.76 $$ f(\epsilon) = A e^{\m
-                             √º \epsilon} \sum_{\infty}^\infty C_{2n} e^{i2n...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 76.
-
-! Undefined control sequence.
-l.76 ...ty}^\infty C_{2n} e^{i2n\epsilon}+B e^{-\m
-                                                  √º \epsilon} \sum_{\infty}...
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 76.
-
-! Undefined control sequence.
-<recently read> \m 
-                   
-l.76 ...nicht √ºberstreiten, f√ºr dies muss Re($\m
-                                                  √º$) = 0 gelten.
-The control sequence at the end of the top line
-of your error message was never \def'ed. If you have
-misspelled it (e.g., `\hobx'), type `I' and the correct
-spelling (e.g., `I\hbox'). Otherwise just continue,
-and I'll forget about whatever was undefined.
-
-
-LaTeX Warning: Command \" invalid in math mode on input line 76.
-
 <Paulstabdia.png, id=92, 560.8453pt x 295.85532pt>
 File: Paulstabdia.png Graphic file (type png)
  <use Paulstabdia.png>
@@ -1201,7 +1163,7 @@ Overfull \hbox (21.77116pt too wide) in paragraph at lines 220--229
  [][] 
  []
 
-<stabiler_bereich.png, id=141, 642.4pt x 385.44pt>
+<stabiler_bereich.png, id=142, 642.4pt x 385.44pt>
 File: stabiler_bereich.png Graphic file (type png)
  <use stabiler_bereich.png>
 Package pdftex.def Info: stabiler_bereich.png used on input line 234.
@@ -1210,7 +1172,7 @@ Package pdftex.def Info: stabiler_bereich.png used on input line 234.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<tan.png, id=142, 618.81187pt x 308.65312pt>
+<tan.png, id=143, 618.81187pt x 308.65312pt>
 File: tan.png Graphic file (type png)
  <use tan.png>
 Package pdftex.def Info: tan.png used on input line 243.
@@ -1227,7 +1189,7 @@ File: ts1futs.fd 2004/03/26 Fontinst v1.926 font definitions for TS1/futs.
 
 LaTeX Warning: Command \textdegree invalid in math mode on input line 248.
 
-<Abbild.png, id=143, 618.81187pt x 328.22626pt>
+<Abbild.png, id=144, 618.81187pt x 328.22626pt>
 File: Abbild.png Graphic file (type png)
  <use Abbild.png>
 Package pdftex.def Info: Abbild.png used on input line 249.
@@ -1239,48 +1201,41 @@ t‰n-den mehrere Bilder der In-ten-sit‰tsverteilung aufgenom-
  []
 
 
-LaTeX Warning: `h' float specifier changed to `ht'.
+Underfull \hbox (badness 10000) in paragraph at lines 241--255
+
+ []
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[7]
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-! LaTeX Error: There's no line here to end.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-See the LaTeX manual or LaTeX Companion for explanation.
-Type  H <return>  for immediate help.
- ...                                              
-                                                  
-l.292 \\F
-         √ºr die Radien haben wir einen Fehler $\Delta r = 1\mu m$ angenomme...
-
-Your command was ignored.
-Type  I <command> <return>  to replace it with another command,
-or  <return>  to continue without it.
-
-<Graph1.png, id=153, 618.81187pt x 444.15938pt>
+<Graph1.png, id=145, 618.81187pt x 444.15938pt>
 File: Graph1.png Graphic file (type png)
  <use Graph1.png>
 Package pdftex.def Info: Graph1.png used on input line 294.
 (pdftex.def)             Requested size: 309.40518pt x 222.07913pt.
 
-<Graph2.png, id=154, 618.81187pt x 465.99094pt>
+<Graph2.png, id=146, 618.81187pt x 465.99094pt>
 File: Graph2.png Graphic file (type png)
  <use Graph2.png>
 Package pdftex.def Info: Graph2.png used on input line 300.
 (pdftex.def)             Requested size: 309.40518pt x 232.99489pt.
- [8 <./stabiler_bereich.png> <./tan.png>]
+ [7]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
+[8 <./stabiler_bereich.png> <./tan.png>]
 Overfull \hbox (2.8157pt too wide) in paragraph at lines 314--316
 \T1/futs/m/n/10 h‰ngt. Daf¸r gucken wir uns die zeitliche ƒn-derung des Trˆpfch
 en-ra-dius an, was wir als Ver-damp-fungs-geschwindigkeit
@@ -1312,8 +1267,8 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 323.
  ) 
 Here is how much of TeX's memory you used:
  10383 strings out of 493698
- 149331 string characters out of 3144409
- 244010 words of memory out of 3000000
+ 149331 string characters out of 3144407
+ 248010 words of memory out of 3000000
  13472 multiletter control sequences out of 15000+200000
  77451 words of font info for 96 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
@@ -1325,7 +1280,7 @@ nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
 e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Mie_final.pdf (11 pages, 362499 bytes).
+Output written on Mie_final.pdf (11 pages, 362733 bytes).
 PDF statistics:
  216 PDF objects out of 1000 (max. 8388607)
  54 named destinations out of 1000 (max. 500000)

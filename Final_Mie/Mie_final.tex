@@ -70,10 +70,10 @@ a_z = -2a_r =\frac{-8 Q U}{r_0^2 m \omega^2}\
 \end{equation}
 die Form der Mathieuschen Differenzialgleichung \\
 
-$$ f``(\epsilon) + (a-2b \cos(2\epsilon))f(\epsilon) = 0$$\\
+$ f``(\epsilon) + (a-2b \cos(2\epsilon))f(\epsilon) = 0$\\
 Die Lösungen der Mathieuschen  Differenzialgleung sind bekannt. Diese ist in allgemeiner Form gegeben durch: \\\\
 
-$$ f(\epsilon) = A e^{\mü \epsilon} \sum_{\infty}^\infty C_{2n} e^{i2n\epsilon}+B e^{-\mü \epsilon} \sum_{\infty}^\infty C_{2n} e^{-i2n\epsilon}$$\\Nun ist die Frage, ob die Teilchenbahn stabil ist, d.h. ot r(t) und z(t) in einem gewissen Abstand nicht überstreiten, für dies muss Re($\mü$) = 0 gelten. 
+$ f(\epsilon) = A e^{\mu \epsilon} \sum_{\infty}^\infty C_{2n} e^{i2n\epsilon}+B e^{-\mu \epsilon} \sum_{\infty}^\infty C_{2n} e^{-i2n\epsilon}$\\Nun ist die Frage, ob die Teilchenbahn stabil ist, d.h. ot r(t) und z(t) in einem gewissen Abstand nicht überstreiten, für dies muss Re($\mu$) = 0 gelten. 
 Die Größen für die Stabilitätsbedingung sind die Masse m, Ladung q sowie die Spannungen U und $V_0$, diese ergeben das Stabilitätsdiagramm. In Abbildung \ref{stab} wurde a über q aufgetragen, der stabile Bereich ist durch die Funktionsgraphen eingegrenzt. Der Bereich gilt nur für den idealisierten Fall im Vakuum. Die stabilen Bereiche würden sich ausweiten wenn man die viskose Dämpfung (z.B. Luftreibung)  mit einbezieht. Sind die Stabilitätsbedingungen passend, so lässt sich ein Teilchen in der Falle unbegrenzt lange im Koodinatenursprung halten.
 
 
@@ -251,7 +251,7 @@ Somit gibt uns $tan(\alpha/2) = \frac{1mm}{5mm} \Rightarrow \alpha = 22,62°$ de
 	\caption{Bild der Intensitätsverteilung eines levitierten Teilchens}
 	\label{optical_cavities}
 \end{figure}
-In Abbildung 6 sieht man das Bild der Intensitätsverteilung eines levitierten Teilchens. Im verwendeten Auswertungsprogramm konnten wir über die Parameter des Brechungsindexes und der Winkelverteilung die Radien des Tröpfchens mit Hilfe der Mie-Theorie berechnen. Dazu verglich das Programm die gemessene Verteilung mit denen möglicher Radien und gab die Übereinstimmung (Korrelation) aus. Den Radius haben wir für den Wert mit der höchsten Korrelation angenommen. Wir haben die Radien für zwei verschiedene Tröpfchen untersucht und folgende Werte in Table 3 (für Tröpfchen 1) und Table 4 (Tröpfchen 2) erhalten.
+In Abbildung 6 sieht man das Bild der Intensitätsverteilung eines levitierten Teilchens. Im verwendeten Auswertungsprogramm konnten wir über die Parameter des Brechungsindexes und der Winkelverteilung die Radien des Tröpfchens mit Hilfe der Mie-Theorie berechnen. Dazu verglich das Programm die gemessene Verteilung mit denen möglicher Radien und gab die Übereinstimmung (Korrelation) aus. Den Radius haben wir für den Wert mit der höchsten Korrelation angenommen. Wir haben die Radien für zwei verschiedene Tröpfchen untersucht und folgende Werte in Table 3 (für Tröpfchen 1) und Table 4 (Tröpfchen 2) erhalten.\\
 
 \begin{table}[h!]
 	\centering
@@ -289,7 +289,7 @@ In Abbildung 6 sieht man das Bild der Intensitätsverteilung eines levitierten T
 		239           & 7.85                
 	\end{tabular}
 \end{table}
-\\Für die Radien haben wir einen Fehler $\Delta r = 1\mu m$ angenommen und über die Lineare Regression in Python den Verdampfungsparameter S bestimmt. Dafür haben wir zunächst die Radien quadriert um den Zusammenhang $r^{2} = r_{0}^{2} - S*t$ darstellen zu können. Aus dieser Formel lässt sich ableiten, das der Radius proportional zur Wurzel der Zeit ist.
+Für die Radien haben wir einen Fehler $\Delta r = 1\mu m$ angenommen und über die Lineare Regression in Python den Verdampfungsparameter S bestimmt. Dafür haben wir zunächst die Radien quadriert um den Zusammenhang $r^{2} = r_{0}^{2} - S*t$ darstellen zu können. Aus dieser Formel lässt sich ableiten, das der Radius proportional zur Wurzel der Zeit ist.
 \begin{figure}[h]
 	\includegraphics[scale = 0.5]{Graph1.png}
 	\centering

@@ -1,0 +1,6 @@
+set title ''
+set xlabel 'Angezeigte Spannung in V'
+set ylabel 'Gemessene angelegte Spannung in V'
+f(x) = a*x
+fit f(x) 'eichkurve.txt' via a
+plot 'eichkurve.txt' title '', f(x) title ''

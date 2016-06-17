@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  13 JUN 2016 18:01
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  17 JUN 2016 17:40
 entering extended mode
 **quadrupol_protokoll.tex
 (quadrupol_protokoll.tex
@@ -1014,34 +1014,103 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 30.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 31.
- [1
+
+Overfull \hbox (11.28783pt too wide) in paragraph at lines 56--57
+[]\T1/futs/m/n/10 In einem ladungs-freien Raum gilt die Laplace-Gleichung($\FML
+/futm/m/it/10 \FML/futmi/m/it/10  \FMS/futm/m/n/10 Å \T1/futs/m/n/10 0$) f¸r 
+das elek-trische Po-ten-tial. F¸r ein Quadrupolfeld,
+ []
+
+
+Overfull \hbox (11.97577pt too wide) in paragraph at lines 69--70
+[]\T1/futs/m/n/10 Die ƒquipo-ten-tialfl‰chen f¸r dieses Po-ten-tials sind Hy-pe
+r-beln. Elek-tro-den, welche die Form der ƒquipo-ten-tialfl‰chen
+ []
+
+<elektrodenform.png, id=53, 346.29375pt x 454.69875pt>
+File: elektrodenform.png Graphic file (type png)
+
+<use elektrodenform.png>
+Package pdftex.def Info: elektrodenform.png used on input line 73.
+(pdftex.def)             Requested size: 207.77785pt x 272.82135pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+
+Overfull \hbox (2.25249pt too wide) in paragraph at lines 78--79
+[]\T1/futs/m/n/10 Legt man an den Elek-tro-den, die dieses Po-ten-tialfeld erze
+u-gen, eine mit Gle-ichspan-nung ¸ber-lagerte Wech-selspan-
+ []
+
+[1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
-<stabilitatsdiagramm.png, id=54, 413.29407pt x 267.24844pt>
+<stabilitatsdiagramm.png, id=85, 413.29407pt x 267.24844pt>
 File: stabilitatsdiagramm.png Graphic file (type png)
 
 <use stabilitatsdiagramm.png>
-Package pdftex.def Info: stabilitatsdiagramm.png used on input line 106.
+Package pdftex.def Info: stabilitatsdiagramm.png used on input line 119.
 (pdftex.def)             Requested size: 330.6357pt x 213.79904pt.
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 122.
- [2 <./stabilitatsdiagramm.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 122.
 
-(quadrupol_protokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 122.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 122.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[2 <./elektrodenform.png>] <aceton.png, id=97, 1025.8325pt x 674.52pt>
+File: aceton.png Graphic file (type png)
+
+<use aceton.png>
+Package pdftex.def Info: aceton.png used on input line 148.
+(pdftex.def)             Requested size: 153.86824pt x 101.17363pt.
+ <ethanol.png, id=98, 291.0875pt x 190.7125pt>
+File: ethanol.png Graphic file (type png)
+
+<use ethanol.png>
+Package pdftex.def Info: ethanol.png used on input line 154.
+(pdftex.def)             Requested size: 145.54338pt x 95.356pt.
+ [3 <./stabilitatsdiagramm.png> <./aceton.png> <./ethanol.png>]
+Overfull \hbox (0.65877pt too wide) in paragraph at lines 168--169
+\T1/futs/m/n/10 Luft ist das Gas-gemisch der Er-dat-mo-sph‰re. Sie besteht zu $
+78\FML/futmi/m/it/10 ; \T1/futs/m/n/10 08$ Vol-$%$ aus N$[]$(Masse: $28\FML/fut
+mi/m/it/10 u$\T1/futs/m/n/10 ), $20\FML/futmi/m/it/10 ; \T1/futs/m/n/10 95$ Vol
+-$%$ aus O$[]$(Masse:
+ []
+
+<aufbau.png, id=109, 368.87813pt x 236.38312pt>
+File: aufbau.png Graphic file (type png)
+ <use aufbau.png>
+Package pdftex.def Info: aufbau.png used on input line 180.
+(pdftex.def)             Requested size: 295.10289pt x 189.10675pt.
+
+<aufbau2.png, id=110, 402.00188pt x 182.18062pt>
+File: aufbau2.png Graphic file (type png)
+ <use aufbau2.png>
+Package pdftex.def Info: aufbau2.png used on input line 187.
+(pdftex.def)             Requested size: 281.39938pt x 127.52554pt.
+ [4 <./aufbau.png> <./aufbau2.png>]
+Overfull \hbox (4.62573pt too wide) in paragraph at lines 199--200
+[]\T1/futs/m/n/10 Das Massen-spek-trum wird mit Hilfe eines LabView-Programms a
+ufgenom-men. Ein Pro-gramm stellt die im Massen-
+ []
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 203.
+[5]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 203.
+ (quadrupol_protokoll.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 203.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 203.
 Package rerunfilecheck Info: File `quadrupol_protokoll.out' has not changed.
-(rerunfilecheck)             Checksum: B5DC4F65B22617E3250977028FB2A2D4;384.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 122.
+(rerunfilecheck)             Checksum: A56FD66E5D30BEAA1BFFDEC8342BCCAF;797.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 203.
  ) 
 Here is how much of TeX's memory you used:
- 10251 strings out of 493698
- 147777 string characters out of 3144407
- 241747 words of memory out of 3000000
- 13382 multiletter control sequences out of 15000+200000
- 62896 words of font info for 73 fonts, out of 3000000 for 9000
+ 10310 strings out of 493698
+ 148686 string characters out of 3144407
+ 243072 words of memory out of 3000000
+ 13424 multiletter control sequences out of 15000+200000
+ 66156 words of font info for 71 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,8n,40p,695b,343s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,9n,40p,1035b,487s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fo
@@ -1049,9 +1118,9 @@ nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
 e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on quadrupol_protokoll.pdf (2 pages, 106280 bytes).
+Output written on quadrupol_protokoll.pdf (5 pages, 280059 bytes).
 PDF statistics:
- 93 PDF objects out of 1000 (max. 8388607)
- 25 named destinations out of 1000 (max. 500000)
- 46 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 156 PDF objects out of 1000 (max. 8388607)
+ 40 named destinations out of 1000 (max. 500000)
+ 127 words of extra memory for PDF output out of 10000 (max. 10000000)
 

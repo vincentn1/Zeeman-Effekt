@@ -7,8 +7,8 @@
 \contentsline {subsection}{\numberline {4.1} Kantenh\IeC {\"o}hen}{7}{subsection.4.1}
 \contentsline {subsection}{\numberline {4.2}Beispiel Kanten}{7}{subsection.4.2}
 \contentsline {subsection}{\numberline {4.3}Ebene Grafitoberfl\IeC {\"a}che}{9}{subsection.4.3}
-\contentsline {subsubsection}{\numberline {4.3.1}Messungen an atomaren Erhebungen}{9}{subsubsection.4.3.1}
+\contentsline {subsubsection}{\numberline {4.3.1}Messungen an atomaren Erhebungen}{10}{subsubsection.4.3.1}
 \contentsline {subsubsection}{\numberline {4.3.2}Winkel und Symmetrien}{11}{subsubsection.4.3.2}
-\contentsline {subsection}{\numberline {4.4}Fouriertransformation einer ebenen Fl\IeC {\"a}che Grafits}{12}{subsection.4.4}
+\contentsline {subsection}{\numberline {4.4}Fouriertransformation einer ebenen Fl\IeC {\"a}che Grafits}{13}{subsection.4.4}
 \contentsline {section}{\numberline {5} Diskussion}{13}{section.5}
-\contentsline {section}{\numberline {6}Quellen}{14}{section.6}
+\contentsline {section}{\numberline {6}Quellen}{15}{section.6}

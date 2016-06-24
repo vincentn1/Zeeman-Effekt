@@ -106,13 +106,16 @@ Mathieusche Differentialgleichung sind Differentialgleichungen folgender Form:
 	\frac{d^2u(x)}{dx^2} + (a + 2q \cdot cos(2x)) u = 0
 \end{equation}
 
-Für die Gleichung gibt es stabile/beschränkte und instabile/nicht beschränkte Lösungen. Ob es eine stabile Lösung gibt, ist von $a$ und $q$ abhängig. Trägt man die Bereiche für a und q, die stabile Lösungen liefern, in ein Diagramm ein, so erhält man ein sogenanntes Stabilitätsdiagramm. In Abbildung \ref{stabilitatsdiagramm1} ist ein Stabilitätsdiagramm für den Quadrupol-Massenfilter dargestellt. Der stabile Bereich hat grob die Form eines Dreiecks. Wegen $\frac{a}{q} = \frac{8 U}{4 V} = \frac{2 U}{V}$ liegen alle Ionen bei festen Spannungen auf einer Geraden. Eine solche Gerade ist exemplarisch in der Abbildung zu sehen. 
+Für die Gleichung gibt es stabile/beschränkte und instabile/nicht beschränkte Lösungen. Ob es eine stabile Lösung gibt, ist von $a$ und $q$ abhängig. Trägt man die Bereiche für a und q, die stabile Lösungen liefern, in ein Diagramm ein, so erhält man ein sogenanntes Stabilitätsdiagramm. In Abbildung \ref{stabilitatsdiagramm1} ist ein Stabilitätsdiagramm für den Quadrupol-Massenfilter dargestellt. Der stabile Bereich ähnelt der Form eines Dreiecks. Wegen $\frac{a}{q} = \frac{8 U}{4 V} = \frac{2 U}{V}$ liegen alle Ionen bei festen Spannungen auf einer Geraden. Eine solche Gerade ist exemplarisch in der Abbildung zu sehen. 
 
-Ändert man das Verhältnis $\frac{U}{V}$, so verändert man auch die Steigung der Geraden, auf der die Ionen liegen. Folglich kann man durch das Einstellen von $\frac{U}{V}$ das Intervall stabiler q-Werte bestimmen. Weil q antiproportional zur Masse eines Ions ist, lässt sich mit dem eingestellten Wert für $\frac{U}{V}$ auch das stabile Massenintervall für Ionen einstellen. Dies macht man sich im Quadrupol-Massenspektrometer zunutze, um Ionen mit bestimmten Massen herauszufiltern. Um ein möglichst kleines Intervall von Massen zu filtern, muss die Steigung der Gerade, auf der die Ionen im Stabilitätsdiagramm sitzen, möglichst groß sein. Die Gerade muss jedoch noch den stabilen Bereich schneiden. Bei gleichbleibender Geradensteigung( Verhältnis $\frac{U}{V}$ bleibt konstant) kann man, wenn die Gerade den stabilen Bereich schneidet, die herauszufilternden Massen durch das variieren von $V$ verändern, da für ein stabilen q-Wert die dazugehörige Masse eines Ions gegeben ist durch
+Ändert man das Verhältnis $\frac{U}{V}$, so verändert man die Steigung der Geraden, auf der die Ionen liegen. Folglich kann man durch das Einstellen von $\frac{U}{V}$ das Intervall stabiler q-Werte bestimmen. Weil der Wert q eines Ions antiproportional zu dessen Masse ist, lässt sich mit dem eingestellten Wert für $\frac{U}{V}$ das stabile Massenintervall für Ionen, also auch der Messfehler $\Delta m$ für die stabilen Massen, einstellen. Dies macht man sich im Quadrupol-Massenspektrometer zunutze, um Ionen mit bestimmten Massen herauszufiltern. Um ein möglichst kleines Intervall von Massen zu filtern, muss die Steigung der Gerade, auf der die Ionen im Stabilitätsdiagramm sitzen, möglichst groß sein. Die Gerade muss jedoch noch den stabilen Bereich schneiden. Bei gleichbleibender Geradensteigung( Verhältnis $\frac{U}{V}$ bleibt konstant) kann man, wenn die Gerade den stabilen Bereich schneidet, die herauszufilternden Massen durch das variieren von $V$ verändern, da für ein stabilen q-Wert die dazugehörige Masse eines Ions gegeben ist durch
 
 \begin{equation}
-	m = \frac{4eV}{mr_0^2\omega^2q}
+	m = \frac{4eV}{r_0^2\omega^2q}
 \end{equation}
+
+Weil die durchgelassene Masse des Quadrupol-Massenspektrometers von $V$ und das Massenintervall $2 \Delta m$ von $\frac{U}{V}$ abhängt, bleibt die Massenauflösung des Massenfilters $A = \frac{m}{\Delta m}$ bei konstanten $\frac{U}{V}$ und $V$ konstant.
+
 
 \begin{figure}[h]
 	\centering

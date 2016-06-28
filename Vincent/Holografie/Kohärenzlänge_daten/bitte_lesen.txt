@@ -1,0 +1,8 @@
+Bei den Messfaten zur Kohärenzmessung:
+
+Die oberen Daten sind für den falschrum eingesetzten Spiegel.
+Die unteren Daten sind für den richtig eingesetzten Spiegel.
+
+Oben links steht Kohärenzgrad.
+
+Beachtet werden muss, dass in der zweiten Spalte von rechts nur die Hälfte des Weglängenunterschieds angegeben ist.

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.13)  28 JUN 2016 23:12
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  28 JUN 2016 23:55
 entering extended mode
 **Quad.tex
 (Quad.tex
@@ -1017,48 +1017,41 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
 (Font)              scaled to size 5.51999pt on input line 27.
 
-<sauerroh.png, id=18, 644.4075pt x 596.2275pt>
+<sauerroh.png, id=18, 751.30687pt x 372.64218pt>
 File: sauerroh.png Graphic file (type png)
  <use sauerroh.png>
 Package pdftex.def Info: sauerroh.png used on input line 45.
-(pdftex.def)             Requested size: 322.20296pt x 298.11302pt.
+(pdftex.def)             Requested size: 375.65251pt x 186.32063pt.
 
-<sauerstoff.png, id=19, 772.38562pt x 450.18187pt>
+<sauerstoff.png, id=19, 829.59938pt x 487.06969pt>
 File: sauerstoff.png Graphic file (type png)
  <use sauerstoff.png>
 Package pdftex.def Info: sauerstoff.png used on input line 52.
-(pdftex.def)             Requested size: 386.19186pt x 225.09038pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
+(pdftex.def)             Requested size: 414.79868pt x 243.53424pt.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 59.
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 61.
-<alleres.png, id=24, 999.735pt x 543.53062pt>
+
+<alleres.png, id=24, 825.0825pt x 462.22687pt>
 File: alleres.png Graphic file (type png)
  <use alleres.png>
 Package pdftex.def Info: alleres.png used on input line 65.
-(pdftex.def)             Requested size: 499.86627pt x 271.76463pt.
+(pdftex.def)             Requested size: 412.54024pt x 231.11287pt.
 
-Overfull \hbox (16.1694pt too wide) in paragraph at lines 65--67
- [][] 
- []
-
-<zweipeaks.png, id=25, 685.05937pt x 471.26062pt>
+<zweipeaks.png, id=25, 828.84656pt x 575.90157pt>
 File: zweipeaks.png Graphic file (type png)
  <use zweipeaks.png>
 Package pdftex.def Info: zweipeaks.png used on input line 71.
-(pdftex.def)             Requested size: 342.52884pt x 235.62973pt.
+(pdftex.def)             Requested size: 414.42226pt x 287.95007pt.
+ [1
 
+{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./sauerroh.png> <./sauers
+toff.png>]
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<linpeak1.png, id=26, 618.81187pt x 502.87875pt>
+<linpeak1.png, id=37, 618.81187pt x 502.87875pt>
 File: linpeak1.png Graphic file (type png)
  <use linpeak1.png>
 Package pdftex.def Info: linpeak1.png used on input line 106.
@@ -1067,24 +1060,19 @@ Package pdftex.def Info: linpeak1.png used on input line 106.
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<linpeak2.png, id=27, 618.81187pt x 500.62032pt>
+<linpeak2.png, id=38, 618.81187pt x 504.38437pt>
 File: linpeak2.png Graphic file (type png)
  <use linpeak2.png>
 Package pdftex.def Info: linpeak2.png used on input line 112.
-(pdftex.def)             Requested size: 309.40518pt x 250.30954pt.
+(pdftex.def)             Requested size: 309.40518pt x 252.19156pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[1
-
-{C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map} <./sauerroh.png>]
 Package atveryend Info: Empty hook `BeforeClearDocument' on input line 126.
-
-[2 <./sauerstoff.png>] [3 <./alleres.png> <./zweipeaks.png>] [4 <./linpeak1.png
->] [5 <./linpeak2.png>]
+[2 <./alleres.png>] [3 <./zweipeaks.png>] [4 <./linpeak1.png> <./linpeak2.png>]
 Package atveryend Info: Empty hook `AfterLastShipout' on input line 126.
- (Quad.aux)
+(Quad.aux)
 Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 126.
 Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 126.
 Package rerunfilecheck Info: File `Quad.out' has not changed.
@@ -1092,22 +1080,22 @@ Package rerunfilecheck Info: File `Quad.out' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 126.
  ) 
 Here is how much of TeX's memory you used:
- 10321 strings out of 493698
- 148839 string characters out of 3144409
- 275005 words of memory out of 3000000
+ 10320 strings out of 493698
+ 148833 string characters out of 3144407
+ 274005 words of memory out of 3000000
  13455 multiletter control sequences out of 15000+200000
  48350 words of font info for 61 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,10n,58p,1855b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,58p,1858b,339s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX
  2.9/fonts/type1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fon
 ts/type1/adobe/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe
 /utopia/putr8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8
 a.pfb>
-Output written on Quad.pdf (5 pages, 350949 bytes).
+Output written on Quad.pdf (4 pages, 371646 bytes).
 PDF statistics:
- 88 PDF objects out of 1000 (max. 8388607)
- 18 named destinations out of 1000 (max. 500000)
+ 84 PDF objects out of 1000 (max. 8388607)
+ 17 named destinations out of 1000 (max. 500000)
  55 words of extra memory for PDF output out of 10000 (max. 10000000)
 

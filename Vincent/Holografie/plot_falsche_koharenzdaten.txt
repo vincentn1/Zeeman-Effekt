@@ -1,0 +1,6 @@
+set title ''
+set xlabel 'Weglängenunterschied in cm'
+set ylabel 'Kohärenzgrad'
+set xrange [-20:20]
+set yrange [0:1]
+plot 'falsche_koharenzdaten.txt' title '' with xyerrorbars

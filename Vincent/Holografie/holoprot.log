@@ -1,7 +1,7 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  3 JUL 2016 22:39
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  5 JUL 2016 19:27
 entering extended mode
-**rastertunnelprotokoll.tex
-(rastertunnelprotokoll.tex
+**holoprot.tex
+(holoprot.tex
 LaTeX2e <2014/05/01>
 Babel <3.9l> and hyphenation patterns for 68 languages loaded.
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\article.cls"
@@ -858,63 +858,52 @@ Package: geometry 2010/09/12 v5.6 Page Geometry
 \Gm@layoutvoffset=\dimen137
 \Gm@dimlist=\toks23
 
-("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
-File: lstlang1.sty 2014/09/06 1.5e listings language file
-)
-("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
-File: lstmisc.sty 2014/09/06 1.5e (Carsten Heinz)
-)
-(rastertunnelprotokoll.aux)
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 25.
-LaTeX Font Info:    Try loading font information for FML+futm on input line 25.
-
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg")) (holoprot.aux)
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for FML/futm/m/it on input line 20.
+LaTeX Font Info:    Try loading font information for FML+futm on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutm.fd"
 File: fmlfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futm.
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for FMS+futm on input line 25.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for FMS/futm/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for FMS+futm on input line 20.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmsfutm.fd"
 File: fmsfutm.fd 2004/10/30 Fontinst v1.926 font definitions for FMS/futm.
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for FMX+futm on input line 25.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for FMX/futm/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for FMX+futm on input line 20.
 
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmxfutm.fd"
 File: fmxfutm.fd futm-extension
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 25.
-LaTeX Font Info:    Try loading font information for TS1+cmr on input line 25.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 20.
+LaTeX Font Info:    Try loading font information for TS1+cmr on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\base\ts1cmr.fd"
 File: ts1cmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
 )
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 25.
-LaTeX Font Info:    ... okay on input line 25.
-LaTeX Font Info:    Try loading font information for T1+futs on input line 25.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 20.
+LaTeX Font Info:    ... okay on input line 20.
+LaTeX Font Info:    Try loading font information for T1+futs on input line 20.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\t1futs.fd"
 File: t1futs.fd 2004/03/02 Fontinst v1.926 font definitions for T1/futs.
@@ -940,7 +929,7 @@ Package caption Info: End \AtBeginDocument code.
 )
 \c@lstlisting=\count131
 \AtBeginShipoutBox=\box31
-Package hyperref Info: Link coloring OFF on input line 25.
+Package hyperref Info: Link coloring OFF on input line 20.
  ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2012/10/27 v2.43 Cross-referencing by name of section
 
@@ -949,11 +938,11 @@ Package: gettitlestring 2010/12/03 v1.4 Cleanup title references (HO)
 )
 \c@section@level=\count132
 )
-LaTeX Info: Redefining \ref on input line 25.
-LaTeX Info: Redefining \pageref on input line 25.
-LaTeX Info: Redefining \nameref on input line 25.
+LaTeX Info: Redefining \ref on input line 20.
+LaTeX Info: Redefining \pageref on input line 20.
+LaTeX Info: Redefining \nameref on input line 20.
 
-(rastertunnelprotokoll.out) (rastertunnelprotokoll.out)
+(holoprot.out) (holoprot.out)
 \@outlinefile=\write3
 
 *geometry* driver: auto-detecting
@@ -990,39 +979,39 @@ LaTeX Info: Redefining \nameref on input line 25.
 * \@reversemarginfalse
 * (1in=72.27pt=25.4mm, 1cm=28.453pt)
 
-LaTeX Font Info:    Try loading font information for FML+futmi on input line 28
+LaTeX Font Info:    Try loading font information for FML+futmi on input line 23
 .
 ("C:\Program Files\MiKTeX 2.9\tex\latex\fourier\fmlfutmi.fd"
 File: fmlfutmi.fd 2004/10/30 Fontinst v1.926 font definitions for FML/futmi.
 )
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 28.
+(Font)              scaled to size 11.03998pt on input line 23.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 28.
+(Font)              scaled to size 8.27998pt on input line 23.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 28.
-LaTeX Font Info:    Try loading font information for U+msa on input line 28.
+(Font)              scaled to size 6.43999pt on input line 23.
+LaTeX Font Info:    Try loading font information for U+msa on input line 23.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 28.
+LaTeX Font Info:    Try loading font information for U+msb on input line 23.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 )
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 11.03998pt on input line 28.
+(Font)              scaled to size 11.03998pt on input line 23.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 8.27998pt on input line 28.
+(Font)              scaled to size 8.27998pt on input line 23.
 LaTeX Font Info:    Font shape `U/futm/m/n' will be
-(Font)              scaled to size 6.43999pt on input line 28.
+(Font)              scaled to size 6.43999pt on input line 23.
  [1
 
 {C:/ProgramData/MiKTeX/2.9/pdftex/config/pdftex.map}]
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <14.4> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 29.
- (rastertunnelprotokoll.toc
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 24.
+ (holoprot.toc
 LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <10> not available
 (Font)              Font shape `T1/futs/b/n' tried instead on input line 2.
 LaTeX Font Info:    Font shape `FMX/futm/m/n' will be
@@ -1040,122 +1029,105 @@ LaTeX Font Info:    Font shape `U/futm/m/n' will be
 )
 \tf@toc=\write4
  [2]
-LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
-(Font)              Font shape `T1/futs/b/n' tried instead on input line 34.
-
-<vor_doppelter_fourier.png, id=48, 371.88937pt x 371.88937pt>
-File: vor_doppelter_fourier.png Graphic file (type png)
-
-<use vor_doppelter_fourier.png>
-Package pdftex.def Info: vor_doppelter_fourier.png used on input line 44.
-(pdftex.def)             Requested size: 217.66211pt x 217.66505pt.
-
-<nach_doppelter_fourier.png, id=49, 371.88937pt x 371.88937pt>
-File: nach_doppelter_fourier.png Graphic file (type png)
-
-<use nach_doppelter_fourier.png>
-Package pdftex.def Info: nach_doppelter_fourier.png used on input line 50.
-(pdftex.def)             Requested size: 217.66211pt x 217.66505pt.
-
-Underfull \hbox (badness 5862) in paragraph at lines 51--51
-[]\T1/futs/m/n/9 (b) |Gemessene Grafi-to-ber-fl‰che, nach-dem Stˆrun-gen
+Overfull \hbox (9.73235pt too wide) in paragraph at lines 30--31
+\T1/futs/m/n/10 Mithilfe eines Michelson-Interferometers haben wir durch Auf-na
+hme der Kon-trast-funk-tion, in Ab-h‰ngigkeit des Wegl‰n-
  []
 
-<Aufnahme_Ebene_doppelte_fourier2.png, id=50, 679.03688pt x 680.5425pt>
-File: Aufnahme_Ebene_doppelte_fourier2.png Graphic file (type png)
 
-<use Aufnahme_Ebene_doppelte_fourier2.png>
-Package pdftex.def Info: Aufnahme_Ebene_doppelte_fourier2.png used on input lin
-e 64.
-(pdftex.def)             Requested size: 271.60994pt x 272.21217pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<hexagon.jpg, id=55, 417.2388pt x 415.3116pt>
-File: hexagon.jpg Graphic file (type jpg)
- <use hexagon.jpg>
-Package pdftex.def Info: hexagon.jpg used on input line 86.
-(pdftex.def)             Requested size: 166.89256pt x 166.12169pt.
- [3 <./vor_doppelter_fourier.png> <./nach_doppelter_fourier.png>] [4 <./Aufnahm
-e_Ebene_doppelte_fourier2.png> <./hexagon.jpg>]
-<Aufnahme_Ebene_doppelte_fourier.png, id=74, 1424.32124pt x 632.3625pt>
-File: Aufnahme_Ebene_doppelte_fourier.png Graphic file (type png)
-
-<use Aufnahme_Ebene_doppelte_fourier.png>
-Package pdftex.def Info: Aufnahme_Ebene_doppelte_fourier.png used on input line
- 101.
-(pdftex.def)             Requested size: 427.29967pt x 189.7102pt.
-
-<hohenmessung11.png, id=80, 620.3175pt x 614.295pt>
-File: hohenmessung11.png Graphic file (type png)
- <use hohenmessung11.png>
-Package pdftex.def Info: hohenmessung11.png used on input line 116.
-(pdftex.def)             Requested size: 248.1226pt x 245.71364pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<hohenmessung1_diagramm.png, id=81, 653.44125pt x 501.37312pt>
-File: hohenmessung1_diagramm.png Graphic file (type png)
-
-<use hohenmessung1_diagramm.png>
-Package pdftex.def Info: hohenmessung1_diagramm.png used on input line 125.
-(pdftex.def)             Requested size: 457.40576pt x 350.95879pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
+Overfull \hbox (19.82933pt too wide) in paragraph at lines 32--33
+[]\T1/futs/m/n/10 Der Kon-trast-wert eines In-ter-ferenz-muster l‰sst sich bere
+ch-nen mit $\FML/futmi/m/it/10 K \FMS/futm/m/n/10 Å []$\T1/futs/m/n/10 . Durch 
+Gauˇsche Fehler-fortpflanzung
+ []
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[5 <./Aufnahme_Ebene_doppelte_fourier.png>] [6 <./hohenmessung11.png>]
-<Winkelmessung_kristall.png, id=96, 373.395pt x 371.88937pt>
-File: Winkelmessung_kristall.png Graphic file (type png)
 
-<use Winkelmessung_kristall.png>
-Package pdftex.def Info: Winkelmessung_kristall.png used on input line 176.
-(pdftex.def)             Requested size: 261.37471pt x 260.32079pt.
+LaTeX Warning: `!h' float specifier changed to `!ht'.
 
+<koplot.png, id=40, 1927.2pt x 964.60374pt>
+File: koplot.png Graphic file (type png)
+ <use koplot.png>
+Package pdftex.def Info: koplot.png used on input line 95.
+(pdftex.def)             Requested size: 578.16447pt x 289.38336pt.
 
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-<Fouriertrasformation_kristall.png, id=101, 676.02562pt x 683.55376pt>
-File: Fouriertrasformation_kristall.png Graphic file (type png)
-
-<use Fouriertrasformation_kristall.png>
-Package pdftex.def Info: Fouriertrasformation_kristall.png used on input line 2
-02.
-(pdftex.def)             Requested size: 338.01198pt x 341.77605pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[7 <./hohenmessung1_diagramm.png>]
-Overfull \hbox (16.96571pt too wide) in paragraph at lines 212--213
-[]\T1/futs/m/n/10 Anhand der Ref-eren-z-daten un-ter-suchten wir die hexag-o-na
-le Struk-tur des Grafits. Es kon-nten Translations-, Inversions-
+Overfull \hbox (94.4676pt too wide) in paragraph at lines 95--96
+ [][] 
  []
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 222.
-[8 <./Winkelmessung_kristall.png>] [9 <./Fouriertrasformation_kristall.png>]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 222.
 
-(rastertunnelprotokoll.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 222.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 222.
-Package rerunfilecheck Info: File `rastertunnelprotokoll.out' has not changed.
-(rerunfilecheck)             Checksum: A913618D432927B93BFD57632889BE9B;450.
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 222.
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<falsches_koplot.png, id=41, 1927.2pt x 964.60374pt>
+File: falsches_koplot.png Graphic file (type png)
+ <use falsches_koplot.png>
+Package pdftex.def Info: falsches_koplot.png used on input line 102.
+(pdftex.def)             Requested size: 578.16447pt x 289.38336pt.
+
+Overfull \hbox (94.4676pt too wide) in paragraph at lines 102--103
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+LaTeX Font Info:    Font shape `T1/futs/bx/n' in size <12> not available
+(Font)              Font shape `T1/futs/b/n' tried instead on input line 107.
+
+Overfull \hbox (4.05238pt too wide) in paragraph at lines 109--110
+\T1/futs/m/n/10 wir die In-ten-sit‰t des In-ter-ferenz-bildes am fes-ten Ort 45
+ Sekun-den gemessen und w‰hrend-dessen ver-schiedene Stˆrun-
+ []
+
+[3] <storung.png, id=63, 1927.2pt x 964.60374pt>
+File: storung.png Graphic file (type png)
+ <use storung.png>
+Package pdftex.def Info: storung.png used on input line 119.
+(pdftex.def)             Requested size: 501.0602pt x 250.79106pt.
+
+Overfull \hbox (17.36333pt too wide) in paragraph at lines 119--120
+ [][] 
+ []
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<abklingzeit1.png, id=64, 1927.2pt x 964.60374pt>
+File: abklingzeit1.png Graphic file (type png)
+ <use abklingzeit1.png>
+Package pdftex.def Info: abklingzeit1.png used on input line 128.
+(pdftex.def)             Requested size: 386.95897pt x 193.66798pt.
+
+<abklingzeit2.png, id=65, 1927.2pt x 964.60374pt>
+File: abklingzeit2.png Graphic file (type png)
+ <use abklingzeit2.png>
+Package pdftex.def Info: abklingzeit2.png used on input line 134.
+(pdftex.def)             Requested size: 386.95897pt x 193.66798pt.
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 149.
+[4] [5 <./koplot.png> <./falsches_koplot.png>] [6 <./storung.png> <./abklingzei
+t1.png> <./abklingzeit2.png>]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 149.
+ (holoprot.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 149.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 149.
+Package rerunfilecheck Info: File `holoprot.out' has not changed.
+(rerunfilecheck)             Checksum: 726551CA735FBD090EAFCBBED2977A62;202.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 149.
  ) 
 Here is how much of TeX's memory you used:
- 10397 strings out of 493698
- 150887 string characters out of 3144407
- 277000 words of memory out of 3000000
- 13510 multiletter control sequences out of 15000+200000
- 75990 words of font info for 90 fonts, out of 3000000 for 9000
+ 10300 strings out of 493698
+ 148258 string characters out of 3144407
+ 256071 words of memory out of 3000000
+ 13428 multiletter control sequences out of 15000+200000
+ 78335 words of font info for 98 fonts, out of 3000000 for 9000
  1025 hyphenation exceptions out of 8191
- 42i,9n,58p,1234b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 42i,10n,40p,1801b,466s stack positions out of 5000i,500n,10000p,200000b,50000s
 {C:/Program Files/MiKTeX 2.9/fonts/enc/dvips/fontname/8r.enc}<C:/Program File
 s/MiKTeX 2.9/fonts/type1/public/fourier/fourier-mex.pfb><C:/Program Files/MiKTe
 X 2.9/fonts/type1/public/fourier/fourier-ml.pfb><C:/Program Files/MiKTeX 2.9/fo
@@ -1163,9 +1135,9 @@ nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
 e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on rastertunnelprotokoll.pdf (9 pages, 2902010 bytes).
+Output written on holoprot.pdf (6 pages, 332535 bytes).
 PDF statistics:
- 153 PDF objects out of 1000 (max. 8388607)
- 28 named destinations out of 1000 (max. 500000)
- 94 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 PDF objects out of 1000 (max. 8388607)
+ 18 named destinations out of 1000 (max. 500000)
+ 50 words of extra memory for PDF output out of 10000 (max. 10000000)
 

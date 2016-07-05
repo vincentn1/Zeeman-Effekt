@@ -1,0 +1,8 @@
+set title ''
+set xlabel 'Zeit in ms'
+set ylabel 'Amplitude in Volt'
+set yrange [-0.5:5.5]
+set xrange [0:11000]
+set style data dots
+set style data lines
+plot 'letzte_messung.txt' title ''

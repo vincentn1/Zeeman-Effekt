@@ -8,5 +8,5 @@
 \contentsline {subsection}{\numberline {1.4}Varianten der Holographie}{4}{subsection.1.4}
 \contentsline {subsubsection}{\numberline {1.4.1}Transmissionsholographie}{4}{subsubsection.1.4.1}
 \contentsline {subsubsection}{\numberline {1.4.2}Reflexionsholographie}{6}{subsubsection.1.4.2}
-\contentsline {subsubsection}{\numberline {1.4.3}Andere Verfahren}{7}{subsubsection.1.4.3}
+\contentsline {subsubsection}{\numberline {1.4.3}Andere Verfahren}{8}{subsubsection.1.4.3}
 \contentsline {section}{\numberline {2}Quelle}{8}{section.2}

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2016.5.13)  5 JUL 2016 20:56
+This is pdfTeX, Version 3.14159265-2.6-1.40.15 (MiKTeX 2.9 64-bit) (preloaded format=pdflatex 2015.9.1)  5 JUL 2016 23:20
 entering extended mode
 **Holo.tex
 (Holo.tex
@@ -1126,27 +1126,27 @@ Overfull \hbox (0.42737pt too wide) in paragraph at lines 144--145
 o-gramm gilt der Zusam-men-hang: 
  []
 
+
+Overfull \hbox (1.5865pt too wide) in paragraph at lines 158--159
+\T1/futs/m/n/12 Störterme, also alle bis auf das virtuelle Bild, zu min-imieren
+. Die Rekon-struk-tion des Bildes mithilfe
+ []
+
+
+Overfull \hbox (13.27052pt too wide) in paragraph at lines 158--159
+\T1/futs/m/n/12 Im Ver-gle-ich zwis-chen Phasen- und Am-pli-tu-den-holo-gramm l
+iefert das Phasen-holo-gramm das hellere
+ []
+
 <Refl.png, id=110, 414.79968pt x 234.8775pt>
 File: Refl.png Graphic file (type png)
  <use Refl.png>
 Package pdftex.def Info: Refl.png used on input line 164.
 (pdftex.def)             Requested size: 207.39934pt x 117.43846pt.
 
-Overfull \hbox (18.91057pt too wide) in paragraph at lines 162--170
-\T1/futs/m/n/12 Im Gegen-satz nur Trans-mis-sion-sholo-gra-phie tr-e-f-fen Obje
-kt- und Ref-eren-zwelle von un-ter-schiedlichen
- []
-
-
-Overfull \hbox (7.91052pt too wide) in paragraph at lines 162--170
-\T1/futs/m/n/12 Seiten auf die Pho-to-platte. Des Weit-eren ist diese an-ders b
-eschaf-fen, sie besteht aus einer wesentlich
- []
-
-
-Overfull \hbox (9.7825pt too wide) in paragraph at lines 162--170
-\T1/futs/m/n/12 Möglichkeit des schema-tis-chen Auf-baus zur Re-flex-ion-sholo-
-gra-phie dargestellt. Dabei bilden Objekt-
+Overfull \hbox (2.49846pt too wide) in paragraph at lines 162--170
+\T1/futs/m/n/12 Trans-mis-sion-sholo-gra-phie be-nutzte Pho-to-platte. Dadurch 
+wer-den In-ter-ferenz-bilder in ver-schiede-
  []
 
 [6 <./Phasentrans.png>] <refsteh.png, id=123, 432.11438pt x 339.51843pt>
@@ -1159,12 +1159,6 @@ Package pdftex.def Info: refsteh.png used on input line 172.
 Overfull \hbox (2.08661pt too wide) in paragraph at lines 189--190
 \T1/futs/m/n/12 Allerd-ings gibt es noch einige, welche auf den Grund-la-gen de
 r zu-vor genan-nten Ver-fahren beruhen,
- []
-
-
-Overfull \hbox (30.83046pt too wide) in paragraph at lines 189--190
-\T1/futs/m/n/12 sich allerd-ings im Ver-such-sauf-bau un-ter-schei-den. Das ver
--mut-lich bekan-nteste ist Denisjuk-Hologramm,
  []
 
 [7 <./Refl.png> <./refsteh.png>] <denis.png, id=134, 457.71pt x 150.5625pt>
@@ -1189,7 +1183,7 @@ Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 204.
  ) 
 Here is how much of TeX's memory you used:
  10400 strings out of 493698
- 149830 string characters out of 3144409
+ 149830 string characters out of 3144407
  268013 words of memory out of 3000000
  13494 multiletter control sequences out of 15000+200000
  78602 words of font info for 99 fonts, out of 3000000 for 9000
@@ -1202,7 +1196,7 @@ nts/type1/public/fourier/fourier-mlit.pfb><C:/Program Files/MiKTeX 2.9/fonts/ty
 pe1/public/fourier/fourier-ms.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adob
 e/utopia/putb8a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putr8
 a.pfb><C:/Program Files/MiKTeX 2.9/fonts/type1/adobe/utopia/putri8a.pfb>
-Output written on Holo.pdf (8 pages, 665741 bytes).
+Output written on Holo.pdf (8 pages, 665779 bytes).
 PDF statistics:
  176 PDF objects out of 1000 (max. 8388607)
  41 named destinations out of 1000 (max. 500000)
